@@ -1,0 +1,18 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Daily TOEFL Listening</title>
+<style>body{font-family:sans-serif;max-width:720px;margin:auto;padding:16px;line-height:1.5}.q{border:1px solid #ccc;border-radius:8px;padding:12px;margin:12px 0}.ok{background:#e6ffe6}.bad{background:#ffe6e6}button{font-size:1.1em;padding:8px 20px}#tr{display:none;background:#f6f6f6;padding:12px}</style></head><body>
+<h1>Daily TOEFL Listening</h1><div id=app>Loading…</div>
+<script>
+const TOPIC="toefl-mehmet-3fd5429506b6";
+(async()=>{const cur=await (await fetch('current.json?'+Date.now())).json();const t=await (await fetch('tests/'+cur.id+'.json?'+Date.now())).json();
+const A=document.getElementById('app');
+A.innerHTML=`<h2>${t.title}</h2><p>Date: ${cur.date}. Listen once (you may take notes), then answer. The transcript appears after you submit.</p>
+<label>Your name: <input id=nm value="${localStorage.nm||''}"></label><p><audio controls preload=auto src="audio/${t.id}.mp3"></audio></p>`+
+t.questions.map((q,i)=>`<div class=q id=q${i}><b>${i+1}. ${q.q}</b><br>${q.o.map((o,j)=>`<label><input type=radio name=q${i} value=${j}> ${'ABCD'[j]}. ${o}</label><br>`).join('')}<div class=e></div></div>`).join('')+
+`<button id=sb>Submit</button><p id=st></p><div id=tr><h3>Transcript</h3>${t.script.map(l=>'<p><b>'+l[0]+':</b> '+l[1]+'</p>').join('')}</div>`;
+sb.onclick=async()=>{const name=nm.value.trim();if(!name)return alert('Please type your name');localStorage.nm=name;let sc=0,miss=[];
+t.questions.forEach((q,i)=>{const s=document.querySelector('input[name=q'+i+']:checked');const v=s?+s.value:-1;const d=document.getElementById('q'+i);
+if(v===q.a){sc++;d.className='q ok'}else{miss.push(i+1+'('+q.type+')');d.className='q bad'}
+d.querySelector('.e').innerHTML='<i>Answer: '+'ABCD'[q.a]+'. '+q.exp+'</i>'});
+sb.disabled=true;tr.style.display='block';const msg=`Student: ${name}\nDate: ${cur.date}\nTest: ${t.id}\nScore: ${sc}/${t.questions.length}\nMissed: ${miss.join(', ')||'none'}`;
+try{await fetch('https://ntfy.sh/'+TOPIC,{method:'POST',body:msg,headers:{Title:'TOEFL '+name+' '+sc+'/'+t.questions.length}});st.textContent='Score: '+sc+'/'+t.questions.length+' — sent to teacher ✓'}catch(e){st.textContent='Score '+sc+' — could not send, please screenshot this page.'}};})();
+</script></body></html>
