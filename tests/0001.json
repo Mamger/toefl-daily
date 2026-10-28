@@ -1,147 +1,272 @@
 {
  "id": "0001",
- "title": "Campus Conversation: The Library Study Room",
- "type": "conversation",
- "voices": {
-  "Woman": "en-US-JennyNeural",
-  "Man": "en-US-GuyNeural",
-  "Narrator": "en-US-AriaNeural"
- },
- "script": [
-  [
-   "Narrator",
-   "Listen to a conversation between a student and a librarian."
-  ],
-  [
-   "Man",
-   "Hi, excuse me. Can you help me? I want to reserve a study room for my group."
-  ],
-  [
-   "Woman",
-   "Sure. Are you a student here? I need to see your student card."
-  ],
-  [
-   "Man",
-   "Yes, here it is. We have a biology project, and we need a quiet room on Thursday afternoon."
-  ],
-  [
-   "Woman",
-   "Let me check. Hmm, Thursday afternoon is very busy. All the large rooms are taken from one to five."
-  ],
-  [
-   "Man",
-   "Oh no. There are five people in my group. Is there anything else?"
-  ],
-  [
-   "Woman",
-   "Well, we have small rooms, but they are only for three people. But wait, how about Thursday morning? Room 204 is free from nine to twelve. It has a big table and a screen for your computer."
-  ],
-  [
-   "Man",
-   "Morning... Two of my friends have a class at ten. Hmm. Can we use the room on Friday instead?"
-  ],
-  [
-   "Woman",
-   "Friday is easier. Room 204 is free all day on Friday. But remember, you can only reserve a room for two hours at a time."
-  ],
-  [
-   "Man",
-   "Two hours? I thought we could stay longer. Our project is big."
-  ],
-  [
-   "Woman",
-   "I understand. That is the library rule, because many students need the rooms. But if nobody reserves the room after you, you can ask at this desk and stay another hour."
-  ],
-  [
-   "Man",
-   "Oh, that's good to know. OK, then Friday from two to four, please."
-  ],
-  [
-   "Woman",
-   "Done. Room 204, Friday, two to four. Please come on time. If you are more than fifteen minutes late, we give the room to another group."
-  ],
-  [
-   "Man",
-   "Fifteen minutes. Got it. I'll tell my group to come early. Thank you so much!"
-  ],
-  [
-   "Woman",
-   "You're welcome. Good luck with your project."
-  ]
- ],
- "questions": [
+ "title": "Listening Practice Set 1",
+ "level": "beginner",
+ "parts": [
   {
-   "type": "Gist",
-   "q": "Why does the man go to the library desk?",
-   "o": [
-    "To return a biology book",
-    "To reserve a room for a group project",
-    "To ask about a library job",
-    "To find his lost student card"
+   "title": "Campus Conversation: The Library Study Room",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a librarian."
+    ],
+    [
+     "Man",
+     "Hi, excuse me. Can you help me? I want to reserve a study room for my group."
+    ],
+    [
+     "Woman",
+     "Sure. Are you a student here? I need to see your student card."
+    ],
+    [
+     "Man",
+     "Yes, here it is. We have a biology project, and we need a quiet room on Thursday afternoon."
+    ],
+    [
+     "Woman",
+     "Let me check. Hmm, Thursday afternoon is very busy. All the large rooms are taken from one to five."
+    ],
+    [
+     "Man",
+     "Oh no. There are five people in my group. Is there anything else?"
+    ],
+    [
+     "Woman",
+     "Well, we have small rooms, but they are only for three people. But wait, how about Thursday morning? Room 204 is free from nine to twelve. It has a big table and a screen for your computer."
+    ],
+    [
+     "Man",
+     "Morning... Two of my friends have a class at ten. Hmm. Can we use the room on Friday instead?"
+    ],
+    [
+     "Woman",
+     "Friday is easier. Room 204 is free all day on Friday. But remember, you can only reserve a room for two hours at a time."
+    ],
+    [
+     "Man",
+     "Two hours? I thought we could stay longer. Our project is big."
+    ],
+    [
+     "Woman",
+     "I understand. That is the library rule, because many students need the rooms. But if nobody reserves the room after you, you can ask at this desk and stay another hour."
+    ],
+    [
+     "Man",
+     "Oh, that's good to know. OK, then Friday from two to four, please."
+    ],
+    [
+     "Woman",
+     "Done. Room 204, Friday, two to four. Please come on time. If you are more than fifteen minutes late, we give the room to another group."
+    ],
+    [
+     "Man",
+     "Fifteen minutes. Got it. I'll tell my group to come early. Thank you so much!"
+    ],
+    [
+     "Woman",
+     "You're welcome. Good luck with your project."
+    ]
    ],
-   "a": 1,
-   "exp": "He says: 'I want to reserve a study room for my group.' Gist questions ask about the main purpose."
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the man go to the library desk?",
+     "o": [
+      "To return a biology book",
+      "To reserve a room for a group project",
+      "To ask about a library job",
+      "To find his lost student card"
+     ],
+     "a": 1,
+     "exp": "He says: 'I want to reserve a study room for my group.' Gist questions ask about the main purpose."
+    },
+    {
+     "type": "Detail",
+     "q": "Why can't the man get a room on Thursday afternoon?",
+     "o": [
+      "The library is closed",
+      "All the large rooms are already taken",
+      "His group has a class",
+      "The rooms are being cleaned"
+     ],
+     "a": 1,
+     "exp": "The librarian says: 'All the large rooms are taken from one to five.'"
+    },
+    {
+     "type": "Detail",
+     "q": "Why doesn't the man accept the Thursday morning time?",
+     "o": [
+      "Room 204 has no screen",
+      "He does not like mornings",
+      "Two group members have a class at ten",
+      "The room is too small"
+     ],
+     "a": 2,
+     "exp": "He says: 'Two of my friends have a class at ten.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Two hours? I thought we could stay longer.\" Why does the man say this?",
+     "o": [
+      "To express surprise that the time limit is short",
+      "To ask for directions",
+      "To complain that the room is too expensive",
+      "To say his project is finished"
+     ],
+     "a": 0,
+     "exp": "'I thought...' shows he expected something different. He is surprised the limit is only two hours."
+    },
+    {
+     "type": "Attitude",
+     "q": "What is the man's attitude at the end of the conversation?",
+     "o": [
+      "Angry about the library rules",
+      "Confused about the room number",
+      "Satisfied and thankful",
+      "Worried that his group will not come"
+     ],
+     "a": 2,
+     "exp": "He says 'Got it... Thank you so much!' \u2014 he is satisfied with the solution."
+    },
+    {
+     "type": "Inference",
+     "q": "What will the man probably do next?",
+     "o": [
+      "Tell his group to arrive early on Friday",
+      "Cancel the reservation",
+      "Go to his class at ten",
+      "Look for another library"
+     ],
+     "a": 0,
+     "exp": "He says: 'I'll tell my group to come early,' because of the fifteen-minute rule."
+    }
+   ]
   },
   {
-   "type": "Detail",
-   "q": "Why can't the man get a room on Thursday afternoon?",
-   "o": [
-    "The library is closed",
-    "All the large rooms are already taken",
-    "His group has a class",
-    "The rooms are being cleaned"
+   "title": "Academic Lecture: Why Do Leaves Change Color?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Good morning, everyone. Today we will talk about a simple question: why do leaves change color in the autumn?"
+    ],
+    [
+     "Professor",
+     "First, let's remember why leaves are green. Leaves have a chemical called chlorophyll. Chlorophyll is green. It helps the tree use sunlight to make food. This process is called photosynthesis."
+    ],
+    [
+     "Professor",
+     "In spring and summer, the days are long and there is a lot of sunlight. So the tree makes a lot of chlorophyll, and the leaves look green."
+    ],
+    [
+     "Professor",
+     "But in autumn, the days get shorter and the weather gets colder. Now the tree stops making chlorophyll. The green color slowly disappears."
+    ],
+    [
+     "Professor",
+     "And here is the interesting part. The yellow and orange colors were in the leaf all summer. We just could not see them, because the green color was too strong. When the green goes away, we can finally see yellow and orange."
+    ],
+    [
+     "Professor",
+     "Red is different. Red colors are made new in the autumn. Some trees, like the red maple, make red color when the days are sunny and the nights are cool. So, a sunny, cool autumn usually gives us very bright red leaves."
+    ],
+    [
+     "Professor",
+     "Finally, the leaves fall. Why? Well, in winter there is not much sunlight and water is often frozen. Keeping leaves would cost the tree too much energy. So the tree drops its leaves and rests until spring."
+    ],
+    [
+     "Professor",
+     "OK, for next class, please go outside and collect three leaves of different colors. We will look at them together."
+    ]
    ],
-   "a": 1,
-   "exp": "The librarian says: 'All the large rooms are taken from one to five.'"
-  },
-  {
-   "type": "Detail",
-   "q": "Why doesn't the man accept the Thursday morning time?",
-   "o": [
-    "Room 204 has no screen",
-    "He does not like mornings",
-    "Two group members have a class at ten",
-    "The room is too small"
-   ],
-   "a": 2,
-   "exp": "He says: 'Two of my friends have a class at ten.'"
-  },
-  {
-   "type": "Function (replay)",
-   "q": "Listen again: \"Two hours? I thought we could stay longer.\" Why does the man say this?",
-   "o": [
-    "To express surprise that the time limit is short",
-    "To ask for directions",
-    "To complain that the room is too expensive",
-    "To say his project is finished"
-   ],
-   "a": 0,
-   "exp": "'I thought...' shows he expected something different. He is surprised the limit is only two hours."
-  },
-  {
-   "type": "Attitude",
-   "q": "What is the man's attitude at the end of the conversation?",
-   "o": [
-    "Angry about the library rules",
-    "Confused about the room number",
-    "Satisfied and thankful",
-    "Worried that his group will not come"
-   ],
-   "a": 2,
-   "exp": "He says 'Got it... Thank you so much!' \u2014 he is satisfied with the solution."
-  },
-  {
-   "type": "Inference",
-   "q": "What will the man probably do next?",
-   "o": [
-    "Tell his group to arrive early on Friday",
-    "Cancel the reservation",
-    "Go to his class at ten",
-    "Look for another library"
-   ],
-   "a": 0,
-   "exp": "He says: 'I'll tell my group to come early,' because of the fifteen-minute rule."
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How to grow maple trees",
+      "Why leaves change color in autumn",
+      "How animals prepare for winter",
+      "Why some trees have no leaves"
+     ],
+     "a": 1,
+     "exp": "The professor says: 'Today we will talk about... why do leaves change color in the autumn?'"
+    },
+    {
+     "type": "Detail",
+     "q": "What does chlorophyll do?",
+     "o": [
+      "It makes leaves fall",
+      "It helps the tree make food from sunlight",
+      "It makes leaves red",
+      "It keeps the tree warm"
+     ],
+     "a": 1,
+     "exp": "'It helps the tree use sunlight to make food.'"
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, why can we see yellow and orange in autumn?",
+     "o": [
+      "The tree makes new yellow color",
+      "Rain changes the color",
+      "The green color goes away, so we can see them",
+      "The leaves get older and dry"
+     ],
+     "a": 2,
+     "exp": "Yellow and orange were there all summer; 'When the green goes away, we can finally see yellow and orange.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"And here is the interesting part.\" Why does the professor say this?",
+     "o": [
+      "To end the lecture",
+      "To tell students an important point is coming",
+      "To ask students a question",
+      "To change to a new class topic"
+     ],
+     "a": 1,
+     "exp": "This phrase prepares listeners for a key/important idea."
+    },
+    {
+     "type": "Detail",
+     "q": "What kind of weather gives very bright red leaves?",
+     "o": [
+      "Sunny days and cool nights",
+      "Rainy days and warm nights",
+      "Snow and wind",
+      "Cloudy days"
+     ],
+     "a": 0,
+     "exp": "'Red color... when the days are sunny and the nights are cool.'"
+    },
+    {
+     "type": "Inference",
+     "q": "What will the students probably do before the next class?",
+     "o": [
+      "Read a chapter about maple trees",
+      "Collect three leaves of different colors",
+      "Write a report about winter",
+      "Plant a tree"
+     ],
+     "a": 1,
+     "exp": "Homework: 'collect three leaves of different colors.'"
+    }
+   ]
   }
- ],
- "level": "beginner"
+ ]
 }

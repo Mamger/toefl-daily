@@ -1,18 +1,21 @@
 <!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Daily TOEFL Listening</title>
-<style>body{font-family:sans-serif;max-width:720px;margin:auto;padding:16px;line-height:1.5}.q{border:1px solid #ccc;border-radius:8px;padding:12px;margin:12px 0}.ok{background:#e6ffe6}.bad{background:#ffe6e6}button{font-size:1.1em;padding:8px 20px}#tr{display:none;background:#f6f6f6;padding:12px}</style></head><body>
+<style>body{font-family:sans-serif;max-width:720px;margin:auto;padding:16px;line-height:1.5}.part{border-top:3px solid #345;margin-top:24px}.q{border:1px solid #ccc;border-radius:8px;padding:12px;margin:12px 0}.ok{background:#e6ffe6}.bad{background:#ffe6e6}button{font-size:1.1em;padding:8px 20px}.tr{display:none;background:#f6f6f6;padding:12px}</style></head><body>
 <h1>Daily TOEFL Listening</h1><div id=app>Loading…</div>
 <script>
 const TOPIC="toefl-mehmet-3fd5429506b6";
 (async()=>{const cur=await (await fetch('current.json?'+Date.now())).json();const t=await (await fetch('tests/'+cur.id+'.json?'+Date.now())).json();
-const A=document.getElementById('app');
-A.innerHTML=`<h2>${t.title}</h2><p>Date: ${cur.date}. Listen once (you may take notes), then answer. The transcript appears after you submit.</p>
-<label>Your name: <input id=nm value="${localStorage.nm||''}"></label><p><audio controls preload=auto src="audio/${t.id}.mp3"></audio></p>`+
-t.questions.map((q,i)=>`<div class=q id=q${i}><b>${i+1}. ${q.q}</b><br>${q.o.map((o,j)=>`<label><input type=radio name=q${i} value=${j}> ${'ABCD'[j]}. ${o}</label><br>`).join('')}<div class=e></div></div>`).join('')+
-`<button id=sb>Submit</button><p id=st></p><div id=tr><h3>Transcript</h3>${t.script.map(l=>'<p><b>'+l[0]+':</b> '+l[1]+'</p>').join('')}</div>`;
-sb.onclick=async()=>{const name=nm.value.trim();if(!name)return alert('Please type your name');localStorage.nm=name;let sc=0,miss=[];
-t.questions.forEach((q,i)=>{const s=document.querySelector('input[name=q'+i+']:checked');const v=s?+s.value:-1;const d=document.getElementById('q'+i);
-if(v===q.a){sc++;d.className='q ok'}else{miss.push(i+1+'('+q.type+')');d.className='q bad'}
+const parts=t.parts||[t];let qi=0;const all=[];
+let h=`<h2>${t.title}</h2><p>Date: ${cur.date} · Level: ${t.level||'beginner'}. Like the real TOEFL: ${parts.length} parts. For each part, listen once (take notes), then answer. Transcripts appear after you submit.</p>
+<label>Your name: <input id=nm value="${localStorage.nm||''}"></label>`;
+parts.forEach((p,pi)=>{h+=`<div class=part><h3>Part ${pi+1}: ${p.title}</h3><p><audio controls preload=auto src="audio/${t.id}_p${pi+1}.mp3"></audio></p>`;
+p.questions.forEach(q=>{all.push({...q,part:pi+1});h+=`<div class=q id=q${qi}><b>${qi+1}. ${q.q}</b><br>${q.o.map((o,j)=>`<label><input type=radio name=q${qi} value=${j}> ${'ABCD'[j]}. ${o}</label><br>`).join('')}<div class=e></div></div>`;qi++});
+h+=`<div class=tr><h4>Transcript – Part ${pi+1}</h4>${p.script.map(l=>'<p><b>'+l[0]+':</b> '+l[1]+'</p>').join('')}</div></div>`});
+h+='<button id=sb>Submit all answers</button><p id=st></p>';const A=document.getElementById('app');A.innerHTML=h;
+sb.onclick=async()=>{const name=nm.value.trim();if(!name)return alert('Please type your name');localStorage.nm=name;let sc=0;const miss=parts.map(()=>[]);
+all.forEach((q,i)=>{const s=document.querySelector('input[name=q'+i+']:checked');const v=s?+s.value:-1;const d=document.getElementById('q'+i);
+if(v===q.a){sc++;d.className='q ok'}else{miss[q.part-1].push((i+1)+'('+q.type+')');d.className='q bad'}
 d.querySelector('.e').innerHTML='<i>Answer: '+'ABCD'[q.a]+'. '+q.exp+'</i>'});
-sb.disabled=true;tr.style.display='block';const msg=`Student: ${name}\nDate: ${cur.date}\nTest: ${t.id}\nLevel: ${t.level||"beginner"}\nScore: ${sc}/${t.questions.length}\nPercent: ${Math.round(100*sc/t.questions.length)}\nMissed: ${miss.join(', ')||'none'}`;
-try{await fetch('https://ntfy.sh/'+TOPIC,{method:'POST',body:msg,headers:{Title:'TOEFL '+name+' '+sc+'/'+t.questions.length}});st.textContent='Score: '+sc+'/'+t.questions.length+' — sent to teacher ✓'}catch(e){st.textContent='Score '+sc+' — could not send, please screenshot this page.'}};})();
+sb.disabled=true;document.querySelectorAll('.tr').forEach(e=>e.style.display='block');const n=all.length,pct=Math.round(100*sc/n);
+const msg=`Student: ${name}\nDate: ${cur.date}\nTest: ${t.id}\nLevel: ${t.level||'beginner'}\nScore: ${sc}/${n}\nPercent: ${pct}\n`+parts.map((p,pi)=>`Missed P${pi+1} (${p.type}): ${miss[pi].join(', ')||'none'}`).join('\n');
+try{const r=await fetch('https://ntfy.sh/'+TOPIC,{method:'POST',body:msg,headers:{Title:'TOEFL '+name+' '+sc+'/'+n}});if(!r.ok)throw 0;st.textContent='Score: '+sc+'/'+n+' ('+pct+'%) — sent to teacher ✓'}catch(e){st.textContent='Score '+sc+'/'+n+' — could not send, please screenshot this page.'}};})();
 </script></body></html>
