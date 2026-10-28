@@ -13,6 +13,6 @@ sb.onclick=async()=>{const name=nm.value.trim();if(!name)return alert('Please ty
 t.questions.forEach((q,i)=>{const s=document.querySelector('input[name=q'+i+']:checked');const v=s?+s.value:-1;const d=document.getElementById('q'+i);
 if(v===q.a){sc++;d.className='q ok'}else{miss.push(i+1+'('+q.type+')');d.className='q bad'}
 d.querySelector('.e').innerHTML='<i>Answer: '+'ABCD'[q.a]+'. '+q.exp+'</i>'});
-sb.disabled=true;tr.style.display='block';const msg=`Student: ${name}\nDate: ${cur.date}\nTest: ${t.id}\nScore: ${sc}/${t.questions.length}\nMissed: ${miss.join(', ')||'none'}`;
+sb.disabled=true;tr.style.display='block';const msg=`Student: ${name}\nDate: ${cur.date}\nTest: ${t.id}\nLevel: ${t.level||"beginner"}\nScore: ${sc}/${t.questions.length}\nPercent: ${Math.round(100*sc/t.questions.length)}\nMissed: ${miss.join(', ')||'none'}`;
 try{await fetch('https://ntfy.sh/'+TOPIC,{method:'POST',body:msg,headers:{Title:'TOEFL '+name+' '+sc+'/'+t.questions.length}});st.textContent='Score: '+sc+'/'+t.questions.length+' — sent to teacher ✓'}catch(e){st.textContent='Score '+sc+' — could not send, please screenshot this page.'}};})();
 </script></body></html>
