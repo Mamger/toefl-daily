@@ -1,0 +1,284 @@
+{
+ "id": "0002",
+ "title": "Listening Practice Set 2",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Asking for More Time",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and her history professor."
+    ],
+    [
+     "Woman",
+     "Hello, Professor Lee. Do you have a few minutes?"
+    ],
+    [
+     "Man",
+     "Of course, Sara. Come in. What can I do for you?"
+    ],
+    [
+     "Woman",
+     "It's about my history paper. The one about the old trade roads. It is due on Friday."
+    ],
+    [
+     "Man",
+     "Yes. Is there a problem?"
+    ],
+    [
+     "Woman",
+     "Well, I was sick last week. I had the flu, and I stayed in bed for five days. So I am behind. I need more time to finish the paper."
+    ],
+    [
+     "Man",
+     "I'm sorry to hear that. Are you feeling better now?"
+    ],
+    [
+     "Woman",
+     "Yes, much better, thank you. But I only wrote two pages. The paper needs to be eight pages."
+    ],
+    [
+     "Man",
+     "I see. Did you go to the health center when you were sick?"
+    ],
+    [
+     "Woman",
+     "Yes, I did. The doctor gave me a note. Here it is."
+    ],
+    [
+     "Man",
+     "Thank you. OK, this is fine. I can give you one more week. So the new due date is next Friday."
+    ],
+    [
+     "Woman",
+     "Oh, really? One more week? That's great. Thank you so much."
+    ],
+    [
+     "Man",
+     "You're welcome. But I have one idea for you. The library has a writing center. Students there can read your paper and help you make it better. It's free."
+    ],
+    [
+     "Woman",
+     "A writing center? I didn't know about that."
+    ],
+    [
+     "Man",
+     "Many students don't. It's on the second floor of the library. You should make an appointment early, because it gets busy before exams."
+    ],
+    [
+     "Woman",
+     "OK. I'll go there tomorrow morning."
+    ],
+    [
+     "Man",
+     "Good plan. And Sara, if you have more questions, just send me an email."
+    ],
+    [
+     "Woman",
+     "I will. Thanks again, Professor Lee."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to see the professor?",
+     "o": [
+      "To ask about the final exam",
+      "To ask for more time to finish her paper",
+      "To change the topic of her paper",
+      "To get a book from the professor"
+     ],
+     "a": 1,
+     "exp": "She says, 'I need more time to finish the paper.'"
+    },
+    {
+     "type": "Detail",
+     "q": "Why is the student behind with her paper?",
+     "o": [
+      "She had a part-time job",
+      "She lost her computer",
+      "She was sick with the flu",
+      "She was on a trip"
+     ],
+     "a": 2,
+     "exp": "She says she had the flu and stayed in bed for five days."
+    },
+    {
+     "type": "Detail",
+     "q": "What is the new due date for the paper?",
+     "o": [
+      "Next Friday",
+      "This Friday",
+      "Tomorrow morning",
+      "Next month"
+     ],
+     "a": 0,
+     "exp": "The professor says, 'The new due date is next Friday.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"A writing center? I didn't know about that.\" Why does the student say this?",
+     "o": [
+      "To say the writing center is closed",
+      "To complain about the library",
+      "To ask the professor to read her paper",
+      "To show that this information is new to her"
+     ],
+     "a": 3,
+     "exp": "'I didn't know about that' means this is new information for her."
+    },
+    {
+     "type": "Detail",
+     "q": "Where is the writing center?",
+     "o": [
+      "In the health center",
+      "On the second floor of the library",
+      "Next to the professor's office",
+      "In the student cafeteria"
+     ],
+     "a": 1,
+     "exp": "The professor says it is on the second floor of the library."
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do tomorrow morning?",
+     "o": [
+      "Send the professor an email",
+      "Go back to the doctor",
+      "Visit the writing center",
+      "Hand in her paper"
+     ],
+     "a": 2,
+     "exp": "She says, 'I'll go there tomorrow morning' about the writing center."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Honeybees Share Information",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Good morning, everyone. Today we will talk about honeybees. Specifically, how honeybees tell other bees where to find food."
+    ],
+    [
+     "Professor",
+     "Honeybees live together in a big group called a colony. One colony can have thousands of bees. Some of these bees have a special job. They fly out and look for flowers. We call these bees scouts."
+    ],
+    [
+     "Professor",
+     "When a scout finds good flowers, it flies back to the hive. But how does it tell the other bees where the flowers are? Bees can't talk, right? Well, the answer is: they dance."
+    ],
+    [
+     "Professor",
+     "Yes, they dance. There are two main dances. The first one is the round dance. The bee moves in a small circle. This dance means the food is close to the hive, usually less than about fifty meters away."
+    ],
+    [
+     "Professor",
+     "The second dance is the waggle dance. This one is used when the food is far away. In the waggle dance, the bee walks in a straight line and shakes its body from side to side. Then it turns and does it again."
+    ],
+    [
+     "Professor",
+     "The waggle dance gives two pieces of information. First, the direction of the straight line shows the direction of the food. Second, the length of the waggle shows the distance. A longer waggle means the food is farther away."
+    ],
+    [
+     "Professor",
+     "Now, who discovered this? A scientist from Austria named Karl von Frisch. He studied bees for many years, and in 1973 he won the Nobel Prize for this work."
+    ],
+    [
+     "Professor",
+     "Isn't that amazing? A tiny insect with a kind of language. OK, so for next class, please read chapter six. It talks about other insects that live in groups, like ants."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How honeybees make honey",
+      "Why bees are in danger",
+      "How honeybees tell other bees where food is",
+      "How to keep bees at home"
+     ],
+     "a": 2,
+     "exp": "The professor says, 'Today we will talk about... how honeybees tell other bees where to find food.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What is a scout bee?",
+     "o": [
+      "A bee that looks for flowers",
+      "A bee that guards the hive",
+      "The queen bee",
+      "A baby bee"
+     ],
+     "a": 0,
+     "exp": "Scouts are the bees that fly out and look for flowers."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the round dance mean?",
+     "o": [
+      "The food is far away",
+      "The food is close to the hive",
+      "There is danger near the hive",
+      "The flowers have no food"
+     ],
+     "a": 1,
+     "exp": "The round dance means the food is close, less than about fifty meters away."
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, what does a longer waggle mean?",
+     "o": [
+      "The food is better",
+      "There are more flowers",
+      "The bee is tired",
+      "The food is farther away"
+     ],
+     "a": 3,
+     "exp": "'A longer waggle means the food is farther away.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Bees can't talk, right? Well, the answer is: they dance.\" Why does the professor say \"Bees can't talk, right?\"",
+     "o": [
+      "To introduce the surprising answer to his question",
+      "To say that bees cannot share information",
+      "To ask students to stop talking",
+      "To change the topic of the lecture"
+     ],
+     "a": 0,
+     "exp": "He asks a simple question first so he can give the surprising answer: bees dance."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the information about bee dances?",
+     "o": [
+      "He tells a story about his own bees",
+      "He describes two dances and explains what each one means",
+      "He compares bees with birds",
+      "He lists the dances by date of discovery"
+     ],
+     "a": 1,
+     "exp": "He explains the round dance first, then the waggle dance, and what each means."
+    }
+   ]
+  }
+ ]
+}
