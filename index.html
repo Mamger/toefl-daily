@@ -3,19 +3,23 @@
 <h1>Daily TOEFL Listening</h1><div id=app>Loading…</div>
 <script>
 const TOPIC="toefl-mehmet-3fd5429506b6";
-(async()=>{const cur=await (await fetch('current.json?'+Date.now())).json();const t=await (await fetch('tests/'+cur.id+'.json?'+Date.now())).json();
+(async()=>{const today=await (await fetch('current.json?'+Date.now())).json();let arch=[];try{arch=await (await fetch('archive.json?'+Date.now())).json()}catch(e){}
+const qid=new URLSearchParams(location.search).get('id');const cur=(qid&&arch.find(e=>e.id===qid))||today;const isOld=cur.id!==today.id;
+const done=JSON.parse(localStorage.done||'[]');const retake=done.includes(cur.id);const t=await (await fetch('tests/'+cur.id+'.json?'+Date.now())).json();
 const parts=t.parts||[t];let qi=0;const all=[];
-let h=`<h2>${t.title}</h2><p>Date: ${cur.date} · Level: ${t.level||'beginner'}. Like the real TOEFL: ${parts.length} parts. For each part, listen once (take notes), then answer. Transcripts appear after you submit.</p>
+let h=(isOld?`<p style='background:#fff3cd;padding:8px'>Past test from ${cur.date}. <a href='./'>Go to today's test</a></p>`:'')+`<h2>${t.title}</h2><p>Date: ${cur.date} · Level: ${t.level||'beginner'}. Like the real TOEFL: ${parts.length} parts. For each part, listen once (take notes), then answer. Transcripts appear after you submit.</p>
 <label>Your name: <input id=nm value="${localStorage.nm||''}"></label>`;
 parts.forEach((p,pi)=>{h+=`<div class=part><h3>Part ${pi+1}: ${p.title}</h3><p><audio controls preload=auto src="audio/${t.id}_p${pi+1}.mp3"></audio></p>`;
 p.questions.forEach(q=>{all.push({...q,part:pi+1});h+=`<div class=q id=q${qi}><b>${qi+1}. ${q.q}</b><br>${q.o.map((o,j)=>`<label><input type=radio name=q${qi} value=${j}> ${'ABCD'[j]}. ${o}</label><br>`).join('')}<div class=e></div></div>`;qi++});
 h+=`<div class=tr><h4>Transcript – Part ${pi+1}</h4>${p.script.map(l=>'<p><b>'+l[0]+':</b> '+l[1]+'</p>').join('')}</div></div>`});
-h+='<button id=sb>Submit all answers</button><p id=st></p>';const A=document.getElementById('app');A.innerHTML=h;
+h+='<button id=sb>Submit all answers</button><p id=st></p>'+(retake?'<p><i>You already did this test — this will count as a retake.</i></p>':'');
+h+='<div class=part><h3>Archive – all tests</h3><table border=1 cellpadding=6 style="border-collapse:collapse"><tr><th>Date</th><th>Set</th><th>Level</th><th></th></tr>'+[...arch].reverse().map(e=>`<tr><td>${e.date}</td><td>${+e.id}${e.id===today.id?' (today)':''}</td><td>${e.level}</td><td><a href="?id=${e.id}">${e.id===cur.id?'<b>open (current)</b>':'open'}</a></td></tr>`).join('')+'</table></div>';const A=document.getElementById('app');A.innerHTML=h;
 sb.onclick=async()=>{const name=nm.value.trim();if(!name)return alert('Please type your name');localStorage.nm=name;let sc=0;const miss=parts.map(()=>[]);
 all.forEach((q,i)=>{const s=document.querySelector('input[name=q'+i+']:checked');const v=s?+s.value:-1;const d=document.getElementById('q'+i);
 if(v===q.a){sc++;d.className='q ok'}else{miss[q.part-1].push((i+1)+'('+q.type+')');d.className='q bad'}
 d.querySelector('.e').innerHTML='<i>Answer: '+'ABCD'[q.a]+'. '+q.exp+'</i>'});
 sb.disabled=true;document.querySelectorAll('.tr').forEach(e=>e.style.display='block');const n=all.length,pct=Math.round(100*sc/n);
-const msg=`Student: ${name}\nDate: ${cur.date}\nTest: ${t.id}\nLevel: ${t.level||'beginner'}\nScore: ${sc}/${n}\nPercent: ${pct}\n`+parts.map((p,pi)=>`Missed P${pi+1} (${p.type}): ${miss[pi].join(', ')||'none'}`).join('\n');
-try{const r=await fetch('https://ntfy.sh/'+TOPIC,{method:'POST',body:msg,headers:{Title:'TOEFL '+name+' '+sc+'/'+n}});if(!r.ok)throw 0;st.textContent='Score: '+sc+'/'+n+' ('+pct+'%) — sent to teacher ✓'}catch(e){st.textContent='Score '+sc+'/'+n+' — could not send, please screenshot this page.'}};})();
+if(!done.includes(cur.id)){done.push(cur.id);localStorage.done=JSON.stringify(done)}
+const msg=`Student: ${name}\nDate: ${cur.date}\nSubmitted: ${new Date().toLocaleString('sv-SE',{timeZone:'Europe/Istanbul'})}\nTest: ${t.id}\nAttempt: ${retake?'retake':'first'}\nLevel: ${t.level||'beginner'}\nScore: ${sc}/${n}\nPercent: ${pct}\n`+parts.map((p,pi)=>`Missed P${pi+1} (${p.type}): ${miss[pi].join(', ')||'none'}`).join('\n');
+try{const r=await fetch('https://ntfy.sh/'+TOPIC,{method:'POST',body:msg,headers:{Title:'TOEFL '+name+' set '+t.id+(retake?' RETAKE':'')+' '+sc+'/'+n}});if(!r.ok)throw 0;st.textContent='Score: '+sc+'/'+n+' ('+pct+'%) — sent to teacher ✓'}catch(e){st.textContent='Score '+sc+'/'+n+' — could not send, please screenshot this page.'}};})();
 </script></body></html>
