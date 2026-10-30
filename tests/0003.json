@@ -1,0 +1,284 @@
+{
+ "id": "0003",
+ "title": "Listening Practice Set 3",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: A Problem in the Dorm Room",
+   "type": "conversation",
+   "voices": {
+    "Man": "en-US-ChristopherNeural",
+    "Woman": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a woman who works at the campus housing office."
+    ],
+    [
+     "Woman",
+     "Hi there. Welcome to the housing office. How can I help you?"
+    ],
+    [
+     "Man",
+     "Hi. My name is David Park. I live in Hill Hall, room two-fourteen. The heater in my room is not working."
+    ],
+    [
+     "Woman",
+     "Oh no. When did it stop working?"
+    ],
+    [
+     "Man",
+     "Three days ago. At night my room is very cold. Last night I slept in my jacket."
+    ],
+    [
+     "Woman",
+     "That sounds terrible. Did you tell anyone before today?"
+    ],
+    [
+     "Man",
+     "Yes, I told my resident assistant, the student who helps on my floor. She said I should come here and fill out a form."
+    ],
+    [
+     "Woman",
+     "She was right. Here is the repair form. Please write your name, your room number, and the problem."
+    ],
+    [
+     "Man",
+     "OK. Do I need to pay for the repair?"
+    ],
+    [
+     "Woman",
+     "No, no. Repairs in the dorms are free for students."
+    ],
+    [
+     "Man",
+     "That's good to hear. How long will it take?"
+    ],
+    [
+     "Woman",
+     "Usually two or three days. But because it is a heater, and it's cold outside, we will send someone tomorrow morning."
+    ],
+    [
+     "Man",
+     "Tomorrow morning? Great. But I have a chemistry class at nine. Do I need to be in my room?"
+    ],
+    [
+     "Woman",
+     "No, you don't. The repair worker has a key. He can go in when you are not there."
+    ],
+    [
+     "Man",
+     "OK. And what can I do tonight? It's really cold."
+    ],
+    [
+     "Woman",
+     "We have extra blankets here. You can take one now and bring it back after the repair."
+    ],
+    [
+     "Man",
+     "Perfect. I'll take one. Thank you so much."
+    ],
+    [
+     "Woman",
+     "You're welcome. Stay warm!"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the housing office?",
+     "o": [
+      "To ask for a new roommate",
+      "To report that his heater is broken",
+      "To pay for his dorm room",
+      "To find his resident assistant"
+     ],
+     "a": 1,
+     "exp": "He says, 'The heater in my room is not working.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How long has the heater not been working?",
+     "o": [
+      "One day",
+      "Two weeks",
+      "Since last month",
+      "Three days"
+     ],
+     "a": 3,
+     "exp": "He says it stopped working three days ago."
+    },
+    {
+     "type": "Detail",
+     "q": "How much does the student need to pay for the repair?",
+     "o": [
+      "Nothing, it is free",
+      "Ten dollars",
+      "Half the price of a new heater",
+      "He pays at the end of the year"
+     ],
+     "a": 0,
+     "exp": "The woman says, 'Repairs in the dorms are free for students.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Last night I slept in my jacket.\" Why does the student say this?",
+     "o": [
+      "To say he likes his jacket",
+      "To explain why he was late",
+      "To show how cold his room is",
+      "To ask for a new jacket"
+     ],
+     "a": 2,
+     "exp": "Sleeping in a jacket shows that the room is very cold."
+    },
+    {
+     "type": "Detail",
+     "q": "When will the repair worker come?",
+     "o": [
+      "Tonight",
+      "Next week",
+      "Tomorrow morning",
+      "In two or three days"
+     ],
+     "a": 2,
+     "exp": "Because it is a heater, they will send someone tomorrow morning."
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Take an extra blanket",
+      "Go to his chemistry class",
+      "Call his resident assistant",
+      "Buy a new heater"
+     ],
+     "a": 0,
+     "exp": "He says, 'Perfect. I'll take one.' about the blanket."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Does the Moon Change Shape?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-JennyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an astronomy class."
+    ],
+    [
+     "Professor",
+     "OK, everyone, let's begin. Today's topic is the Moon. More exactly, why the Moon seems to change its shape during the month."
+    ],
+    [
+     "Professor",
+     "First, an important fact. The Moon does not make its own light. It is not like the Sun. The light we see from the Moon is sunlight. The Sun shines on the Moon, and the Moon reflects that light to us."
+    ],
+    [
+     "Professor",
+     "The Sun always lights up one half of the Moon. But the Moon moves around the Earth. It takes about twenty-nine days to go around one time. So, as it moves, we see different amounts of the bright half. These different shapes are called phases."
+    ],
+    [
+     "Professor",
+     "Let's look at the main phases. When the Moon is between the Earth and the Sun, the bright side faces away from us. We can't see the Moon at all. This is called the new moon."
+    ],
+    [
+     "Professor",
+     "After that, we see a thin piece of light, like a smile. This is a crescent. Then, after about one week, we see half of the Moon. And about two weeks after the new moon, we see the whole bright side. A big round circle. That's the full moon."
+    ],
+    [
+     "Professor",
+     "Then the bright part gets smaller again, until it is a new moon one more time. And the cycle starts again."
+    ],
+    [
+     "Professor",
+     "Now, many people think the phases happen because the Earth's shadow covers the Moon. But that's not true. The Earth's shadow only falls on the Moon during an eclipse, and eclipses are rare. Phases happen every month."
+    ],
+    [
+     "Professor",
+     "So here is some homework. Tonight, go outside and look at the Moon. Draw its shape. Do this for one week, and bring your drawings to class next Thursday."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How the Moon was formed",
+      "Why the Moon seems to change its shape",
+      "How astronauts traveled to the Moon",
+      "Why the Sun is so hot"
+     ],
+     "a": 1,
+     "exp": "The professor says the topic is 'why the Moon seems to change its shape during the month.'"
+    },
+    {
+     "type": "Detail",
+     "q": "Where does the light we see from the Moon come from?",
+     "o": [
+      "The Moon makes its own light",
+      "The Earth",
+      "The stars",
+      "The Sun"
+     ],
+     "a": 3,
+     "exp": "'The light we see from the Moon is sunlight.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How long does it take the Moon to go around the Earth one time?",
+     "o": [
+      "About twenty-nine days",
+      "About one week",
+      "One year",
+      "One day"
+     ],
+     "a": 0,
+     "exp": "The professor says it takes about twenty-nine days."
+    },
+    {
+     "type": "Detail",
+     "q": "What is a new moon?",
+     "o": [
+      "When we see a big round circle",
+      "When we see half of the Moon",
+      "When we cannot see the Moon at all",
+      "When the Moon looks red"
+     ],
+     "a": 2,
+     "exp": "At the new moon the bright side faces away from us, so we can't see the Moon."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Now, many people think the phases happen because the Earth's shadow covers the Moon. But that's not true.\" Why does the professor say this?",
+     "o": [
+      "To correct a common wrong idea",
+      "To introduce a new topic about the Earth",
+      "To say that eclipses happen every month",
+      "To give the students homework"
+     ],
+     "a": 0,
+     "exp": "She tells students a popular idea and then says it is not true, so she is correcting a common mistake."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor explain the phases of the Moon?",
+     "o": [
+      "She compares the Moon with other planets",
+      "She tells a story about an old scientist",
+      "She describes the phases in order, from new moon to full moon",
+      "She lists the dates of famous eclipses"
+     ],
+     "a": 2,
+     "exp": "She goes through the phases in order: new moon, crescent, half moon, full moon."
+    }
+   ]
+  }
+ ]
+}
