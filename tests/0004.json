@@ -1,0 +1,276 @@
+{
+ "id": "0004",
+ "title": "Listening Practice Set 4",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Choosing a Topic for a Paper",
+   "type": "conversation",
+   "voices": {
+    "Man": "en-US-GuyNeural",
+    "Woman": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and her history professor."
+    ],
+    [
+     "Man",
+     "Come in, Maria. What can I do for you?"
+    ],
+    [
+     "Woman",
+     "Hi, Professor Lee. I have a question about the paper for our history class."
+    ],
+    [
+     "Man",
+     "Sure. The paper is due in three weeks. What's the problem?"
+    ],
+    [
+     "Woman",
+     "I can't choose a topic. I want to write about the history of trains, but I think it's too big."
+    ],
+    [
+     "Man",
+     "You're right. That's a very big topic. Trains have a history of about two hundred years. You can't write about all of it in five pages."
+    ],
+    [
+     "Woman",
+     "Five pages? Oh, that's not much. So what should I do?"
+    ],
+    [
+     "Man",
+     "Make it smaller. For example, you can write about one train line. Or one city and its trains."
+    ],
+    [
+     "Woman",
+     "Hmm. My grandfather worked on the first train line in my hometown. He told me a lot of stories about it."
+    ],
+    [
+     "Man",
+     "Now that's interesting! You could write about that train line. And you could interview your grandfather."
+    ],
+    [
+     "Woman",
+     "Can I use an interview in a history paper?"
+    ],
+    [
+     "Man",
+     "Yes, of course. Historians call that a primary source. It's information from a person who was really there. But you should also use two or three books or articles."
+    ],
+    [
+     "Woman",
+     "OK. Where can I find books about it?"
+    ],
+    [
+     "Man",
+     "Go to the library and talk to Mr. Brown. He is the history librarian. He's very good at finding old newspapers, too."
+    ],
+    [
+     "Woman",
+     "Great. I'll call my grandfather tonight and go to the library tomorrow."
+    ],
+    [
+     "Man",
+     "Good plan. Send me a short email next week with your topic, so I can check it."
+    ],
+    [
+     "Woman",
+     "I will. Thank you, Professor."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to see the professor?",
+     "o": [
+      "To ask for help choosing a topic for her paper",
+      "To return a library book",
+      "To ask about her grade on a test",
+      "To talk about a job on a train"
+     ],
+     "a": 0,
+     "exp": "She says, 'I can't choose a topic.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How long should the paper be?",
+     "o": [
+      "Two pages",
+      "Three weeks",
+      "Five pages",
+      "Two hundred pages"
+     ],
+     "a": 2,
+     "exp": "The professor says, 'You can't write about all of it in five pages.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What does the professor say is a primary source?",
+     "o": [
+      "A very old book",
+      "Information from a person who was really there",
+      "An article written by a professor",
+      "A website about history"
+     ],
+     "a": 1,
+     "exp": "He says a primary source is 'information from a person who was really there.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Five pages? Oh, that's not much.\" Why does the student say this?",
+     "o": [
+      "She thinks five pages is too long",
+      "She is happy the paper is easy",
+      "She is asking the professor to repeat",
+      "She understands now that her topic is too big for a short paper"
+     ],
+     "a": 3,
+     "exp": "Five pages is short, so she sees that the history of all trains will not fit."
+    },
+    {
+     "type": "Detail",
+     "q": "Who is Mr. Brown?",
+     "o": [
+      "The student's grandfather",
+      "The history librarian",
+      "Another history professor",
+      "A train driver"
+     ],
+     "a": 1,
+     "exp": "The professor says, 'He is the history librarian.'"
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do tonight?",
+     "o": [
+      "Write the whole paper",
+      "Send an email to the professor",
+      "Call her grandfather",
+      "Go to the library"
+     ],
+     "a": 2,
+     "exp": "She says, 'I'll call my grandfather tonight.'"
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Camels Live in the Desert",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-ChristopherNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Good morning, everyone. Last week we talked about animals that live in cold places. Today we'll look at the opposite: an animal that lives in a very hot, dry place. The camel."
+    ],
+    [
+     "Professor",
+     "Deserts are hard places to live. There is very little water, and during the day it can be more than forty degrees. So how do camels survive? Let's look at three ways their bodies help them."
+    ],
+    [
+     "Professor",
+     "First, the hump. Many people believe a camel's hump is full of water. That's a very common idea, but it's wrong. The hump is full of fat. When there is no food, the camel's body uses this fat for energy."
+    ],
+    [
+     "Professor",
+     "Second, water. A camel can go about one week without drinking. And when it finds water, it can drink a lot very fast. A thirsty camel can drink about one hundred liters in ten or fifteen minutes. Imagine that!"
+    ],
+    [
+     "Professor",
+     "Third, the camel's body protects it from sand. Deserts have strong winds and a lot of sand in the air. Camels have two rows of long eyelashes. They can also close their noses. So the sand stays out of their eyes and noses."
+    ],
+    [
+     "Professor",
+     "Because of these abilities, people in desert areas have used camels for thousands of years. Camels carry people and heavy things across the desert. That's why camels are sometimes called ships of the desert."
+    ],
+    [
+     "Professor",
+     "OK, for next class, please read chapter six. It's about other desert animals, like snakes and lizards."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "Animals that live in cold places",
+      "How camels survive in the desert",
+      "Why deserts have strong winds",
+      "The history of ships"
+     ],
+     "a": 1,
+     "exp": "The professor talks about 'three ways their bodies help them' survive in the desert."
+    },
+    {
+     "type": "Detail",
+     "q": "What is inside a camel's hump?",
+     "o": [
+      "Water",
+      "Sand",
+      "Fat",
+      "Milk"
+     ],
+     "a": 2,
+     "exp": "The professor says, 'The hump is full of fat.'"
+    },
+    {
+     "type": "Detail",
+     "q": "About how long can a camel go without drinking water?",
+     "o": [
+      "About one week",
+      "One day",
+      "One month",
+      "One year"
+     ],
+     "a": 0,
+     "exp": "He says, 'A camel can go about one week without drinking.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How do camels keep sand out of their eyes?",
+     "o": [
+      "They wear special covers",
+      "They keep their eyes closed all day",
+      "They walk only at night",
+      "They have two rows of long eyelashes"
+     ],
+     "a": 3,
+     "exp": "He says camels have 'two rows of long eyelashes.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Many people believe a camel's hump is full of water. That's a very common idea, but it's wrong.\" Why does the professor say this?",
+     "o": [
+      "To correct a popular wrong idea",
+      "To show that camels need a lot of water",
+      "To start talking about cold places",
+      "To give the students homework"
+     ],
+     "a": 0,
+     "exp": "He mentions what many people believe and then says it is wrong, so he is correcting a mistake."
+    },
+    {
+     "type": "Inference",
+     "q": "Why are camels called ships of the desert?",
+     "o": [
+      "Because they can swim very well",
+      "Because they live near the sea",
+      "Because they carry people and things across the desert",
+      "Because they are very big"
+     ],
+     "a": 2,
+     "exp": "Camels carry people and heavy things across the desert, like ships carry them across the sea."
+    }
+   ]
+  }
+ ]
+}
