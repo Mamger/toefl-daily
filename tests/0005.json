@@ -1,0 +1,280 @@
+{
+ "id": "0005",
+ "title": "Listening Practice Set 5",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: A Full Class",
+   "type": "conversation",
+   "voices": {
+    "Man": "en-US-GuyNeural",
+    "Woman": "en-US-JennyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and an employee at the registration office."
+    ],
+    [
+     "Woman",
+     "Hello. How can I help you today?"
+    ],
+    [
+     "Man",
+     "Hi. I want to take Biology 101 next semester, but the website says the class is full."
+    ],
+    [
+     "Woman",
+     "Let me check. Yes, Biology 101 has fifty students. That's the limit for the room."
+    ],
+    [
+     "Man",
+     "Oh no. I really need this class. It's required for my major."
+    ],
+    [
+     "Woman",
+     "Don't worry. There are a few things you can do. First, you can put your name on the waiting list."
+    ],
+    [
+     "Man",
+     "A waiting list? How does that work?"
+    ],
+    [
+     "Woman",
+     "If a student drops the class, the first person on the list gets the place. Right now there are only three names on the list, so your chances are good."
+    ],
+    [
+     "Man",
+     "Only three? OK, that sounds better than I thought."
+    ],
+    [
+     "Woman",
+     "Also, there's a second section of Biology 101. It meets on Tuesday and Thursday evenings, from six to eight. It still has ten open places."
+    ],
+    [
+     "Man",
+     "Evenings... Hmm. I work at a restaurant on Tuesday nights."
+    ],
+    [
+     "Woman",
+     "I see. Then the waiting list is probably the best choice for you. You can also email the professor. Sometimes professors let one or two extra students in."
+    ],
+    [
+     "Man",
+     "That's a good idea. Who teaches the class?"
+    ],
+    [
+     "Woman",
+     "Doctor Patel. Her email is on the biology department website."
+    ],
+    [
+     "Man",
+     "Great. Can you add my name to the waiting list now?"
+    ],
+    [
+     "Woman",
+     "Sure. I just need your student ID card."
+    ],
+    [
+     "Man",
+     "Here it is. Thank you so much for your help."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the registration office?",
+     "o": [
+      "To pay for his books",
+      "Because a class he needs is full",
+      "To ask about a job at a restaurant",
+      "To change his major"
+     ],
+     "a": 1,
+     "exp": "He says, 'The website says the class is full.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How many students can be in Biology 101?",
+     "o": [
+      "Three",
+      "Ten",
+      "Fifty",
+      "One hundred"
+     ],
+     "a": 2,
+     "exp": "The woman says, 'Biology 101 has fifty students. That's the limit for the room.'"
+    },
+    {
+     "type": "Detail",
+     "q": "When does the second section of the class meet?",
+     "o": [
+      "Monday and Wednesday mornings",
+      "Friday afternoons",
+      "Every day at noon",
+      "Tuesday and Thursday evenings"
+     ],
+     "a": 3,
+     "exp": "She says, 'It meets on Tuesday and Thursday evenings, from six to eight.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Only three? OK, that sounds better than I thought.\" What does the student mean?",
+     "o": [
+      "He feels more hopeful about getting into the class",
+      "He thinks the list is too long",
+      "He wants to take three classes",
+      "He is angry with the woman"
+     ],
+     "a": 0,
+     "exp": "Only three names on the list means his chances are good, so he feels better."
+    },
+    {
+     "type": "Detail",
+     "q": "Why can't the student take the evening section?",
+     "o": [
+      "He has another class then",
+      "He lives far from campus",
+      "He works at a restaurant on Tuesday nights",
+      "The professor does not allow it"
+     ],
+     "a": 2,
+     "exp": "He says, 'I work at a restaurant on Tuesday nights.'"
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do after the conversation?",
+     "o": [
+      "Quit his job",
+      "Email Doctor Patel",
+      "Choose a different major",
+      "Go to the evening class"
+     ],
+     "a": 1,
+     "exp": "The woman suggests emailing the professor and he says, 'That's a good idea.'"
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Do Volcanoes Erupt?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-EricNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a geology class."
+    ],
+    [
+     "Professor",
+     "Good afternoon, class. Today we're going to talk about volcanoes. What are they, and why do they erupt?"
+    ],
+    [
+     "Professor",
+     "Let's start with the inside of the Earth. Deep under the ground, it is very, very hot. It's so hot that rock melts. This melted rock is called magma."
+    ],
+    [
+     "Professor",
+     "Magma is lighter than the solid rock around it. So, slowly, it moves up toward the surface. Sometimes it collects in a big space under a mountain. We call this space a magma chamber."
+    ],
+    [
+     "Professor",
+     "Now, magma has gas in it. Think of a bottle of soda. When you shake it, the gas pushes hard. When you open it, the soda comes out fast. A volcano works in a similar way. When the gas pressure becomes too strong, the magma breaks through the ground. That is an eruption."
+    ],
+    [
+     "Professor",
+     "When magma comes out of the ground, we give it a new name. We call it lava. So remember: under the ground, it's magma. Above the ground, it's lava. Students mix these up on tests all the time!"
+    ],
+    [
+     "Professor",
+     "Volcanoes can be dangerous, but they also help people. Volcanic soil is very rich. Farmers near volcanoes can grow a lot of food. For example, many farms near Mount Etna in Italy grow fruit and vegetables in this soil."
+    ],
+    [
+     "Professor",
+     "Scientists watch active volcanoes very carefully. They measure small earthquakes and gas around the mountain. These signs can tell them an eruption may come soon, so people can leave in time."
+    ],
+    [
+     "Professor",
+     "OK. Next time, we'll look at the different shapes of volcanoes. Please read chapter seven before class."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How farmers grow fruit in Italy",
+      "Why soda has gas in it",
+      "What volcanoes are and why they erupt",
+      "Different kinds of earthquakes"
+     ],
+     "a": 2,
+     "exp": "The professor says, 'Today we're going to talk about volcanoes. What are they, and why do they erupt?'"
+    },
+    {
+     "type": "Detail",
+     "q": "What is magma?",
+     "o": [
+      "Melted rock under the ground",
+      "A kind of gas",
+      "Rich soil near a volcano",
+      "A small earthquake"
+     ],
+     "a": 0,
+     "exp": "He says, 'This melted rock is called magma.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What causes a volcano to erupt?",
+     "o": [
+      "Heavy rain on the mountain",
+      "Farmers digging in the soil",
+      "Cold air above the ground",
+      "Strong gas pressure in the magma"
+     ],
+     "a": 3,
+     "exp": "He says, 'When the gas pressure becomes too strong, the magma breaks through the ground.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What is magma called after it comes out of the ground?",
+     "o": [
+      "Soil",
+      "Lava",
+      "A chamber",
+      "Rock gas"
+     ],
+     "a": 1,
+     "exp": "He says, 'Under the ground, it's magma. Above the ground, it's lava.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Think of a bottle of soda. When you shake it, the gas pushes hard.\" Why does the professor talk about a bottle of soda?",
+     "o": [
+      "To tell students what to drink in class",
+      "To show that soda is dangerous",
+      "To explain an eruption with a simple, familiar example",
+      "To change the topic of the lecture"
+     ],
+     "a": 2,
+     "exp": "He uses the soda bottle to help students understand how gas pressure makes a volcano erupt."
+    },
+    {
+     "type": "Inference",
+     "q": "Why do scientists measure small earthquakes near volcanoes?",
+     "o": [
+      "To know when an eruption may come, so people can leave",
+      "To make the volcano stop",
+      "To find good places for farms",
+      "To make the magma cooler"
+     ],
+     "a": 0,
+     "exp": "He says these signs tell scientists 'an eruption may come soon, so people can leave in time.'"
+    }
+   ]
+  }
+ ]
+}
