@@ -1,0 +1,276 @@
+{
+ "id": "0006",
+ "title": "Listening Practice Set 6",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Looking for a Job on Campus",
+   "type": "conversation",
+   "voices": {
+    "Man": "en-US-GuyNeural",
+    "Woman": "en-US-JennyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and an advisor at the campus career center."
+    ],
+    [
+     "Man",
+     "Hi there. Can I ask you a few questions?"
+    ],
+    [
+     "Woman",
+     "Of course. Come in and sit down. What do you need?"
+    ],
+    [
+     "Man",
+     "Thanks. I'm looking for a part-time job here on campus. I want to earn some money for my books and my phone bill."
+    ],
+    [
+     "Woman",
+     "Good. We have a lot of student jobs. How many hours can you work each week?"
+    ],
+    [
+     "Man",
+     "About ten hours. My classes are mostly in the morning, so I'm free in the afternoons."
+    ],
+    [
+     "Woman",
+     "Ten hours is perfect. Most student jobs are between eight and fifteen hours a week. Let me see... The campus library needs help in the afternoons. You would put books back on the shelves and help students at the front desk."
+    ],
+    [
+     "Man",
+     "The library? That sounds nice. It's quiet, and I like books."
+    ],
+    [
+     "Woman",
+     "There is also a job at the sports center. You would clean the equipment and check student ID cards at the door. That job pays a little more, but it starts at six in the morning."
+    ],
+    [
+     "Man",
+     "Six in the morning? Hmm... I'm really not a morning person."
+    ],
+    [
+     "Woman",
+     "I understand. So the library is a better choice for you. To apply, you need to fill out an online form and upload a resume."
+    ],
+    [
+     "Man",
+     "A resume? I've never written one. I don't really know how."
+    ],
+    [
+     "Woman",
+     "That's no problem. We have a free resume workshop every Wednesday at three o'clock, right here in this office. We show you step by step."
+    ],
+    [
+     "Man",
+     "Really? That's great. I'll come this Wednesday."
+    ],
+    [
+     "Woman",
+     "Good. Bring a list of your past jobs and your volunteer work. Then you can finish your resume in one hour."
+    ],
+    [
+     "Man",
+     "OK. Thank you so much. This was really helpful."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the career center?",
+     "o": [
+      "To change his class schedule",
+      "To find a part-time job on campus",
+      "To pay his phone bill",
+      "To join a sports team"
+     ],
+     "a": 1,
+     "exp": "He says, 'I'm looking for a part-time job here on campus.'"
+    },
+    {
+     "type": "Detail",
+     "q": "Why does the student want a job?",
+     "o": [
+      "To earn money for books and his phone bill",
+      "To meet new friends",
+      "To get better grades",
+      "To travel in the summer"
+     ],
+     "a": 0,
+     "exp": "He says, 'I want to earn some money for my books and my phone bill.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How many hours can the student work each week?",
+     "o": [
+      "About five hours",
+      "About twenty hours",
+      "About fifteen hours",
+      "About ten hours"
+     ],
+     "a": 3,
+     "exp": "He says, 'About ten hours.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Six in the morning? Hmm... I'm really not a morning person.\" What does the student mean?",
+     "o": [
+      "He wants to work at the sports center",
+      "He already has a job in the morning",
+      "He does not want a job that starts so early",
+      "He thinks the pay is too low"
+     ],
+     "a": 2,
+     "exp": "Saying he is 'not a morning person' means he does not like to get up early, so he doesn't want that job."
+    },
+    {
+     "type": "Detail",
+     "q": "When is the resume workshop?",
+     "o": [
+      "Every Monday at nine o'clock",
+      "Every Wednesday at three o'clock",
+      "Every Friday at noon",
+      "Every Tuesday at six o'clock"
+     ],
+     "a": 1,
+     "exp": "She says, 'We have a free resume workshop every Wednesday at three o'clock.'"
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Apply for the sports center job tomorrow",
+      "Look for a job off campus",
+      "Go to the resume workshop this Wednesday",
+      "Quit his classes"
+     ],
+     "a": 2,
+     "exp": "He says, 'I'll come this Wednesday.'"
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Do We Need Sleep?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-EricNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a psychology class."
+    ],
+    [
+     "Professor",
+     "Good morning, everyone. I see some of you are yawning. That's perfect, because today's topic is sleep. Why do we need sleep?"
+    ],
+    [
+     "Professor",
+     "Most adults need about seven to nine hours of sleep every night. Teenagers need even more, about eight to ten hours. But many college students sleep only five or six hours."
+    ],
+    [
+     "Professor",
+     "So what does sleep do for us? The first important job is memory. During the day, you learn many new things. At night, while you sleep, your brain organizes this new information and saves it. So if you study and then sleep well, you will remember more."
+    ],
+    [
+     "Professor",
+     "The second job is repair. While you sleep, your body fixes small problems in your muscles. Your body also makes things that help you fight sickness. People who sleep too little often get colds more easily."
+    ],
+    [
+     "Professor",
+     "Sleep happens in stages. In deep sleep, your body rests and repairs itself. In another stage, called REM sleep, your eyes move quickly, and this is when most dreams happen. REM means Rapid Eye Movement. Your brain goes through these stages four or five times every night."
+    ],
+    [
+     "Professor",
+     "Now, here's something interesting. A lot of students stay up all night before an exam. They think it helps. Actually, it usually hurts. Without sleep, it's hard to focus, and you forget what you studied."
+    ],
+    [
+     "Professor",
+     "So, here is my advice: try to go to bed at the same time every night, and put your phone away thirty minutes before bed. The light from the screen tells your brain it's still daytime."
+    ],
+    [
+     "Professor",
+     "For next class, please keep a sleep diary. Write down when you go to bed and when you wake up, every day this week."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How to write a good diary",
+      "Why phones are bad for students",
+      "Why people need sleep and what it does for us",
+      "How to pass an exam quickly"
+     ],
+     "a": 2,
+     "exp": "The professor says, 'Today's topic is sleep. Why do we need sleep?'"
+    },
+    {
+     "type": "Detail",
+     "q": "How many hours of sleep do most adults need?",
+     "o": [
+      "About seven to nine hours",
+      "About four to five hours",
+      "About eleven to twelve hours",
+      "About two to three hours"
+     ],
+     "a": 0,
+     "exp": "He says, 'Most adults need about seven to nine hours of sleep every night.'"
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, what does the brain do with new information during sleep?",
+     "o": [
+      "It deletes it",
+      "It organizes it and saves it",
+      "It turns it into dreams only",
+      "It sends it to the muscles"
+     ],
+     "a": 1,
+     "exp": "He says, 'Your brain organizes this new information and saves it.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What usually happens during REM sleep?",
+     "o": [
+      "The body stops breathing",
+      "People wake up many times",
+      "Muscles grow bigger",
+      "The eyes move quickly and most dreams happen"
+     ],
+     "a": 3,
+     "exp": "He says, 'Your eyes move quickly, and this is when most dreams happen.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"I see some of you are yawning. That's perfect, because today's topic is sleep.\" Why does the professor say this?",
+     "o": [
+      "To make a light joke that connects to the topic",
+      "To tell the students to leave the class",
+      "To complain that the students are lazy",
+      "To start a test"
+     ],
+     "a": 0,
+     "exp": "He makes a friendly joke about tired students to introduce the topic of sleep."
+    },
+    {
+     "type": "Inference",
+     "q": "What does the professor think about staying up all night before an exam?",
+     "o": [
+      "It is the best way to study",
+      "It is fine for teenagers",
+      "It usually does not help and can hurt",
+      "It helps students dream"
+     ],
+     "a": 2,
+     "exp": "He says, 'They think it helps. Actually, it usually hurts.'"
+    }
+   ]
+  }
+ ]
+}
