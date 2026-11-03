@@ -1,0 +1,288 @@
+{
+ "id": "0007",
+ "title": "Listening Practice Set 7",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: A Lost Student ID Card",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and an employee at the campus ID card office."
+    ],
+    [
+     "Woman",
+     "Hi. Excuse me. Is this the ID card office?"
+    ],
+    [
+     "Man",
+     "Yes, it is. How can I help you?"
+    ],
+    [
+     "Woman",
+     "I lost my student ID card. I think I left it on the bus yesterday. Now I can't get into the library or the dining hall."
+    ],
+    [
+     "Man",
+     "Oh, that's a problem. Did you call the bus company? They have a lost and found."
+    ],
+    [
+     "Woman",
+     "Yes, I called them this morning. They don't have it."
+    ],
+    [
+     "Man",
+     "OK. Then we can make you a new card today. It costs fifteen dollars."
+    ],
+    [
+     "Woman",
+     "Fifteen dollars? Hmm... I was hoping it was free."
+    ],
+    [
+     "Man",
+     "I know. The first card is free, but a new card costs money. You can pay with a credit card, or we can add it to your student account."
+    ],
+    [
+     "Woman",
+     "Please add it to my student account. What else do you need?"
+    ],
+    [
+     "Man",
+     "I need to see a photo ID, like a passport or a driver's license. And we will take a new picture of you."
+    ],
+    [
+     "Woman",
+     "I have my passport here. Can I get the card right now?"
+    ],
+    [
+     "Man",
+     "Yes. It only takes about ten minutes. Please stand in front of the blue wall for the picture."
+    ],
+    [
+     "Woman",
+     "Great. And what about my old card? Can someone else use it?"
+    ],
+    [
+     "Man",
+     "No. When we make a new card, the old card stops working. So nobody can use it to enter buildings or buy food."
+    ],
+    [
+     "Woman",
+     "Oh, good. That makes me feel better."
+    ],
+    [
+     "Man",
+     "One more thing. Your meal plan money is safe. It moves to the new card automatically."
+    ],
+    [
+     "Woman",
+     "Perfect. Thank you so much."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the ID card office?",
+     "o": [
+      "To pay for a bus ticket",
+      "To get a new student ID card",
+      "To buy a meal plan",
+      "To find a library book"
+     ],
+     "a": 1,
+     "exp": "She says, 'I lost my student ID card,' and the man offers to make her a new card."
+    },
+    {
+     "type": "Detail",
+     "q": "Where does the student think she lost her card?",
+     "o": [
+      "In the library",
+      "In the dining hall",
+      "On the bus",
+      "In her dorm room"
+     ],
+     "a": 2,
+     "exp": "She says, 'I think I left it on the bus yesterday.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How much does a new card cost?",
+     "o": [
+      "Fifteen dollars",
+      "Five dollars",
+      "Fifty dollars",
+      "It is free"
+     ],
+     "a": 0,
+     "exp": "The man says, 'It costs fifteen dollars.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Fifteen dollars? Hmm... I was hoping it was free.\" What does the student mean?",
+     "o": [
+      "She thinks fifteen dollars is a good price",
+      "She wants to pay with cash",
+      "She does not want a new card",
+      "She is a little surprised that she has to pay"
+     ],
+     "a": 3,
+     "exp": "She expected the card to be free, so she is a little surprised and disappointed about the cost."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the man need to see?",
+     "o": [
+      "A bus ticket",
+      "A photo ID, like a passport",
+      "A letter from a professor",
+      "Her class schedule"
+     ],
+     "a": 1,
+     "exp": "He says, 'I need to see a photo ID, like a passport or a driver's license.'"
+    },
+    {
+     "type": "Attitude",
+     "q": "How does the student feel when she learns the old card will stop working?",
+     "o": [
+      "Angry",
+      "Confused",
+      "Relieved",
+      "Bored"
+     ],
+     "a": 2,
+     "exp": "She says, 'Oh, good. That makes me feel better.'"
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Do Birds Find Their Way?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "OK, let's begin. Today we are going to talk about bird migration. Migration means moving from one place to another place every year. Many birds fly south in the fall and fly north again in the spring."
+    ],
+    [
+     "Professor",
+     "Why do they do this? The main reason is food. In the winter, the north is very cold. There are not many insects or plants to eat. So the birds fly to warmer places where they can find food."
+    ],
+    [
+     "Professor",
+     "Some birds travel very far. The Arctic tern is the champion. It flies from the Arctic, near the North Pole, all the way to Antarctica, near the South Pole. Then it flies back. That is about seventy thousand kilometers every year!"
+    ],
+    [
+     "Professor",
+     "Now, here is the big question. How do birds find their way? They don't have maps or phones, right? Scientists have found a few answers."
+    ],
+    [
+     "Professor",
+     "First, birds use the sun. During the day, they look at the position of the sun to know which way to go. Second, birds that fly at night use the stars."
+    ],
+    [
+     "Professor",
+     "Third, and this is very interesting, many birds can feel the Earth's magnetic field. It's like they have a small compass inside their bodies. This helps them even on cloudy days."
+    ],
+    [
+     "Professor",
+     "And finally, birds use landmarks, like rivers, mountains, and coastlines. They remember these places from earlier trips."
+    ],
+    [
+     "Professor",
+     "Unfortunately, migration is dangerous. Birds can get very tired, and bright city lights at night can confuse them. Some cities now turn off building lights during migration season to help the birds."
+    ],
+    [
+     "Professor",
+     "For next week, please read chapter six. It's about how young birds learn their first migration route."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How birds build their nests",
+      "Why cities have bright lights",
+      "Bird migration and how birds find their way",
+      "The weather at the North Pole"
+     ],
+     "a": 2,
+     "exp": "The professor says, 'Today we are going to talk about bird migration,' and then explains how birds find their way."
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, what is the main reason birds migrate?",
+     "o": [
+      "To find food",
+      "To escape from people",
+      "To find new friends",
+      "To learn new songs"
+     ],
+     "a": 0,
+     "exp": "She says, 'The main reason is food.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What does the professor say about the Arctic tern?",
+     "o": [
+      "It never leaves the Arctic",
+      "It only flies at night",
+      "It cannot fly very far",
+      "It travels about seventy thousand kilometers every year"
+     ],
+     "a": 3,
+     "exp": "She says it flies 'about seventy thousand kilometers every year.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What do birds that fly at night use to find their way?",
+     "o": [
+      "The sun",
+      "The stars",
+      "City lights",
+      "Phones"
+     ],
+     "a": 1,
+     "exp": "She says, 'Birds that fly at night use the stars.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"They don't have maps or phones, right?\" Why does the professor say this?",
+     "o": [
+      "To ask students to put away their phones",
+      "To say that birds are not smart",
+      "To make the students think about how surprising birds' navigation is",
+      "To start talking about a new map"
+     ],
+     "a": 2,
+     "exp": "She points out that birds have no maps or phones to make the question of how they find their way more interesting."
+    },
+    {
+     "type": "Inference",
+     "q": "Why do some cities turn off building lights during migration season?",
+     "o": [
+      "To help birds that get confused by bright lights",
+      "To save money on electricity only",
+      "To see the stars better",
+      "To make the city quieter"
+     ],
+     "a": 0,
+     "exp": "She says bright city lights can confuse birds, so some cities turn off lights 'to help the birds.'"
+    }
+   ]
+  }
+ ]
+}
