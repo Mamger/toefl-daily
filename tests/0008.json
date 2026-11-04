@@ -1,0 +1,288 @@
+{
+ "id": "0008",
+ "title": "Listening Practice Set 8",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Returning a Textbook",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and an employee at the campus bookstore."
+    ],
+    [
+     "Man",
+     "Hello. Can I help you?"
+    ],
+    [
+     "Woman",
+     "Hi. Yes, I want to return this textbook. I bought it last week for my history class."
+    ],
+    [
+     "Man",
+     "OK. Is there a problem with the book?"
+    ],
+    [
+     "Woman",
+     "No, the book is fine. But I changed my class. I am not taking history this semester. Now I am taking art."
+    ],
+    [
+     "Man",
+     "I see. Do you have your receipt?"
+    ],
+    [
+     "Woman",
+     "Yes, here it is."
+    ],
+    [
+     "Man",
+     "Thank you. Let me look... You bought it eight days ago. That's good. You can return books for a full refund within fourteen days."
+    ],
+    [
+     "Woman",
+     "Oh, great. I was worried it was too late."
+    ],
+    [
+     "Man",
+     "No, you're fine. But wait. I need to check the book. Did you write in it?"
+    ],
+    [
+     "Woman",
+     "Well... I wrote my name on the first page. Is that a problem?"
+    ],
+    [
+     "Man",
+     "Hmm, just your name? That's OK. We can't take books with a lot of notes or highlighting, but a name is fine."
+    ],
+    [
+     "Woman",
+     "Phew. OK. How will I get my money back?"
+    ],
+    [
+     "Man",
+     "You paid with a credit card, so the money will go back to your card. It takes about three to five days."
+    ],
+    [
+     "Woman",
+     "That's fine. Also, I need a book for my new art class. Do you have it?"
+    ],
+    [
+     "Man",
+     "What's the class?"
+    ],
+    [
+     "Woman",
+     "Art 101, Introduction to Drawing."
+    ],
+    [
+     "Man",
+     "Let me check the computer... Yes, we have it. It's on the second floor, near the stairs. And there are used copies too. They are cheaper."
+    ],
+    [
+     "Woman",
+     "Used copies? Perfect. I'll go look now. Thanks for your help!"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the bookstore?",
+     "o": [
+      "To buy a history book",
+      "To return a textbook",
+      "To find a job",
+      "To pay for an art class"
+     ],
+     "a": 1,
+     "exp": "She says, 'I want to return this textbook.'"
+    },
+    {
+     "type": "Detail",
+     "q": "Why does the student want to return the book?",
+     "o": [
+      "The book is damaged",
+      "The book is too expensive",
+      "She changed her class",
+      "She already has the book"
+     ],
+     "a": 2,
+     "exp": "She says, 'I changed my class. I am not taking history this semester.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How many days do students have to return a book for a full refund?",
+     "o": [
+      "Eight days",
+      "Five days",
+      "Thirty days",
+      "Fourteen days"
+     ],
+     "a": 3,
+     "exp": "The man says, 'You can return books for a full refund within fourteen days.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Well... I wrote my name on the first page. Is that a problem?\" Why does the student say this?",
+     "o": [
+      "She is worried the bookstore will not take the book",
+      "She wants the man to write his name too",
+      "She is proud of her handwriting",
+      "She wants to keep the book"
+     ],
+     "a": 0,
+     "exp": "She is not sure if writing her name is OK, so she is worried they will not accept the book."
+    },
+    {
+     "type": "Detail",
+     "q": "How will the student get her money back?",
+     "o": [
+      "In cash today",
+      "The money will go back to her credit card",
+      "As a gift card for the bookstore",
+      "By a check in the mail"
+     ],
+     "a": 1,
+     "exp": "The man says, 'The money will go back to your card.'"
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Go home",
+      "Go to the history class",
+      "Go to the second floor to look for a used art book",
+      "Call her art professor"
+     ],
+     "a": 2,
+     "exp": "The man says the book is on the second floor and used copies are cheaper. She says, 'I'll go look now.'"
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Is the Ocean Salty?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an earth science class."
+    ],
+    [
+     "Professor",
+     "Good morning, everyone. Let's start with a simple question. Have you ever tasted ocean water? It's very salty, right? You can't drink it. Today we will talk about why the ocean is salty."
+    ],
+    [
+     "Professor",
+     "Here's something surprising. Most of the salt in the ocean comes from rocks on land. Let me explain how."
+    ],
+    [
+     "Professor",
+     "First, it rains. Rain water is a little bit acidic. That means it can slowly break down rocks. When rain falls on rocks, it takes very small pieces of minerals from them. Salt is one of these minerals."
+    ],
+    [
+     "Professor",
+     "Next, the rain water goes into rivers. The rivers carry the salt to the ocean. River water has salt too, but only a very small amount, so it doesn't taste salty."
+    ],
+    [
+     "Professor",
+     "Then, the sun heats the ocean. Water evaporates. That means it changes into gas and goes up into the air. But the salt does not go up. The salt stays in the ocean. This has happened for millions of years, so the salt slowly built up."
+    ],
+    [
+     "Professor",
+     "There is also a second source of salt: the ocean floor. At the bottom of the ocean, there are openings where hot water and minerals come out from inside the Earth. These openings also add salt to the ocean."
+    ],
+    [
+     "Professor",
+     "Now, how salty is the ocean? On average, about three and a half percent of ocean water is salt. If you took all the salt out of the oceans and put it on land, it would cover all the land with a layer about one hundred and sixty meters high. That's taller than a forty-story building!"
+    ],
+    [
+     "Professor",
+     "Some places are saltier than others. The Dead Sea, for example, is so salty that people can float on top of the water easily. Next class, we will look at why the Dead Sea is so salty."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How to make drinking water",
+      "Why the ocean is salty",
+      "How rivers are formed",
+      "Why people like salty food"
+     ],
+     "a": 1,
+     "exp": "The professor says, 'Today we will talk about why the ocean is salty.'"
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, where does most of the salt in the ocean come from?",
+     "o": [
+      "Rocks on land",
+      "Fish in the ocean",
+      "The air",
+      "Ice at the North Pole"
+     ],
+     "a": 0,
+     "exp": "She says, 'Most of the salt in the ocean comes from rocks on land.'"
+    },
+    {
+     "type": "Detail",
+     "q": "Why doesn't river water taste salty?",
+     "o": [
+      "Rivers have no minerals",
+      "Rivers are very cold",
+      "River water has only a very small amount of salt",
+      "Rain removes the salt from rivers"
+     ],
+     "a": 2,
+     "exp": "She says river water has 'only a very small amount, so it doesn't taste salty.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What happens to the salt when ocean water evaporates?",
+     "o": [
+      "It goes up into the air",
+      "It turns into rain",
+      "It goes back to the rivers",
+      "It stays in the ocean"
+     ],
+     "a": 3,
+     "exp": "She says, 'The salt does not go up. The salt stays in the ocean.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Have you ever tasted ocean water? It's very salty, right?\" Why does the professor say this?",
+     "o": [
+      "To ask students to taste ocean water in class",
+      "To introduce the topic with something students know",
+      "To say that ocean water is good to drink",
+      "To check if students went to the beach"
+     ],
+     "a": 1,
+     "exp": "She starts with a common experience to introduce the topic of why the ocean is salty."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor explain how salt gets into the ocean?",
+     "o": [
+      "She describes the steps in order: rain, rivers, then evaporation",
+      "She compares two different oceans",
+      "She tells a story about her trip",
+      "She lists the names of famous scientists"
+     ],
+     "a": 0,
+     "exp": "She uses 'First... Next... Then...' to describe the steps in order."
+    }
+   ]
+  }
+ ]
+}
