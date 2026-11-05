@@ -1,0 +1,276 @@
+{
+ "id": "0009",
+ "title": "Listening Practice Set 9",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Signing Up for the Gym",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a staff member at the campus recreation center."
+    ],
+    [
+     "Man",
+     "Hi. Welcome to the recreation center. How can I help you?"
+    ],
+    [
+     "Woman",
+     "Hi. I want to sign up for the gym. Is that possible?"
+    ],
+    [
+     "Man",
+     "Of course. Are you a student here?"
+    ],
+    [
+     "Woman",
+     "Yes. I'm a first-year student. I just got my student ID last week."
+    ],
+    [
+     "Man",
+     "Perfect. With a student ID, the gym is free. You just need to fill out this short form."
+    ],
+    [
+     "Woman",
+     "Free? That's great! I thought I had to pay."
+    ],
+    [
+     "Man",
+     "No, students don't pay. Only teachers and people from outside the university pay a fee."
+    ],
+    [
+     "Woman",
+     "OK. What do I write on the form?"
+    ],
+    [
+     "Man",
+     "Just your name, student ID number, and a phone number. Then bring the form and your ID to the front desk."
+    ],
+    [
+     "Woman",
+     "I can do that now. Also, what are the hours? I have morning classes."
+    ],
+    [
+     "Man",
+     "We open at six in the morning and close at ten at night on weekdays. On weekends we open at eight and close at eight."
+    ],
+    [
+     "Woman",
+     "Six in the morning is early enough for me. Do you have yoga classes?"
+    ],
+    [
+     "Man",
+     "Yes. Beginner yoga is on Mondays and Wednesdays at five in the afternoon. You don't need to sign up ahead of time. Just come."
+    ],
+    [
+     "Woman",
+     "Wonderful. I'll fill out the form and come back with my ID. Thanks!"
+    ],
+    [
+     "Man",
+     "You're welcome. See you soon."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the recreation center?",
+     "o": [
+      "To find a lost student ID",
+      "To sign up for the gym",
+      "To pay a fee for a class",
+      "To talk to her teacher"
+     ],
+     "a": 1,
+     "exp": "She says, 'I want to sign up for the gym.'"
+    },
+    {
+     "type": "Detail",
+     "q": "How much do students pay to use the gym?",
+     "o": [
+      "Ten dollars a month",
+      "A small fee for yoga only",
+      "Nothing \u2014 it is free for students",
+      "They pay the same as teachers"
+     ],
+     "a": 2,
+     "exp": "The man says, 'With a student ID, the gym is free.'"
+    },
+    {
+     "type": "Detail",
+     "q": "What does the student need to bring to the front desk?",
+     "o": [
+      "Only her phone",
+      "A credit card and a photo",
+      "Her class schedule",
+      "The form and her student ID"
+     ],
+     "a": 3,
+     "exp": "He says, 'bring the form and your ID to the front desk.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Free? That's great! I thought I had to pay.\" Why does the student say this?",
+     "o": [
+      "She is happy because she expected to pay but does not have to",
+      "She wants to pay for a better membership",
+      "She is angry that the gym is free",
+      "She is asking how much teachers pay"
+     ],
+     "a": 0,
+     "exp": "She is surprised and happy that students do not pay."
+    },
+    {
+     "type": "Detail",
+     "q": "When does beginner yoga meet?",
+     "o": [
+      "Every morning at six",
+      "Mondays and Wednesdays at five in the afternoon",
+      "Weekends at eight",
+      "Only on Fridays"
+     ],
+     "a": 1,
+     "exp": "He says, 'Beginner yoga is on Mondays and Wednesdays at five in the afternoon.'"
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Go to a yoga class right away",
+      "Call her teacher",
+      "Fill out the form and come back with her ID",
+      "Pay the gym fee"
+     ],
+     "a": 2,
+     "exp": "She says, 'I'll fill out the form and come back with my ID.'"
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Is the Sky Blue?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a science class."
+    ],
+    [
+     "Professor",
+     "Good morning. Look outside the window. The sky is blue today. But why is it blue? Why isn't it green or purple? That is our question for today."
+    ],
+    [
+     "Professor",
+     "First, remember that sunlight looks white, but white light is really made of many colors. Red, orange, yellow, green, blue, and violet are all in sunlight. You can see these colors in a rainbow."
+    ],
+    [
+     "Professor",
+     "When sunlight comes into Earth's atmosphere, it hits tiny bits of air. The air is full of very small molecules. These molecules send the light in many directions. Scientists call this scattering."
+    ],
+    [
+     "Professor",
+     "Here is the important part. Blue light scatters more than red light. Blue light has a shorter wavelength, so the tiny air molecules push it around easily. Red light has a longer wavelength, so it mostly goes straight through."
+    ],
+    [
+     "Professor",
+     "So when you look up at the sky during the day, you see the blue light that was scattered all around. That is why the sky looks blue."
+    ],
+    [
+     "Professor",
+     "What about sunrise and sunset? Then the sky often looks red or orange. Why? Because at those times, the sun is low. Sunlight travels through more air. Most of the blue light is scattered away before it reaches your eyes. The red and orange light is left, so that is what you see."
+    ],
+    [
+     "Professor",
+     "One more thing. On the Moon there is almost no air. So there is no scattering. That is why the sky on the Moon looks black, even in the daytime."
+    ],
+    [
+     "Professor",
+     "Next time we will talk about rainbows and how they show all the colors in sunlight. For now, remember: blue sky means blue light is scattered by air."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How rainbows form on the Moon",
+      "Why the sky is blue",
+      "Why the sun is hot",
+      "How to paint a blue sky"
+     ],
+     "a": 1,
+     "exp": "The professor says the question for today is why the sky is blue."
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, what is white sunlight made of?",
+     "o": [
+      "Only blue light",
+      "Air molecules",
+      "Many colors",
+      "Red light only"
+     ],
+     "a": 2,
+     "exp": "She says white light is 'really made of many colors.'"
+    },
+    {
+     "type": "Detail",
+     "q": "Why does blue light scatter more than red light?",
+     "o": [
+      "Blue light is hotter",
+      "Blue light has a shorter wavelength",
+      "Blue light comes from the Moon",
+      "Red light is heavier"
+     ],
+     "a": 1,
+     "exp": "She says blue light has a shorter wavelength, so air molecules push it around easily."
+    },
+    {
+     "type": "Detail",
+     "q": "Why does the sky often look red at sunset?",
+     "o": [
+      "The sun gets colder",
+      "Clouds turn red",
+      "Sunlight travels through more air, so most blue light is scattered away",
+      "People wear red glasses"
+     ],
+     "a": 2,
+     "exp": "She says at sunset sunlight travels through more air and most blue light is scattered away before it reaches your eyes."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Look outside the window. The sky is blue today.\" Why does the professor say this?",
+     "o": [
+      "To start the topic with something students can see",
+      "To tell students class is over",
+      "To ask students to go outside",
+      "To say the weather is bad"
+     ],
+     "a": 0,
+     "exp": "She uses a simple thing students can see to introduce the topic."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the explanation of a blue sky?",
+     "o": [
+      "She tells a story about a trip to the Moon",
+      "She lists famous scientists' names",
+      "She compares blue paint and green paint",
+      "She explains sunlight's colors, then scattering, then why we see blue"
+     ],
+     "a": 3,
+     "exp": "She first talks about colors in sunlight, then scattering, then why we see blue."
+    }
+   ]
+  }
+ ]
+}
