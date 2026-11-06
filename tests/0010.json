@@ -1,0 +1,276 @@
+{
+ "id": "0010",
+ "title": "Listening Practice Set 10",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Help at the Writing Center",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a tutor at the campus writing center."
+    ],
+    [
+     "Woman",
+     "Hi. Is this the writing center?"
+    ],
+    [
+     "Man",
+     "Yes, it is. How can I help you?"
+    ],
+    [
+     "Woman",
+     "I have a history paper due next Friday. Can someone look at my draft?"
+    ],
+    [
+     "Man",
+     "Sure. Do you have an appointment, or are you a walk-in?"
+    ],
+    [
+     "Woman",
+     "I don't have an appointment. I just walked in. Is that OK?"
+    ],
+    [
+     "Man",
+     "Walk-ins are fine this morning. Afternoons are usually full, so it's good you came early."
+    ],
+    [
+     "Woman",
+     "Great. My paper is about five pages. I want help with my introduction and my citations."
+    ],
+    [
+     "Man",
+     "We can do that. Tutors here help with organization, grammar, and citations. We don't rewrite the paper for you, but we show you how to fix problems."
+    ],
+    [
+     "Woman",
+     "That sounds perfect. How long does a session last?"
+    ],
+    [
+     "Man",
+     "Each session is thirty minutes. If you need more time, you can book another session for tomorrow."
+    ],
+    [
+     "Woman",
+     "Thirty minutes should be enough today. Also, is there a computer I can use?"
+    ],
+    [
+     "Man",
+     "Yes. There are three computers by the window. Please bring a USB drive or email the file to yourself so you can open it here."
+    ],
+    [
+     "Woman",
+     "I already emailed it to myself. Can we start now?"
+    ],
+    [
+     "Man",
+     "Absolutely. Sit at the table near the window, and I'll join you in one minute."
+    ],
+    [
+     "Woman",
+     "Thank you so much!"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the writing center?",
+     "o": [
+      "To find a history textbook",
+      "To get help with a history paper",
+      "To apply for a tutoring job",
+      "To print her class schedule"
+     ],
+     "a": 1,
+     "exp": "She says she has a history paper due and asks if someone can look at her draft."
+    },
+    {
+     "type": "Detail",
+     "q": "When are walk-in visits usually easier?",
+     "o": [
+      "In the afternoon",
+      "On Friday only",
+      "In the morning",
+      "At night"
+     ],
+     "a": 2,
+     "exp": "The man says walk-ins are fine this morning and that afternoons are usually full."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the student want help with?",
+     "o": [
+      "Only spelling",
+      "Her introduction and her citations",
+      "Choosing a new topic",
+      "Finding library books"
+     ],
+     "a": 1,
+     "exp": "She says, 'I want help with my introduction and my citations.'"
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"We don't rewrite the paper for you, but we show you how to fix problems.\" Why does the tutor say this?",
+     "o": [
+      "To explain what tutors will and will not do",
+      "To say the writing center is closed",
+      "To ask the student to leave",
+      "To offer to write the whole paper"
+     ],
+     "a": 0,
+     "exp": "He is clarifying that tutors guide students but do not rewrite papers for them."
+    },
+    {
+     "type": "Detail",
+     "q": "How long is each tutoring session?",
+     "o": [
+      "Fifteen minutes",
+      "One hour",
+      "Two hours",
+      "Thirty minutes"
+     ],
+     "a": 3,
+     "exp": "He says, 'Each session is thirty minutes.'"
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Leave and come back tomorrow",
+      "Sit at the table near the window and start the session",
+      "Buy a USB drive at the store",
+      "Change her paper topic"
+     ],
+     "a": 1,
+     "exp": "The tutor tells her to sit at the table near the window and says he will join her in one minute."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Do We Have Seasons?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an Earth science class."
+    ],
+    [
+     "Professor",
+     "Good morning, everyone. Today we will answer a simple question: why do we have seasons? Why is summer hot and winter cold?"
+    ],
+    [
+     "Professor",
+     "Many people think seasons happen because Earth is closer to the Sun in summer and farther away in winter. That idea is wrong. Earth's distance from the Sun does not cause the seasons."
+    ],
+    [
+     "Professor",
+     "The real reason is Earth's tilt. Earth is tilted about twenty-three and a half degrees. As Earth goes around the Sun, that tilt stays the same."
+    ],
+    [
+     "Professor",
+     "In June, the northern half of Earth is tilted toward the Sun. That means the Sun's light hits that part of Earth more directly. Days are longer, and the weather is warmer. That is summer in the north."
+    ],
+    [
+     "Professor",
+     "At the same time, the southern half of Earth is tilted away from the Sun. There, the light is weaker and days are shorter. So June is winter in the south."
+    ],
+    [
+     "Professor",
+     "In December, the opposite happens. The northern half is tilted away from the Sun, so it is winter in the north. The southern half is tilted toward the Sun, so it is summer there."
+    ],
+    [
+     "Professor",
+     "One more important point. Near the equator, the tilt does not change the sunlight as much. So places near the equator stay warm all year. They do not have a strong winter and summer like we do."
+    ],
+    [
+     "Professor",
+     "So remember: seasons come from Earth's tilt, not from how close Earth is to the Sun. Next class we will talk about the solstice and the equinox."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "Why the Moon has phases",
+      "Why we have seasons",
+      "How far Earth is from the Sun",
+      "How to dress in winter"
+     ],
+     "a": 1,
+     "exp": "The professor says today's question is why we have seasons."
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, what does NOT cause the seasons?",
+     "o": [
+      "Earth's tilt",
+      "Longer days in summer",
+      "Earth's distance from the Sun",
+      "Direct sunlight"
+     ],
+     "a": 2,
+     "exp": "She says Earth's distance from the Sun does not cause the seasons."
+    },
+    {
+     "type": "Detail",
+     "q": "About how many degrees is Earth tilted?",
+     "o": [
+      "Ten degrees",
+      "Forty-five degrees",
+      "Ninety degrees",
+      "Twenty-three and a half degrees"
+     ],
+     "a": 3,
+     "exp": "She says Earth is tilted about twenty-three and a half degrees."
+    },
+    {
+     "type": "Detail",
+     "q": "What is the weather like in the southern half of Earth in June?",
+     "o": [
+      "It is summer",
+      "It is winter",
+      "It is always the same as the north",
+      "There is no sunlight"
+     ],
+     "a": 1,
+     "exp": "She says in June the southern half is tilted away from the Sun, so June is winter in the south."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"That idea is wrong.\" Why does the professor say this?",
+     "o": [
+      "To correct a common mistake before giving the real reason",
+      "To end the class early",
+      "To say students should leave",
+      "To talk about the Moon"
+     ],
+     "a": 0,
+     "exp": "She first names a common wrong idea, then says it is wrong so students are ready for the real explanation."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the lecture?",
+     "o": [
+      "She lists famous scientists and their birthdays",
+      "She only talks about the equator",
+      "She tells a story about a winter vacation",
+      "She rejects a wrong idea, then explains Earth's tilt with June and December examples"
+     ],
+     "a": 3,
+     "exp": "She first rejects the distance idea, then explains tilt and uses June and December as examples."
+    }
+   ]
+  }
+ ]
+}
