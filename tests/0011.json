@@ -1,0 +1,272 @@
+{
+ "id": "0011",
+ "title": "Listening Practice Set 11",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: The Campus Shuttle Bus",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a campus information desk worker."
+    ],
+    [
+     "Woman",
+     "Excuse me. Does this campus have a shuttle bus?"
+    ],
+    [
+     "Man",
+     "Yes, we do. The campus shuttle runs between the dorms, the library, and the science building."
+    ],
+    [
+     "Woman",
+     "Great. I live in Oak Hall. How often does the bus come?"
+    ],
+    [
+     "Man",
+     "On weekdays it comes every fifteen minutes. On weekends it comes every thirty minutes."
+    ],
+    [
+     "Woman",
+     "That helps. What time does the first bus leave in the morning?"
+    ],
+    [
+     "Man",
+     "The first bus leaves at seven thirty in the morning. The last bus leaves at ten at night."
+    ],
+    [
+     "Woman",
+     "Is the shuttle free for students?"
+    ],
+    [
+     "Man",
+     "Yes. Just show your student ID when you get on. No ticket is needed."
+    ],
+    [
+     "Woman",
+     "Perfect. Where do I wait near Oak Hall?"
+    ],
+    [
+     "Man",
+     "There is a blue bus stop sign in front of the dorm. Wait there. The bus has the words Campus Shuttle on the side."
+    ],
+    [
+     "Woman",
+     "One more question. Can I bring a large backpack on the bus?"
+    ],
+    [
+     "Man",
+     "Yes, backpacks are fine. Just keep the aisle clear so other students can walk past."
+    ],
+    [
+     "Woman",
+     "Thanks! I'll catch the bus tomorrow morning."
+    ],
+    [
+     "Man",
+     "You're welcome. Have a good day."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "Buying a parking permit",
+      "Using the campus shuttle bus",
+      "Finding a new dorm room",
+      "Changing a class schedule"
+     ],
+     "a": 1,
+     "exp": "The student asks about the campus shuttle and how to use it."
+    },
+    {
+     "type": "Detail",
+     "q": "How often does the shuttle run on weekdays?",
+     "o": [
+      "Every five minutes",
+      "Every hour",
+      "Every fifteen minutes",
+      "Only once a day"
+     ],
+     "a": 2,
+     "exp": "The man says on weekdays it comes every fifteen minutes."
+    },
+    {
+     "type": "Detail",
+     "q": "What time does the first bus leave?",
+     "o": [
+      "Six in the morning",
+      "Seven thirty in the morning",
+      "Nine in the morning",
+      "Ten at night"
+     ],
+     "a": 1,
+     "exp": "He says the first bus leaves at seven thirty in the morning."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Just show your student ID when you get on.\" Why does the man say this?",
+     "o": [
+      "To explain how students ride for free",
+      "To say the bus is closed today",
+      "To ask the student to buy a ticket",
+      "To tell her to leave campus"
+     ],
+     "a": 0,
+     "exp": "He is explaining that the shuttle is free if you show your student ID."
+    },
+    {
+     "type": "Detail",
+     "q": "Where should the student wait near Oak Hall?",
+     "o": [
+      "Inside the library",
+      "At the science building door",
+      "At a blue bus stop sign in front of the dorm",
+      "In the parking garage"
+     ],
+     "a": 2,
+     "exp": "He says there is a blue bus stop sign in front of the dorm."
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do tomorrow morning?",
+     "o": [
+      "Drive her own car to class",
+      "Walk to the science building",
+      "Take a taxi off campus",
+      "Ride the campus shuttle from Oak Hall"
+     ],
+     "a": 3,
+     "exp": "She says she will catch the bus tomorrow morning after learning where to wait."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Do Rainbows Form?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a science class."
+    ],
+    [
+     "Professor",
+     "Good morning. Today we will talk about rainbows. Have you ever wondered why a rainbow appears after rain?"
+    ],
+    [
+     "Professor",
+     "A rainbow needs two things: sunlight and water drops in the air. After a rain shower, many tiny drops of water stay in the air. When the Sun comes out, its light hits those drops."
+    ],
+    [
+     "Professor",
+     "Sunlight looks white, but it is really made of many colors mixed together. When sunlight enters a water drop, the light bends and splits into those colors. This splitting is called refraction."
+    ],
+    [
+     "Professor",
+     "Inside the drop, the light also reflects, or bounces, off the back of the drop. Then it leaves the drop and travels to your eyes. That is when you see the band of colors."
+    ],
+    [
+     "Professor",
+     "The order of the colors is always the same. Red is on the outside of the bow, and violet is on the inside. In between you see orange, yellow, green, and blue."
+    ],
+    [
+     "Professor",
+     "Here is an important tip. To see a rainbow, you must stand with the Sun behind you and the rain or mist in front of you. If you face the Sun, you will not see the rainbow."
+    ],
+    [
+     "Professor",
+     "Sometimes you can see a second, fainter rainbow above the first one. That happens when light reflects twice inside the drop. The colors in the second rainbow are in reverse order."
+    ],
+    [
+     "Professor",
+     "So remember: sunlight plus water drops, light that bends and reflects, and the Sun behind you. That is how a rainbow forms. Next time we will talk about why the sky looks different at sunset."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "Why it rains in summer",
+      "How rainbows form",
+      "How to paint a rainbow",
+      "Why the Moon looks bright"
+     ],
+     "a": 1,
+     "exp": "The professor says today we will talk about rainbows and how they appear."
+    },
+    {
+     "type": "Detail",
+     "q": "What two things does a rainbow need?",
+     "o": [
+      "Wind and clouds only",
+      "Snow and ice",
+      "Sunlight and water drops in the air",
+      "Thunder and lightning"
+     ],
+     "a": 2,
+     "exp": "She says a rainbow needs sunlight and water drops in the air."
+    },
+    {
+     "type": "Detail",
+     "q": "What is refraction in this lecture?",
+     "o": [
+      "When light bends and splits into colors",
+      "When rain falls to the ground",
+      "When the Sun goes down",
+      "When clouds cover the sky"
+     ],
+     "a": 0,
+     "exp": "She says when sunlight enters a water drop, it bends and splits into colors, and that splitting is called refraction."
+    },
+    {
+     "type": "Detail",
+     "q": "Which color is on the outside of a rainbow?",
+     "o": [
+      "Violet",
+      "Green",
+      "Blue",
+      "Red"
+     ],
+     "a": 3,
+     "exp": "She says red is on the outside of the bow, and violet is on the inside."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"If you face the Sun, you will not see the rainbow.\" Why does the professor say this?",
+     "o": [
+      "To warn students never to go outside",
+      "To explain the correct position for seeing a rainbow",
+      "To say rainbows only appear at night",
+      "To end the lecture early"
+     ],
+     "a": 1,
+     "exp": "She is teaching that you need the Sun behind you, so facing the Sun means you will miss the rainbow."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the lecture?",
+     "o": [
+      "She only lists famous scientists",
+      "She tells a long story about a camping trip",
+      "She explains what a rainbow needs, how light changes in a drop, then how to stand to see one",
+      "She compares rainbows to snowflakes only"
+     ],
+     "a": 2,
+     "exp": "She moves from sunlight and water drops, to bending and reflecting light, to where you should stand, then mentions a second rainbow."
+    }
+   ]
+  }
+ ]
+}
