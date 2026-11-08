@@ -1,0 +1,268 @@
+{
+ "id": "0012",
+ "title": "Listening Practice Set 12",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Printing at the Computer Lab",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a computer lab assistant."
+    ],
+    [
+     "Man",
+     "Hi. I need to print my history paper. Is this the right place?"
+    ],
+    [
+     "Woman",
+     "Yes. This is the main computer lab. You can print here if you have pages left on your student account."
+    ],
+    [
+     "Man",
+     "How many pages do I get?"
+    ],
+    [
+     "Woman",
+     "Every student gets one hundred free pages each semester. After that, you pay five cents per page."
+    ],
+    [
+     "Man",
+     "I think I still have pages left. How do I check?"
+    ],
+    [
+     "Woman",
+     "Log in at any lab computer and click Print Balance in the top corner. It shows how many pages you have left."
+    ],
+    [
+     "Man",
+     "Great. My paper is twelve pages, and I need two copies. Can I print on both sides of the paper?"
+    ],
+    [
+     "Woman",
+     "Yes. Choose double-sided in the print window. That uses fewer pages from your account."
+    ],
+    [
+     "Man",
+     "Perfect. Where do I pick up the pages after I send them?"
+    ],
+    [
+     "Woman",
+     "The printer is against the back wall, next to the windows. Look for your name on the small screen."
+    ],
+    [
+     "Man",
+     "One more thing. I also have a color map for my paper. Can I print that in color?"
+    ],
+    [
+     "Woman",
+     "Color printing is only available at the library, not here. This lab prints in black and white only."
+    ],
+    [
+     "Man",
+     "Okay. I'll print the paper here and take the map to the library. Thanks for your help."
+    ],
+    [
+     "Woman",
+     "You're welcome. Good luck with your paper."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "Finding a history book",
+      "Printing a paper at the computer lab",
+      "Buying a new computer",
+      "Changing a class schedule"
+     ],
+     "a": 1,
+     "exp": "The student asks how to print his history paper in the computer lab."
+    },
+    {
+     "type": "Detail",
+     "q": "How many free pages does each student get each semester?",
+     "o": [
+      "Ten pages",
+      "Fifty pages",
+      "One hundred pages",
+      "Five hundred pages"
+     ],
+     "a": 2,
+     "exp": "The woman says every student gets one hundred free pages each semester."
+    },
+    {
+     "type": "Detail",
+     "q": "How much does a student pay for each extra page?",
+     "o": [
+      "One dollar",
+      "Five cents",
+      "Twenty-five cents",
+      "Nothing at all"
+     ],
+     "a": 1,
+     "exp": "She says after the free pages are used, students pay five cents per page."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Choose double-sided in the print window.\" Why does the woman say this?",
+     "o": [
+      "To help him use fewer pages from his account",
+      "To say the printer is broken",
+      "To tell him he cannot print today",
+      "To ask him to leave the lab"
+     ],
+     "a": 0,
+     "exp": "She explains that printing on both sides uses fewer pages from his account."
+    },
+    {
+     "type": "Detail",
+     "q": "Where should the student pick up his printed pages?",
+     "o": [
+      "At the front desk",
+      "In the library",
+      "At the printer against the back wall, next to the windows",
+      "In his dorm room"
+     ],
+     "a": 2,
+     "exp": "She says the printer is against the back wall, next to the windows."
+    },
+    {
+     "type": "Inference",
+     "q": "What will the student probably do with the color map?",
+     "o": [
+      "Print it in this computer lab",
+      "Draw the map by hand",
+      "Cancel his history paper",
+      "Take it to the library to print in color"
+     ],
+     "a": 3,
+     "exp": "He says he will print the paper here and take the map to the library after learning this lab prints only in black and white."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Does Ice Float?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-MichelleNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a science class."
+    ],
+    [
+     "Professor",
+     "Good morning. Today I want to talk about a simple question: why does ice float on water? Most solid things sink if you drop them into water. A rock sinks. A coin sinks. But ice floats. Why?"
+    ],
+    [
+     "Professor",
+     "The answer has to do with density. Density is how much mass is packed into a certain amount of space. If something is less dense than water, it floats. If it is more dense than water, it sinks."
+    ],
+    [
+     "Professor",
+     "When most liquids freeze, they shrink. The pieces move closer together, so the solid is more dense than the liquid. Water is different. When water freezes, it expands. It takes up more space."
+    ],
+    [
+     "Professor",
+     "Why does water expand? Inside ice, water molecules form a loose pattern, like a honeycomb. There is extra empty space between the molecules. Because of that empty space, ice is about nine percent less dense than liquid water. That is why it floats."
+    ],
+    [
+     "Professor",
+     "This fact is very important for animals. In winter, lakes freeze from the top down. A layer of ice sits on the surface and acts like a blanket. The water below the ice stays liquid. Fish and other animals can live there through the cold months."
+    ],
+    [
+     "Professor",
+     "If ice sank, lakes would freeze from the bottom up. The ice would fill the lake, and many animals would not survive the winter."
+    ],
+    [
+     "Professor",
+     "So remember: water expands when it freezes, ice is less dense than liquid water, and that is why ice floats. Next time we will talk about how salt changes the freezing point of water."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How fish find food",
+      "Why ice floats on water",
+      "How to make ice cubes",
+      "Why lakes are very deep"
+     ],
+     "a": 1,
+     "exp": "The professor says today she wants to talk about why ice floats on water."
+    },
+    {
+     "type": "Detail",
+     "q": "What is density, according to the professor?",
+     "o": [
+      "How hot or cold something is",
+      "How much mass is packed into a certain amount of space",
+      "How fast something moves",
+      "How much light something reflects"
+     ],
+     "a": 1,
+     "exp": "She says density is how much mass is packed into a certain amount of space."
+    },
+    {
+     "type": "Detail",
+     "q": "What happens when water freezes?",
+     "o": [
+      "It shrinks",
+      "It disappears",
+      "It expands and takes up more space",
+      "It becomes heavier than a rock"
+     ],
+     "a": 2,
+     "exp": "She says water is different: when water freezes, it expands and takes up more space."
+    },
+    {
+     "type": "Detail",
+     "q": "About how much less dense is ice than liquid water?",
+     "o": [
+      "About nine percent less dense",
+      "About fifty percent less dense",
+      "About one percent less dense",
+      "It is more dense, not less dense"
+     ],
+     "a": 0,
+     "exp": "She says ice is about nine percent less dense than liquid water."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"A layer of ice sits on the surface and acts like a blanket.\" Why does the professor say this?",
+     "o": [
+      "To explain how ice helps keep the water below liquid in winter",
+      "To say people should put blankets on lakes",
+      "To describe how to make a bed",
+      "To warn students not to swim in summer"
+     ],
+     "a": 0,
+     "exp": "She is explaining that surface ice protects the liquid water below so animals can live there in winter."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the lecture?",
+     "o": [
+      "She only lists types of rocks",
+      "She tells a story about a fishing trip",
+      "She defines density, explains why water expands when it freezes, then shows why this matters for lake animals",
+      "She compares ice only to metal"
+     ],
+     "a": 2,
+     "exp": "She first defines density, then explains that water expands into a loose pattern, then describes how floating ice protects animals in lakes."
+    }
+   ]
+  }
+ ]
+}
