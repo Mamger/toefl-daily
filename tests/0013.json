@@ -1,0 +1,280 @@
+{
+ "id": "0013",
+ "title": "Listening Practice Set 13",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Buying a Textbook",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a campus bookstore worker."
+    ],
+    [
+     "Woman",
+     "Hi. Can I help you find something?"
+    ],
+    [
+     "Man",
+     "Yes, please. I need the textbook for my biology class. I can't find it on the shelf."
+    ],
+    [
+     "Woman",
+     "Let me check. Which class is it?"
+    ],
+    [
+     "Man",
+     "Biology 101, with Professor Adams."
+    ],
+    [
+     "Woman",
+     "Oh, that book is very popular. We sold all the new copies this week. But we have used copies in the back."
+    ],
+    [
+     "Man",
+     "How much is a used copy?"
+    ],
+    [
+     "Woman",
+     "A new book costs eighty dollars. A used book costs fifty dollars."
+    ],
+    [
+     "Man",
+     "Fifty dollars is better for me. I don't have much money this month."
+    ],
+    [
+     "Woman",
+     "You can also rent the book. Renting costs thirty dollars for the whole semester, but you must bring it back in December."
+    ],
+    [
+     "Man",
+     "That is cheaper. But I want to write notes in the book, so I think I will buy the used one."
+    ],
+    [
+     "Woman",
+     "Okay. Please wait here. I will get it from the back."
+    ],
+    [
+     "Man",
+     "Thank you. Also, do you sell notebooks?"
+    ],
+    [
+     "Woman",
+     "Yes. They are near the front door, next to the pens. Today they are on sale for two dollars."
+    ],
+    [
+     "Man",
+     "Great. I will take two notebooks, too."
+    ],
+    [
+     "Woman",
+     "Good choice. I will be back in a minute."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "Getting a biology textbook at the bookstore",
+      "Joining a biology club",
+      "Asking a professor for help",
+      "Finding a job at the bookstore"
+     ],
+     "a": 0,
+     "exp": "The student wants a biology textbook and talks with the bookstore worker."
+    },
+    {
+     "type": "Detail",
+     "q": "Why can't the student find the book on the shelf?",
+     "o": [
+      "It is too expensive",
+      "The new copies are all sold",
+      "It is in another building",
+      "The store is closed"
+     ],
+     "a": 1,
+     "exp": "She says they sold all the new copies this week."
+    },
+    {
+     "type": "Detail",
+     "q": "How much does a used book cost?",
+     "o": [
+      "Thirty dollars",
+      "Fifty dollars",
+      "Eighty dollars",
+      "Two dollars"
+     ],
+     "a": 1,
+     "exp": "A used book costs fifty dollars."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"You can also rent the book.\" Why does the woman say this?",
+     "o": [
+      "To give the student another choice",
+      "To say the book is broken",
+      "To ask him to leave",
+      "To say the book is free"
+     ],
+     "a": 0,
+     "exp": "She offers renting as another way to get the book."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "Why does the student decide to buy the used book?",
+     "o": [
+      "He wants to write notes in it",
+      "He does not like renting in general",
+      "The rental is more expensive",
+      "The professor told him to"
+     ],
+     "a": 0,
+     "exp": "He says he wants to write notes in the book, so he will buy it."
+    },
+    {
+     "type": "Detail",
+     "q": "Where are the notebooks?",
+     "o": [
+      "In the back room",
+      "Near the front door, next to the pens",
+      "Next to the biology books",
+      "At the library"
+     ],
+     "a": 1,
+     "exp": "She says they are near the front door, next to the pens."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Do Fish Breathe?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-ChristopherNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about how fish breathe. People breathe air with their lungs. But fish live in water, so they need a different way to get oxygen."
+    ],
+    [
+     "Professor",
+     "Water has oxygen in it. It is a small amount, but fish can take it out of the water. They do this with special body parts called gills."
+    ],
+    [
+     "Professor",
+     "Gills are on both sides of a fish's head. They are red because they are full of tiny blood tubes."
+    ],
+    [
+     "Professor",
+     "Here is how it works. A fish opens its mouth and takes in water. Then the water moves over the gills. The gills take oxygen from the water and send it into the blood."
+    ],
+    [
+     "Professor",
+     "After that, the fish pushes the water out through the openings behind its head. Then it takes in more water, again and again."
+    ],
+    [
+     "Professor",
+     "Some fish, like sharks, must keep swimming all the time. Swimming moves water over their gills. If a shark stops, it cannot get enough oxygen."
+    ],
+    [
+     "Professor",
+     "Other fish can rest. They move their mouth and the covers over the gills to push water by themselves."
+    ],
+    [
+     "Professor",
+     "What happens when a fish is taken out of the water? The gills dry out and stick together. Then the fish cannot take oxygen from the air, even though air has more oxygen than water."
+    ],
+    [
+     "Professor",
+     "So, to remember: fish breathe with gills, gills take oxygen from water, and some fish must always swim to breathe. Next class, we will talk about how frogs breathe."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How fish breathe",
+      "How fish find food",
+      "How fish swim fast",
+      "Why fish live in groups"
+     ],
+     "a": 0,
+     "exp": "The professor explains how fish get oxygen with gills."
+    },
+    {
+     "type": "Detail",
+     "q": "What do fish use to take oxygen from water?",
+     "o": [
+      "Lungs",
+      "Gills",
+      "Fins",
+      "Scales"
+     ],
+     "a": 1,
+     "exp": "Fish use special body parts called gills."
+    },
+    {
+     "type": "Detail",
+     "q": "Why are gills red?",
+     "o": [
+      "They are full of tiny blood tubes",
+      "They are covered in sand",
+      "Fish eat red food",
+      "They are very hot"
+     ],
+     "a": 0,
+     "exp": "The professor says they are red because of tiny blood tubes."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Some fish, like sharks, must keep swimming all the time.\" Why does the professor say this?",
+     "o": [
+      "To show that some fish need to swim to breathe",
+      "To say sharks are the biggest fish",
+      "To say sharks do not have gills",
+      "To explain how sharks eat"
+     ],
+     "a": 0,
+     "exp": "Swimming moves water over a shark's gills, so it gets oxygen."
+    },
+    {
+     "type": "Detail",
+     "q": "What happens to the gills when a fish is taken out of the water?",
+     "o": [
+      "They get bigger",
+      "They dry out and stick together",
+      "They turn blue",
+      "They start to make water"
+     ],
+     "a": 1,
+     "exp": "The gills dry out and stick together."
+    },
+    {
+     "type": "Organization",
+     "q": "What will the class talk about next time?",
+     "o": [
+      "How frogs breathe",
+      "How birds fly",
+      "How sharks hunt",
+      "How fish sleep"
+     ],
+     "a": 0,
+     "exp": "The professor says the next class is about how frogs breathe."
+    }
+   ]
+  }
+ ]
+}
