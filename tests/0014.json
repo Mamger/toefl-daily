@@ -1,0 +1,268 @@
+{
+ "id": "0014",
+ "title": "Listening Practice Set 14",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Joining a Student Club",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a member of the photography club."
+    ],
+    [
+     "Woman",
+     "Hi! Are you interested in the photography club?"
+    ],
+    [
+     "Man",
+     "Yes, I am. I like taking pictures, but I am a beginner. Is that okay?"
+    ],
+    [
+     "Woman",
+     "Of course. Many members are beginners. We meet every Thursday at six o'clock in the art building."
+    ],
+    [
+     "Man",
+     "Do I need a special camera?"
+    ],
+    [
+     "Woman",
+     "No. You can use your phone. Some members use cameras, but it is not required."
+    ],
+    [
+     "Man",
+     "That is good. How much does it cost to join?"
+    ],
+    [
+     "Woman",
+     "It is free, but there is one thing. Each member must show two photos at the end of the semester."
+    ],
+    [
+     "Man",
+     "Two photos? That sounds hard. But I think I can do it."
+    ],
+    [
+     "Woman",
+     "Don't worry. We help each other. Also, next week we are going to the park to take pictures of trees and flowers."
+    ],
+    [
+     "Man",
+     "That sounds fun. I want to go. How do I sign up?"
+    ],
+    [
+     "Woman",
+     "Just write your name and email on this paper. Then we will send you a message."
+    ],
+    [
+     "Man",
+     "Okay. Here you go. Thank you for your help."
+    ],
+    [
+     "Woman",
+     "You're welcome. See you on Thursday!"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "Joining a photography club",
+      "Buying a new camera",
+      "Taking an art class",
+      "Finding a classroom"
+     ],
+     "a": 0,
+     "exp": "The student asks about joining the photography club."
+    },
+    {
+     "type": "Detail",
+     "q": "When does the club meet?",
+     "o": [
+      "Every Monday morning",
+      "Every Thursday at six o'clock",
+      "Every Friday at noon",
+      "Every weekend"
+     ],
+     "a": 1,
+     "exp": "She says they meet every Thursday at six o'clock."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the student need to join?",
+     "o": [
+      "A special camera",
+      "Money for the club",
+      "Nothing special; a phone is fine",
+      "A letter from a professor"
+     ],
+     "a": 2,
+     "exp": "She says he can use his phone, and it is free."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Don't worry. We help each other.\" Why does the woman say this?",
+     "o": [
+      "To make the student feel better",
+      "To say the club is full",
+      "To ask the student to leave",
+      "To explain the price"
+     ],
+     "a": 0,
+     "exp": "The student is worried about showing two photos, so she comforts him."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "How does the student feel about the club at the end?",
+     "o": [
+      "He is interested and wants to join",
+      "He is angry about the cost",
+      "He is bored",
+      "He thinks the club is too far"
+     ],
+     "a": 0,
+     "exp": "He says it sounds fun and signs up."
+    },
+    {
+     "type": "Detail",
+     "q": "Where is the club going next week?",
+     "o": [
+      "To the library",
+      "To a museum",
+      "To the park",
+      "To the art building"
+     ],
+     "a": 2,
+     "exp": "They are going to the park to take pictures of trees and flowers."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Do Plants Make Food?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-ChristopherNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about how plants make food. Animals eat other living things. But plants do not eat. They make their own food."
+    ],
+    [
+     "Professor",
+     "Plants make food with a process called photosynthesis. Plants need three things for photosynthesis: sunlight, water, and carbon dioxide."
+    ],
+    [
+     "Professor",
+     "First, the roots take water from the soil. The water moves up through the stem to the leaves."
+    ],
+    [
+     "Professor",
+     "Second, the leaves take in carbon dioxide from the air. Carbon dioxide is a gas. It goes into the leaf through very small holes."
+    ],
+    [
+     "Professor",
+     "Third, the leaves catch sunlight. Leaves are green because they have a green material called chlorophyll. Chlorophyll uses the energy from sunlight."
+    ],
+    [
+     "Professor",
+     "With this energy, the plant changes water and carbon dioxide into sugar. The sugar is the plant's food. The plant uses it to grow."
+    ],
+    [
+     "Professor",
+     "There is also something important for us. During photosynthesis, the plant makes oxygen and sends it into the air. People and animals need this oxygen to breathe."
+    ],
+    [
+     "Professor",
+     "So, plants help us in two ways. They are food for many animals, and they give us oxygen. For next class, please read about how plants grow from seeds."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How plants make their own food",
+      "How animals find food",
+      "Why leaves fall in autumn",
+      "How to grow a garden"
+     ],
+     "a": 0,
+     "exp": "The professor explains photosynthesis."
+    },
+    {
+     "type": "Detail",
+     "q": "What three things do plants need for photosynthesis?",
+     "o": [
+      "Sunlight, water, and carbon dioxide",
+      "Soil, wind, and sugar",
+      "Oxygen, rain, and seeds",
+      "Sunlight, sugar, and oxygen"
+     ],
+     "a": 0,
+     "exp": "She lists sunlight, water, and carbon dioxide."
+    },
+    {
+     "type": "Detail",
+     "q": "Why are leaves green?",
+     "o": [
+      "They have a material called chlorophyll",
+      "They drink green water",
+      "They are very old",
+      "They take in oxygen"
+     ],
+     "a": 0,
+     "exp": "Leaves have chlorophyll, which is green."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"The water moves up through the stem to the leaves.\" Why does the professor say this?",
+     "o": [
+      "To show how water gets to the leaves",
+      "To explain why leaves fall",
+      "To describe the color of the stem",
+      "To talk about oxygen"
+     ],
+     "a": 0,
+     "exp": "She explains the path of water from the roots to the leaves."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the plant make from water and carbon dioxide?",
+     "o": [
+      "Soil",
+      "Sugar",
+      "Rain",
+      "Seeds"
+     ],
+     "a": 1,
+     "exp": "The plant changes them into sugar, its food."
+    },
+    {
+     "type": "Inference",
+     "q": "How do plants help people and animals?",
+     "o": [
+      "They give oxygen and are food for animals",
+      "They make the weather warm",
+      "They make the soil wet",
+      "They make carbon dioxide"
+     ],
+     "a": 0,
+     "exp": "The professor says plants are food and give oxygen."
+    }
+   ]
+  }
+ ]
+}
