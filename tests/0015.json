@@ -1,0 +1,264 @@
+{
+ "id": "0015",
+ "title": "Listening Practice Set 15",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Seeing a Doctor at the Health Center",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus health center."
+    ],
+    [
+     "Woman",
+     "Hello. Can I help you?"
+    ],
+    [
+     "Man",
+     "Yes. I have a bad cold. My nose is red and my head hurts. I want to see a doctor."
+    ],
+    [
+     "Woman",
+     "I am sorry to hear that. Do you have an appointment?"
+    ],
+    [
+     "Man",
+     "No, I don't. Can I see a doctor today?"
+    ],
+    [
+     "Woman",
+     "Let me check. The doctor is free at two o'clock. Is that okay?"
+    ],
+    [
+     "Man",
+     "I have a class at two. Is there a time in the morning?"
+    ],
+    [
+     "Woman",
+     "Not today. But tomorrow at nine o'clock is free."
+    ],
+    [
+     "Man",
+     "Tomorrow at nine is good. I do not have class then."
+    ],
+    [
+     "Woman",
+     "Great. Please bring your student card. And please drink a lot of water and rest today."
+    ],
+    [
+     "Man",
+     "Okay. Is the visit free for students?"
+    ],
+    [
+     "Woman",
+     "Yes, it is free. But medicine from the pharmacy costs money."
+    ],
+    [
+     "Man",
+     "That is fine. Thank you for your help."
+    ],
+    [
+     "Woman",
+     "You're welcome. Feel better soon!"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "Making a doctor's appointment",
+      "Buying medicine",
+      "Finding a classroom",
+      "Joining a club"
+     ],
+     "a": 0,
+     "exp": "The student wants to see a doctor and they find a time."
+    },
+    {
+     "type": "Detail",
+     "q": "Why does the student want to see a doctor?",
+     "o": [
+      "He has a cold",
+      "He broke his arm",
+      "He needs a letter",
+      "He lost his card"
+     ],
+     "a": 0,
+     "exp": "He says he has a bad cold."
+    },
+    {
+     "type": "Detail",
+     "q": "Why can't the student come at two o'clock today?",
+     "o": [
+      "He has a class",
+      "He is working",
+      "He is sleeping",
+      "The doctor is busy"
+     ],
+     "a": 0,
+     "exp": "He says he has a class at two."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Tomorrow at nine o'clock is free.\" Why does the woman say this?",
+     "o": [
+      "To offer another time",
+      "To say the center is closed",
+      "To ask for money",
+      "To end the talk"
+     ],
+     "a": 0,
+     "exp": "Today's morning is not free, so she offers tomorrow."
+    },
+    {
+     "type": "Detail",
+     "q": "What must the student bring?",
+     "o": [
+      "His student card",
+      "His phone",
+      "A book",
+      "Some medicine"
+     ],
+     "a": 0,
+     "exp": "She says to bring the student card."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Come back tomorrow at nine",
+      "Go to class at nine today",
+      "Buy a camera",
+      "Stay at the center all day"
+     ],
+     "a": 0,
+     "exp": "He agrees to tomorrow at nine."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Do Bats Find Food in the Dark?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-ChristopherNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a science class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about how bats find food in the dark. Bats are small animals that fly at night. It is very dark at night, and bats cannot see well. But they can still find food."
+    ],
+    [
+     "Professor",
+     "Bats use sound. A bat makes a very high sound with its mouth. People cannot hear this sound. The sound goes out and hits an object, like an insect. Then the sound comes back to the bat."
+    ],
+    [
+     "Professor",
+     "This is called echolocation. The bat hears the sound come back. If the sound comes back fast, the object is close. If the sound comes back slowly, the object is far away."
+    ],
+    [
+     "Professor",
+     "Bats can also learn the size of an object from the echo. A big object makes a strong echo. A small insect makes a weak echo."
+    ],
+    [
+     "Professor",
+     "Many bats eat insects. One small bat can eat hundreds of insects in one hour. This is good for people, because bats eat insects that harm plants."
+    ],
+    [
+     "Professor",
+     "Some people think bats are blind. This is not true. Bats can see. But in the dark, echolocation helps them much more than their eyes."
+    ],
+    [
+     "Professor",
+     "So, remember: bats make sounds, listen to the echo, and use it to find food. Next time, we will talk about dolphins, which also use echolocation."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How bats find food in the dark",
+      "How birds build nests",
+      "Why insects are small",
+      "How people hear sounds"
+     ],
+     "a": 0,
+     "exp": "The professor explains echolocation in bats."
+    },
+    {
+     "type": "Detail",
+     "q": "When do bats fly?",
+     "o": [
+      "At night",
+      "In the morning",
+      "At noon",
+      "Only in winter"
+     ],
+     "a": 0,
+     "exp": "Bats are small animals that fly at night."
+    },
+    {
+     "type": "Detail",
+     "q": "What does a bat make to find objects?",
+     "o": [
+      "A very high sound",
+      "A bright light",
+      "A bad smell",
+      "A loud song people enjoy"
+     ],
+     "a": 0,
+     "exp": "Bats make a very high sound."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"If the sound comes back fast, the object is close.\" Why does the professor say this?",
+     "o": [
+      "To explain how bats know the distance",
+      "To say bats are fast",
+      "To describe a loud sound",
+      "To talk about food"
+     ],
+     "a": 0,
+     "exp": "The speed of the echo shows the distance."
+    },
+    {
+     "type": "Detail",
+     "q": "What do many bats eat?",
+     "o": [
+      "Insects",
+      "Fruit only",
+      "Fish",
+      "Leaves"
+     ],
+     "a": 0,
+     "exp": "Many bats eat insects."
+    },
+    {
+     "type": "Inference",
+     "q": "What will the professor probably talk about next time?",
+     "o": [
+      "Dolphins",
+      "Elephants",
+      "Trees",
+      "Cars"
+     ],
+     "a": 0,
+     "exp": "He says next time they talk about dolphins."
+    }
+   ]
+  }
+ ]
+}
