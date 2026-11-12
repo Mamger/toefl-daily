@@ -1,0 +1,256 @@
+{
+ "id": "0016",
+ "title": "Listening Practice Set 16",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Buying a Meal Plan",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus cafeteria."
+    ],
+    [
+     "Woman",
+     "Hi. Welcome to the cafeteria. What would you like?"
+    ],
+    [
+     "Man",
+     "Hello. I want to buy a meal plan. How does it work?"
+    ],
+    [
+     "Woman",
+     "You pay money at the start of the month. Then you can eat here every day."
+    ],
+    [
+     "Man",
+     "How much is it?"
+    ],
+    [
+     "Woman",
+     "The small plan is one hundred dollars. It has twenty meals. The big plan is one hundred and fifty dollars. It has forty meals."
+    ],
+    [
+     "Man",
+     "I eat here only at lunch. I think the small plan is better for me."
+    ],
+    [
+     "Woman",
+     "Okay. Do you eat meat? Some meals are only for people who eat vegetables."
+    ],
+    [
+     "Man",
+     "I eat meat, but I like vegetables too."
+    ],
+    [
+     "Woman",
+     "Good. Then you can choose any meal. I need your student card to make the plan."
+    ],
+    [
+     "Man",
+     "Here it is. Can I pay with a credit card?"
+    ],
+    [
+     "Woman",
+     "Yes, you can. Just put your card in the machine over there."
+    ],
+    [
+     "Man",
+     "Great. Thank you very much."
+    ],
+    [
+     "Woman",
+     "You're welcome. Enjoy your lunch!"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "Buying a meal plan",
+      "Finding a job",
+      "Returning a tray",
+      "Learning to cook"
+     ],
+     "a": 0,
+     "exp": "The student asks how a meal plan works and buys one."
+    },
+    {
+     "type": "Detail",
+     "q": "How much is the small plan?",
+     "o": [
+      "Fifty dollars",
+      "One hundred dollars",
+      "One hundred and fifty dollars",
+      "Two hundred dollars"
+     ],
+     "a": 1,
+     "exp": "The woman says the small plan is one hundred dollars."
+    },
+    {
+     "type": "Detail",
+     "q": "Why does the student choose the small plan?",
+     "o": [
+      "He is a vegetarian",
+      "He has no money",
+      "He eats here only at lunch",
+      "He does not like the food"
+     ],
+     "a": 2,
+     "exp": "He says he eats here only at lunch."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"I need your student card to make the plan.\" Why does the woman say this?",
+     "o": [
+      "To check his age",
+      "To start the meal plan",
+      "To give him a discount",
+      "To close the cafeteria"
+     ],
+     "a": 1,
+     "exp": "She needs the card to make the plan."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Leave without paying",
+      "Go to class",
+      "Pay with his credit card",
+      "Ask for a bigger plan"
+     ],
+     "a": 2,
+     "exp": "He asks about paying by card and she says yes."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Do Earthquakes Happen?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a geography class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about earthquakes. An earthquake is a strong shaking of the ground."
+    ],
+    [
+     "Professor",
+     "The surface of the Earth is made of big pieces of rock. We call them plates. The plates move very slowly, only a few centimeters each year."
+    ],
+    [
+     "Professor",
+     "Sometimes two plates push against each other. They get stuck. For many years, the pressure grows."
+    ],
+    [
+     "Professor",
+     "Then, suddenly, the rock breaks and the plates move. This sends waves through the ground. The waves make the ground shake. This is an earthquake."
+    ],
+    [
+     "Professor",
+     "Most earthquakes happen near the edges of plates. For example, Japan and Chile have many earthquakes because they are near the edges of plates."
+    ],
+    [
+     "Professor",
+     "Scientists cannot say exactly when an earthquake will come. But they use special machines to measure the shaking."
+    ],
+    [
+     "Professor",
+     "People who live in these places must be ready. Strong buildings help a lot. Also, people should know a safe place to go, such as under a strong table."
+    ],
+    [
+     "Professor",
+     "Next week, we will talk about how people build safe buildings."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How buildings are made",
+      "Why earthquakes happen",
+      "How to measure rain",
+      "Why oceans are deep"
+     ],
+     "a": 1,
+     "exp": "The professor explains how plates cause earthquakes."
+    },
+    {
+     "type": "Detail",
+     "q": "What are plates?",
+     "o": [
+      "Machines that measure shaking",
+      "Strong tables",
+      "Big pieces of rock on the Earth's surface",
+      "Waves in the ocean"
+     ],
+     "a": 2,
+     "exp": "Plates are big pieces of rock."
+    },
+    {
+     "type": "Detail",
+     "q": "What happens when the plates get stuck?",
+     "o": [
+      "The pressure grows",
+      "The ground becomes cold",
+      "The plates stop forever",
+      "The waves go away"
+     ],
+     "a": 0,
+     "exp": "For many years, the pressure grows."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"For example, Japan and Chile have many earthquakes.\" Why does the professor say this?",
+     "o": [
+      "To say these places are dangerous to visit",
+      "To show places near the edges of plates",
+      "To talk about their food",
+      "To compare two machines"
+     ],
+     "a": 1,
+     "exp": "They are examples of places near plate edges."
+    },
+    {
+     "type": "Detail",
+     "q": "What can help people in earthquake places?",
+     "o": [
+      "Tall trees",
+      "Strong buildings",
+      "Many roads",
+      "Small rooms"
+     ],
+     "a": 1,
+     "exp": "The professor says strong buildings help a lot."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "What will the class probably discuss next week?",
+     "o": [
+      "How people build safe buildings",
+      "How plates are made",
+      "Why the sky is blue",
+      "How to cook food"
+     ],
+     "a": 0,
+     "exp": "She says next week they will talk about safe buildings."
+    }
+   ]
+  }
+ ]
+}
