@@ -1,0 +1,248 @@
+{
+ "id": "0017",
+ "title": "Listening Practice Set 17",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Renting a Bicycle",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus bike shop."
+    ],
+    [
+     "Woman",
+     "Hi. Can I help you?"
+    ],
+    [
+     "Man",
+     "Yes, please. I want to rent a bicycle. My apartment is far from my classes."
+    ],
+    [
+     "Woman",
+     "Sure. You can rent a bike for a day, a week, or a semester. The semester plan is the cheapest."
+    ],
+    [
+     "Man",
+     "How much is it?"
+    ],
+    [
+     "Woman",
+     "It is sixty dollars for the whole semester. A week costs ten dollars."
+    ],
+    [
+     "Man",
+     "Then I will take the semester plan. Do I need to bring anything?"
+    ],
+    [
+     "Woman",
+     "Yes. You need to show your student card. You also need to take a helmet. It is free."
+    ],
+    [
+     "Man",
+     "Okay. Here is my card. Can I keep the bike at home?"
+    ],
+    [
+     "Woman",
+     "Yes. But please do not leave it outside at night. Use the bike lock that comes with it."
+    ],
+    [
+     "Man",
+     "I understand. Thank you."
+    ],
+    [
+     "Woman",
+     "You're welcome. Please bring the bike back on the last day of the semester."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the conversation mainly about?",
+     "o": [
+      "Renting a bicycle",
+      "Fixing a bicycle",
+      "Buying a helmet",
+      "Finding a new apartment"
+     ],
+     "a": 0,
+     "exp": "The student wants to rent a bike."
+    },
+    {
+     "type": "Detail",
+     "q": "Why does the student want a bike?",
+     "o": [
+      "His apartment is far from his classes",
+      "He likes racing",
+      "He lost his car",
+      "He works at the shop"
+     ],
+     "a": 0,
+     "exp": "He says his apartment is far from his classes."
+    },
+    {
+     "type": "Detail",
+     "q": "How much is the semester plan?",
+     "o": [
+      "Ten dollars",
+      "Thirty dollars",
+      "Sixty dollars",
+      "One hundred dollars"
+     ],
+     "a": 2,
+     "exp": "The woman says sixty dollars."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"Please do not leave it outside at night.\" Why does the woman say this?",
+     "o": [
+      "To protect the bike",
+      "To close the shop",
+      "To sell a lock",
+      "To say the helmet is free"
+     ],
+     "a": 0,
+     "exp": "She wants him to keep the bike safe, so he should use the lock."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Return the bike",
+      "Give his student card and take a helmet",
+      "Ask for a weekly plan",
+      "Leave the shop"
+     ],
+     "a": 1,
+     "exp": "She asked for his card and told him to take a helmet."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Do Glaciers Form?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an earth science class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about glaciers. A glacier is a very large river of ice that moves slowly over land."
+    ],
+    [
+     "Professor",
+     "Glaciers begin in cold places, like high mountains or places near the North and South Poles. In these places, snow falls every year."
+    ],
+    [
+     "Professor",
+     "In summer, the snow does not melt completely. So the next winter, new snow falls on top of the old snow."
+    ],
+    [
+     "Professor",
+     "After many years, the snow becomes heavy. The weight pushes the snow together and turns it into ice."
+    ],
+    [
+     "Professor",
+     "When the ice is thick enough, gravity pulls it down the mountain. The ice moves very slowly, maybe only a few meters each year."
+    ],
+    [
+     "Professor",
+     "As a glacier moves, it cuts the rock below it. Over thousands of years, glaciers make deep valleys."
+    ],
+    [
+     "Professor",
+     "Today, glaciers hold a lot of the fresh water on Earth. But many glaciers are getting smaller because the Earth is getting warmer."
+    ],
+    [
+     "Professor",
+     "For next class, please read about the biggest glaciers in the world."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How glaciers form and move",
+      "How to climb mountains",
+      "Why oceans are salty",
+      "How snow is made"
+     ],
+     "a": 0,
+     "exp": "The professor explains how glaciers form."
+    },
+    {
+     "type": "Detail",
+     "q": "Where do glaciers begin?",
+     "o": [
+      "In warm deserts",
+      "In cold places with snow",
+      "In the ocean",
+      "In forests"
+     ],
+     "a": 1,
+     "exp": "They begin in cold places like high mountains or near the Poles."
+    },
+    {
+     "type": "Detail",
+     "q": "What turns snow into ice?",
+     "o": [
+      "The weight of more snow",
+      "Hot water",
+      "Strong wind",
+      "Salt"
+     ],
+     "a": 0,
+     "exp": "The weight pushes the snow together into ice."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"As a glacier moves, it cuts the rock below it.\" Why does the professor say this?",
+     "o": [
+      "To explain how valleys are made",
+      "To say glaciers are fast",
+      "To describe the weather",
+      "To talk about a homework test"
+     ],
+     "a": 0,
+     "exp": "Cutting the rock makes deep valleys."
+    },
+    {
+     "type": "Detail",
+     "q": "How fast does glacier ice move?",
+     "o": [
+      "Very slowly",
+      "Faster than cars",
+      "One kilometer a day",
+      "It does not move"
+     ],
+     "a": 0,
+     "exp": "Only a few meters each year."
+    },
+    {
+     "type": "Inference",
+     "q": "What is happening to many glaciers today?",
+     "o": [
+      "They are getting smaller",
+      "They are getting bigger",
+      "They are moving to cities",
+      "They are turning into rivers of oil"
+     ],
+     "a": 0,
+     "exp": "Many glaciers are getting smaller because the Earth is warmer."
+    }
+   ]
+  }
+ ]
+}
