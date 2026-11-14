@@ -1,0 +1,244 @@
+{
+ "id": "0018",
+ "title": "Listening Practice Set 18",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Visiting a Professor's Office Hours",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a professor."
+    ],
+    [
+     "Woman",
+     "Hi, Professor Brown. Do you have a minute?"
+    ],
+    [
+     "Man",
+     "Of course. Please come in. It is my office hour."
+    ],
+    [
+     "Woman",
+     "Thank you. I have a question about the history paper. I do not understand the topic."
+    ],
+    [
+     "Man",
+     "Okay. The paper is about a famous city in the past. You can choose Rome, Athens, or Cairo."
+    ],
+    [
+     "Woman",
+     "I think I like Rome. How long should the paper be?"
+    ],
+    [
+     "Man",
+     "It should be five pages. It is due next Friday."
+    ],
+    [
+     "Woman",
+     "Next Friday? I thought it was due this Friday. That is good news."
+    ],
+    [
+     "Man",
+     "Yes, you have one more week. But please start early. You should read two books about the city."
+    ],
+    [
+     "Woman",
+     "Can I find the books in the library?"
+    ],
+    [
+     "Man",
+     "Yes. You can also borrow my book about Rome. I will give it to you now."
+    ],
+    [
+     "Woman",
+     "Thank you so much. I will bring it back next week."
+    ],
+    [
+     "Man",
+     "Good. If you have more questions, send me an email."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student visit the professor?",
+     "o": [
+      "To ask about a paper",
+      "To get a grade",
+      "To borrow a pen",
+      "To change her class"
+     ],
+     "a": 0,
+     "exp": "She has a question about the history paper."
+    },
+    {
+     "type": "Detail",
+     "q": "Which city does the student want to write about?",
+     "o": [
+      "Athens",
+      "Cairo",
+      "Rome",
+      "Paris"
+     ],
+     "a": 2,
+     "exp": "She says she likes Rome."
+    },
+    {
+     "type": "Detail",
+     "q": "When is the paper due?",
+     "o": [
+      "This Friday",
+      "Next Friday",
+      "Tomorrow",
+      "Next month"
+     ],
+     "a": 1,
+     "exp": "The professor says it is due next Friday."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"But please start early.\" Why does the professor say this?",
+     "o": [
+      "He wants her to begin the paper soon",
+      "He wants to close the office",
+      "He wants her to come early to class",
+      "He wants her to buy a book"
+     ],
+     "a": 0,
+     "exp": "He wants her to start working early."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "How does the student probably feel at the end?",
+     "o": [
+      "Angry",
+      "Happy and thankful",
+      "Bored",
+      "Afraid"
+     ],
+     "a": 1,
+     "exp": "She says thank you and is glad about the extra week."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Do Penguins Stay Warm?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about penguins. Penguins live in very cold places, like Antarctica. The air there can be very cold, and the wind is strong. So how do penguins stay warm?"
+    ],
+    [
+     "Professor",
+     "First, penguins have a thick layer of fat under their skin. This fat works like a warm coat. It keeps the heat inside the body."
+    ],
+    [
+     "Professor",
+     "Second, penguins have very small, tight feathers. The feathers cover the whole body. They keep the cold water and wind away from the skin."
+    ],
+    [
+     "Professor",
+     "Third, penguins stand close together in a big group. This is called a huddle. The penguins in the middle are warm. After some time, the penguins on the outside move to the middle. In this way, every penguin gets a turn to be warm."
+    ],
+    [
+     "Professor",
+     "Some people think penguins are only found on ice. But this is not true. Some penguins live in warmer places, such as South Africa. Still, most of them live in cold areas."
+    ],
+    [
+     "Professor",
+     "So, remember: fat, feathers, and huddling. These are three ways penguins stay warm. Next time, we will talk about how penguins find food."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How penguins stay warm",
+      "How penguins swim",
+      "What penguins eat",
+      "Where birds fly in winter"
+     ],
+     "a": 0,
+     "exp": "The professor explains how penguins stay warm."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the layer of fat under the skin do?",
+     "o": [
+      "It keeps heat inside the body",
+      "It helps penguins swim fast",
+      "It makes penguins heavy",
+      "It makes food"
+     ],
+     "a": 0,
+     "exp": "Fat works like a warm coat."
+    },
+    {
+     "type": "Detail",
+     "q": "What do the small, tight feathers do?",
+     "o": [
+      "They keep cold water and wind away",
+      "They help penguins fly",
+      "They make penguins look nice",
+      "They keep food warm"
+     ],
+     "a": 0,
+     "exp": "They keep water and wind away from the skin."
+    },
+    {
+     "type": "Detail",
+     "q": "What is a huddle?",
+     "o": [
+      "A group of penguins standing close together",
+      "A kind of fish",
+      "A cold wind",
+      "A thick feather"
+     ],
+     "a": 0,
+     "exp": "A huddle is a big group standing close together."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Listen again: \"In this way, every penguin gets a turn to be warm.\" Why does the professor say this?",
+     "o": [
+      "To explain why penguins change places",
+      "To say some penguins are lazy",
+      "To show penguins are fast",
+      "To explain where penguins sleep"
+     ],
+     "a": 0,
+     "exp": "Outside penguins move to the middle, so everyone gets warm."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "What will the professor probably talk about next time?",
+     "o": [
+      "How penguins find food",
+      "How penguins build houses",
+      "How people travel to Antarctica",
+      "How fish breathe"
+     ],
+     "a": 0,
+     "exp": "He says the next topic is how penguins find food."
+    }
+   ]
+  }
+ ]
+}
