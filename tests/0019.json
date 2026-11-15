@@ -1,0 +1,248 @@
+{
+ "id": "0019",
+ "title": "Listening Practice Set 19",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Asking About the Cafeteria",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus cafeteria."
+    ],
+    [
+     "Woman",
+     "Hi. I am a new student. Can I ask about the cafeteria?"
+    ],
+    [
+     "Man",
+     "Sure. How can I help you?"
+    ],
+    [
+     "Woman",
+     "What time does the cafeteria open in the morning?"
+    ],
+    [
+     "Man",
+     "It opens at seven o'clock. Breakfast is served until ten."
+    ],
+    [
+     "Woman",
+     "Great. And how much is lunch?"
+    ],
+    [
+     "Man",
+     "Lunch costs six dollars. But students with a meal card pay four dollars."
+    ],
+    [
+     "Woman",
+     "I do not have a meal card. How can I get one?"
+    ],
+    [
+     "Man",
+     "You can get one at the Student Center. It is next to the library."
+    ],
+    [
+     "Woman",
+     "Do I need any papers?"
+    ],
+    [
+     "Man",
+     "Just your student ID. It takes five minutes."
+    ],
+    [
+     "Woman",
+     "That is easy. Thank you. I will go there after my class."
+    ],
+    [
+     "Man",
+     "You are welcome. Come back and try our pizza. It is very good."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student talk to the man?",
+     "o": [
+      "To ask about the cafeteria",
+      "To find her class",
+      "To buy a book",
+      "To get a job"
+     ],
+     "a": 0,
+     "exp": "She asks about the cafeteria."
+    },
+    {
+     "type": "Detail",
+     "q": "What time does the cafeteria open?",
+     "o": [
+      "At seven o'clock",
+      "At ten o'clock",
+      "At noon",
+      "At six o'clock"
+     ],
+     "a": 0,
+     "exp": "It opens at seven."
+    },
+    {
+     "type": "Detail",
+     "q": "How much is lunch with a meal card?",
+     "o": [
+      "Four dollars",
+      "Six dollars",
+      "Five dollars",
+      "Ten dollars"
+     ],
+     "a": 0,
+     "exp": "Students with a meal card pay four dollars."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the man say, \"Just your student ID\"?",
+     "o": [
+      "To tell her what she needs for the card",
+      "To ask her to leave",
+      "To say the ID is lost",
+      "To give her a discount"
+     ],
+     "a": 0,
+     "exp": "He answers her question about papers."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Go to the Student Center after class",
+      "Eat pizza now",
+      "Go to the library to study",
+      "Call her teacher"
+     ],
+     "a": 0,
+     "exp": "She says she will go after her class."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Is the Sun Important?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an astronomy class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about the sun. The sun is a star. It is the closest star to Earth. It gives us light and heat."
+    ],
+    [
+     "Professor",
+     "The sun is very big. More than one million Earths can fit inside it. But compared to other stars, the sun is medium in size."
+    ],
+    [
+     "Professor",
+     "The sun is also very hot. The surface is about five thousand degrees Celsius. The center is much hotter."
+    ],
+    [
+     "Professor",
+     "Light from the sun takes about eight minutes to reach Earth. So when you see the sun, you see light from eight minutes ago."
+    ],
+    [
+     "Professor",
+     "The sun is important for life. Plants use sunlight to make food. Animals eat plants, and people eat both. Also, the sun keeps Earth warm. Without it, Earth would be very cold."
+    ],
+    [
+     "Professor",
+     "Some people think the sun will burn forever. But that is not true. The sun is about four and a half billion years old. It will live for about five billion more years. That is a very long time, so we do not need to worry."
+    ],
+    [
+     "Professor",
+     "So, to review: the sun is a medium star, it is very hot, its light takes eight minutes to reach us, and all life needs it. Next week, we will study the other planets."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "The sun and why it is important",
+      "The planets",
+      "How plants grow",
+      "How to see stars"
+     ],
+     "a": 0,
+     "exp": "The professor talks about the sun."
+    },
+    {
+     "type": "Detail",
+     "q": "How long does sunlight take to reach Earth?",
+     "o": [
+      "About eight minutes",
+      "About one hour",
+      "About one second",
+      "About one day"
+     ],
+     "a": 0,
+     "exp": "It takes about eight minutes."
+    },
+    {
+     "type": "Detail",
+     "q": "How big is the sun compared to other stars?",
+     "o": [
+      "It is medium in size",
+      "It is the biggest star",
+      "It is the smallest star",
+      "It is the same as Earth"
+     ],
+     "a": 0,
+     "exp": "The sun is medium in size."
+    },
+    {
+     "type": "Detail",
+     "q": "What do plants use sunlight for?",
+     "o": [
+      "To make food",
+      "To make rain",
+      "To make wind",
+      "To make soil"
+     ],
+     "a": 0,
+     "exp": "Plants use sunlight to make food."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say, \"We do not need to worry\"?",
+     "o": [
+      "The sun will live for a very long time",
+      "The sun is getting colder",
+      "The sun is too small",
+      "Earth is moving away"
+     ],
+     "a": 0,
+     "exp": "The sun has about five billion years left."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "What will the class study next week?",
+     "o": [
+      "The other planets",
+      "The moon",
+      "The ocean",
+      "Animals"
+     ],
+     "a": 0,
+     "exp": "She says next week is the other planets."
+    }
+   ]
+  }
+ ]
+}
