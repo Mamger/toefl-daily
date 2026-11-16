@@ -1,0 +1,256 @@
+{
+ "id": "0020",
+ "title": "Listening Practice Set 20",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: The Lost and Found Office",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus lost and found office."
+    ],
+    [
+     "Woman",
+     "Hello. I lost my blue backpack. Can you help me?"
+    ],
+    [
+     "Man",
+     "Of course. Where did you lose it?"
+    ],
+    [
+     "Woman",
+     "I think I left it in the science building yesterday."
+    ],
+    [
+     "Man",
+     "What is inside the backpack?"
+    ],
+    [
+     "Woman",
+     "There is a laptop, two notebooks, and a water bottle."
+    ],
+    [
+     "Man",
+     "Let me check. Oh, someone brought a blue backpack this morning."
+    ],
+    [
+     "Woman",
+     "Really? That is great news! Can I see it?"
+    ],
+    [
+     "Man",
+     "Yes. But first, I need to see your student ID. Then you must write your name on this form."
+    ],
+    [
+     "Woman",
+     "Here is my ID. Oh no, I forgot my pen."
+    ],
+    [
+     "Man",
+     "No problem. You can use mine."
+    ],
+    [
+     "Woman",
+     "Thank you so much. I was very worried about my laptop."
+    ],
+    [
+     "Man",
+     "Next time, please put your name on your bag. It is easier for us to find the owner."
+    ],
+    [
+     "Woman",
+     "Good idea. I will do that today."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student talk to the man?",
+     "o": [
+      "To ask about her lost backpack",
+      "To buy a new backpack",
+      "To find her classroom",
+      "To return a library book"
+     ],
+     "a": 0,
+     "exp": "She lost her backpack."
+    },
+    {
+     "type": "Detail",
+     "q": "Where does the student think she lost the backpack?",
+     "o": [
+      "In the science building",
+      "In the cafeteria",
+      "In the library",
+      "In the gym"
+     ],
+     "a": 0,
+     "exp": "She left it in the science building."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the student need to show the man?",
+     "o": [
+      "Her student ID",
+      "Her laptop",
+      "Her notebook",
+      "Her phone"
+     ],
+     "a": 0,
+     "exp": "He needs to see her student ID."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the man say, \"You can use mine\"?",
+     "o": [
+      "He offers his pen to her",
+      "He wants her to take his bag",
+      "He wants to use her laptop",
+      "He offers his ID card"
+     ],
+     "a": 0,
+     "exp": "She forgot her pen, so he offers his."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What does the man suggest the student do next time?",
+     "o": [
+      "Write her name on her bag",
+      "Keep her bag at home",
+      "Buy a bigger bag",
+      "Come in the morning"
+     ],
+     "a": 0,
+     "exp": "He says to put your name on your bag."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Are Spiders Helpful?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about spiders. Many people are afraid of spiders. But spiders are very helpful animals."
+    ],
+    [
+     "Professor",
+     "First, spiders are not insects. An insect has six legs. A spider has eight legs."
+    ],
+    [
+     "Professor",
+     "Second, most spiders make webs. A web is like a net. It is made of silk. The spider makes silk inside its body."
+    ],
+    [
+     "Professor",
+     "The web catches small insects, like flies and mosquitoes. Then the spider eats them."
+    ],
+    [
+     "Professor",
+     "This is very useful for people. Spiders eat many insects that bother us. Some insects also eat farm plants. So spiders help farmers too."
+    ],
+    [
+     "Professor",
+     "Now, some people think all spiders are dangerous. This is not true. Only a few spiders can hurt people. Most spiders are harmless."
+    ],
+    [
+     "Professor",
+     "Finally, spider silk is very strong. Scientists are studying it. They want to make strong, light clothes from silk."
+    ],
+    [
+     "Professor",
+     "So, remember. Spiders have eight legs, they make silk, and they help us by eating insects."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the main topic of the lecture?",
+     "o": [
+      "Why spiders are helpful",
+      "How to find insects",
+      "Why webs are pretty",
+      "How farmers grow plants"
+     ],
+     "a": 0,
+     "exp": "The lecture is about helpful spiders."
+    },
+    {
+     "type": "Detail",
+     "q": "How many legs does a spider have?",
+     "o": [
+      "Eight",
+      "Six",
+      "Four",
+      "Ten"
+     ],
+     "a": 0,
+     "exp": "A spider has eight legs."
+    },
+    {
+     "type": "Detail",
+     "q": "What is a spider web made of?",
+     "o": [
+      "Silk",
+      "Paper",
+      "Water",
+      "Grass"
+     ],
+     "a": 0,
+     "exp": "Webs are made of silk."
+    },
+    {
+     "type": "Detail",
+     "q": "How do spiders help farmers?",
+     "o": [
+      "They eat insects that hurt plants",
+      "They give water to plants",
+      "They make soil better",
+      "They make food for farmers"
+     ],
+     "a": 0,
+     "exp": "Spiders eat insects that eat farm plants."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say, \"A web is like a net\"?",
+     "o": [
+      "To explain what a web is",
+      "To talk about fishing",
+      "To show a spider is big",
+      "To say webs are dangerous"
+     ],
+     "a": 0,
+     "exp": "He explains what a web is."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "What does the professor say about most spiders?",
+     "o": [
+      "They are harmless",
+      "They are very dangerous",
+      "They are insects",
+      "They live in water"
+     ],
+     "a": 0,
+     "exp": "Most spiders are harmless."
+    }
+   ]
+  }
+ ]
+}
