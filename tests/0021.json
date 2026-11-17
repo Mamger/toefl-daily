@@ -1,0 +1,296 @@
+{
+ "id": "0021",
+ "title": "Listening Practice Set 21",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Getting a Parking Permit",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus parking office."
+    ],
+    [
+     "Woman",
+     "Hello. I need a parking permit for my car. Can you help me?"
+    ],
+    [
+     "Man",
+     "Sure. Are you a new student?"
+    ],
+    [
+     "Woman",
+     "Yes. This is my first semester. I drive to school every day."
+    ],
+    [
+     "Man",
+     "OK. A permit for one semester costs sixty dollars. Do you have your student ID?"
+    ],
+    [
+     "Woman",
+     "Yes, here it is. Can I pay with a credit card?"
+    ],
+    [
+     "Man",
+     "Yes, you can. But you also need your car papers. Do you have them?"
+    ],
+    [
+     "Woman",
+     "Oh no. I left them at home. I only brought my driver license."
+    ],
+    [
+     "Man",
+     "That is a problem. I need the car papers to make the permit."
+    ],
+    [
+     "Woman",
+     "I live twenty minutes away. Is the office open this afternoon?"
+    ],
+    [
+     "Man",
+     "Yes. We are open until five o'clock. You can come back after your class."
+    ],
+    [
+     "Woman",
+     "Great. Also, where can I park with this permit?"
+    ],
+    [
+     "Man",
+     "You can park in the blue lots. The blue lot near the library is the biggest. But it fills up fast."
+    ],
+    [
+     "Woman",
+     "So I should come early?"
+    ],
+    [
+     "Man",
+     "Yes. Try to arrive before nine in the morning. Then you can find a space easily."
+    ],
+    [
+     "Woman",
+     "Thank you. I will bring my car papers this afternoon."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation."
+    ],
+    [
+     "Man",
+     "That is a problem. I need the car papers to make the permit."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the parking office?",
+     "o": [
+      "To pay a parking ticket",
+      "To get a parking permit",
+      "To ask for a new student ID",
+      "To find her car"
+     ],
+     "a": 1,
+     "exp": "She needs a parking permit for her car."
+    },
+    {
+     "type": "Detail",
+     "q": "How much does a permit cost for one semester?",
+     "o": [
+      "Fifteen dollars",
+      "Forty dollars",
+      "Sixty dollars",
+      "Ninety dollars"
+     ],
+     "a": 2,
+     "exp": "A permit costs sixty dollars."
+    },
+    {
+     "type": "Detail",
+     "q": "What did the student forget to bring?",
+     "o": [
+      "Her car papers",
+      "Her student ID",
+      "Her credit card",
+      "Her driver license"
+     ],
+     "a": 0,
+     "exp": "She left her car papers at home."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "What does the man mean when he says, \"That is a problem\"?",
+     "o": [
+      "He cannot make the permit without the car papers",
+      "He thinks the permit is too expensive",
+      "He does not like the blue lot",
+      "He cannot find the student ID"
+     ],
+     "a": 0,
+     "exp": "He needs the car papers to make the permit."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What does the man suggest the student do to find a parking space?",
+     "o": [
+      "Park far from the library",
+      "Arrive before nine in the morning",
+      "Come only in the afternoon",
+      "Take the bus"
+     ],
+     "a": 1,
+     "exp": "He says to arrive before nine."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Do We Recycle?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an environmental science class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about recycling. Recycling means we use old things to make new things. It is very good for our planet."
+    ],
+    [
+     "Professor",
+     "Let me start with paper. Paper comes from trees. When we recycle paper, we do not need to cut down as many trees. One ton of recycled paper can save about seventeen trees."
+    ],
+    [
+     "Professor",
+     "Next, let us talk about metal. Cans are often made of aluminum. Recycling an aluminum can uses much less energy than making a new can. In fact, it saves about ninety-five percent of the energy."
+    ],
+    [
+     "Professor",
+     "Now, think about plastic. Plastic bottles can take hundreds of years to break down in the ground. If we recycle them, they do not stay in the ground. We can make new things from them, like clothes and bags."
+    ],
+    [
+     "Professor",
+     "Recycling also helps people. Many cities have recycling programs. These programs give jobs to many workers."
+    ],
+    [
+     "Professor",
+     "So, why do we recycle? First, it saves trees. Second, it saves energy. Third, it keeps trash out of the ground."
+    ],
+    [
+     "Professor",
+     "Listen again to something I said earlier."
+    ],
+    [
+     "Professor",
+     "Many people think recycling is hard. But it is easy. Just put your bottles and cans in the right bin."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture."
+    ],
+    [
+     "Professor",
+     "Let me start with paper. Paper comes from trees."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How to grow trees",
+      "Why recycling is helpful",
+      "How to make plastic",
+      "Where to buy cans"
+     ],
+     "a": 1,
+     "exp": "The lecture is about why recycling is good."
+    },
+    {
+     "type": "Detail",
+     "q": "How many trees can one ton of recycled paper save?",
+     "o": [
+      "About seven",
+      "About seventy",
+      "About seventeen",
+      "About seven hundred"
+     ],
+     "a": 2,
+     "exp": "It saves about seventeen trees."
+    },
+    {
+     "type": "Detail",
+     "q": "How much energy does recycling an aluminum can save?",
+     "o": [
+      "About ninety-five percent",
+      "About fifty percent",
+      "About five percent",
+      "About twenty percent"
+     ],
+     "a": 0,
+     "exp": "It saves about ninety-five percent."
+    },
+    {
+     "type": "Detail",
+     "q": "What can be made from recycled plastic bottles?",
+     "o": [
+      "Paper and books",
+      "Clothes and bags",
+      "Cans and metal",
+      "Trees and food"
+     ],
+     "a": 1,
+     "exp": "New clothes and bags can be made."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say, \"Let me start with paper\"?",
+     "o": [
+      "To finish the lecture",
+      "To change the topic to metal",
+      "To begin his first example",
+      "To ask the students a question"
+     ],
+     "a": 2,
+     "exp": "Paper is his first example."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "How does the professor organize the lecture?",
+     "o": [
+      "He gives several reasons to recycle",
+      "He tells a story about a student",
+      "He compares two cities",
+      "He gives a history of paper"
+     ],
+     "a": 0,
+     "exp": "He gives reasons: trees, energy, trash."
+    }
+   ]
+  }
+ ]
+}
