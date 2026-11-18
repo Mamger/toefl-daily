@@ -1,0 +1,280 @@
+{
+ "id": "0022",
+ "title": "Listening Practice Set 22",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Borrowing a Library Book",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus library."
+    ],
+    [
+     "Man",
+     "Hi. Can I help you?"
+    ],
+    [
+     "Woman",
+     "Yes, please. I need a book for my history class. It is called World War Two in Europe."
+    ],
+    [
+     "Man",
+     "Let me check the computer. Yes, we have it. But it is on the third floor."
+    ],
+    [
+     "Woman",
+     "Good. How many days can I keep it?"
+    ],
+    [
+     "Man",
+     "Students can keep books for two weeks. If you need more time, you can renew it online."
+    ],
+    [
+     "Woman",
+     "That is nice. Do I need a library card?"
+    ],
+    [
+     "Man",
+     "Yes. Do you have one?"
+    ],
+    [
+     "Woman",
+     "No. I lost it last week. Can I get a new one?"
+    ],
+    [
+     "Man",
+     "Of course. A new card costs five dollars. It is ready in five minutes."
+    ],
+    [
+     "Woman",
+     "OK. Here is the money."
+    ],
+    [
+     "Man",
+     "Thank you. Also, the library closes at eight o'clock tonight, so please go up to the third floor soon."
+    ],
+    [
+     "Woman",
+     "I will go right now. Thanks for your help."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation."
+    ],
+    [
+     "Woman",
+     "No. I lost it last week. Can I get a new one?"
+    ],
+    [
+     "Man",
+     "Of course. A new card costs five dollars. It is ready in five minutes."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student go to the library?",
+     "o": [
+      "To return a book",
+      "To find a book for her history class",
+      "To study with a friend",
+      "To use a computer"
+     ],
+     "a": 1,
+     "exp": "She needs a history book."
+    },
+    {
+     "type": "Detail",
+     "q": "Where is the book?",
+     "o": [
+      "On the first floor",
+      "On the second floor",
+      "On the third floor",
+      "At the front desk"
+     ],
+     "a": 2,
+     "exp": "It is on the third floor."
+    },
+    {
+     "type": "Detail",
+     "q": "How long can students keep a book?",
+     "o": [
+      "One week",
+      "Two weeks",
+      "Three weeks",
+      "One month"
+     ],
+     "a": 1,
+     "exp": "Students can keep books for two weeks."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "What does the man mean when he says, \"Of course\"?",
+     "o": [
+      "The student can get a new library card",
+      "The library is closed",
+      "The card is free",
+      "The student must come back tomorrow"
+     ],
+     "a": 0,
+     "exp": "He agrees she can get a new card."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Go home",
+      "Go to the third floor",
+      "Renew the book online",
+      "Call a friend"
+     ],
+     "a": 1,
+     "exp": "She says she will go right now."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Are Bees Important?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about bees. Bees are small insects, but they are very important for our food."
+    ],
+    [
+     "Professor",
+     "Let me explain why. Bees visit flowers to drink a sweet liquid called nectar. When a bee moves from one flower to another, it carries pollen. This is called pollination."
+    ],
+    [
+     "Professor",
+     "Pollination helps plants make fruits and seeds. Apples, almonds, and many vegetables need bees. About one third of our food depends on pollination."
+    ],
+    [
+     "Professor",
+     "Bees also make honey. They turn nectar into honey inside the hive. A hive can have fifty thousand bees. Most of them are female workers."
+    ],
+    [
+     "Professor",
+     "Now, there is a problem. In many countries, the number of bees is going down. Farmers use chemicals that hurt bees. Also, bees are losing their flowers because cities are growing."
+    ],
+    [
+     "Professor",
+     "So, how can we help? We can plant flowers in our gardens. We can also use fewer chemicals. Small actions can help bees a lot."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture."
+    ],
+    [
+     "Professor",
+     "Let me explain why. Bees visit flowers to drink a sweet liquid called nectar. When a bee moves from one flower to another, it carries pollen. This is called pollination."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How to make honey at home",
+      "Why bees are important",
+      "How to build a city",
+      "Why flowers are expensive"
+     ],
+     "a": 1,
+     "exp": "The professor explains why bees matter."
+    },
+    {
+     "type": "Detail",
+     "q": "What do bees drink from flowers?",
+     "o": [
+      "Water",
+      "Nectar",
+      "Juice",
+      "Milk"
+     ],
+     "a": 1,
+     "exp": "Bees drink nectar."
+    },
+    {
+     "type": "Detail",
+     "q": "About how much of our food depends on pollination?",
+     "o": [
+      "One tenth",
+      "One quarter",
+      "One third",
+      "One half"
+     ],
+     "a": 2,
+     "exp": "About one third."
+    },
+    {
+     "type": "Detail",
+     "q": "Why is the number of bees going down?",
+     "o": [
+      "Chemicals and fewer flowers",
+      "Too much rain",
+      "Too many farmers' cats",
+      "Too much honey"
+     ],
+     "a": 0,
+     "exp": "Chemicals hurt bees and cities remove flowers."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say, \"This is called pollination\"?",
+     "o": [
+      "To give the name of a process",
+      "To end the lecture",
+      "To ask a question",
+      "To change the topic"
+     ],
+     "a": 0,
+     "exp": "He names the process."
+    },
+    {
+     "type": "Inference / Organization",
+     "q": "What does the professor say people can do to help bees?",
+     "o": [
+      "Plant flowers",
+      "Cut down trees",
+      "Buy more honey",
+      "Move to the city"
+     ],
+     "a": 0,
+     "exp": "We can plant flowers."
+    }
+   ]
+  }
+ ]
+}
