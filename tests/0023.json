@@ -1,0 +1,280 @@
+{
+ "id": "0023",
+ "title": "Listening Practice Set 23",
+ "level": "beginner",
+ "parts": [
+  {
+   "title": "Campus Conversation: Joining a Photography Club",
+   "type": "conversation",
+   "voices": {
+    "Woman": "en-US-JennyNeural",
+    "Man": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the student club office."
+    ],
+    [
+     "Woman",
+     "Hello. I want to join a club. Can you help me?"
+    ],
+    [
+     "Man",
+     "Sure. What do you like to do?"
+    ],
+    [
+     "Woman",
+     "I like taking photos. Is there a photography club?"
+    ],
+    [
+     "Man",
+     "Yes, there is. The photo club meets every Tuesday at six o'clock in Room 204."
+    ],
+    [
+     "Woman",
+     "Great. Do I need a camera?"
+    ],
+    [
+     "Man",
+     "No. You can use your phone. The club also has three cameras to borrow."
+    ],
+    [
+     "Woman",
+     "That is good. Is it free?"
+    ],
+    [
+     "Man",
+     "The club costs ten dollars for the whole year. You can pay here."
+    ],
+    [
+     "Woman",
+     "OK. I can pay now. Can I come to the meeting next week?"
+    ],
+    [
+     "Man",
+     "Yes. Next Tuesday, the members will go outside to take photos of the campus. Please bring warm clothes."
+    ],
+    [
+     "Woman",
+     "Thank you. I am very excited."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation."
+    ],
+    [
+     "Woman",
+     "OK. I can pay now. Can I come to the meeting next week?"
+    ],
+    [
+     "Man",
+     "Yes. Next Tuesday, the members will go outside to take photos of the campus. Please bring warm clothes."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student talk to the man?",
+     "o": [
+      "To buy a camera",
+      "To join a photography club",
+      "To borrow a book",
+      "To find Room 204"
+     ],
+     "a": 1,
+     "exp": "She wants to join the photo club."
+    },
+    {
+     "type": "Detail",
+     "q": "When does the club meet?",
+     "o": [
+      "Every Monday",
+      "Every Tuesday",
+      "Every Friday",
+      "Every Sunday"
+     ],
+     "a": 1,
+     "exp": "The club meets every Tuesday."
+    },
+    {
+     "type": "Detail",
+     "q": "How much does the club cost for one year?",
+     "o": [
+      "Five dollars",
+      "Ten dollars",
+      "Twenty dollars",
+      "It is free"
+     ],
+     "a": 1,
+     "exp": "It costs ten dollars."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the man say, \"Please bring warm clothes\"?",
+     "o": [
+      "The members will go outside",
+      "The room is very cold",
+      "The club sells jackets",
+      "The meeting is at night"
+     ],
+     "a": 0,
+     "exp": "They will take photos outside."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "How does the student feel about the club?",
+     "o": [
+      "Worried",
+      "Bored",
+      "Excited",
+      "Angry"
+     ],
+     "a": 2,
+     "exp": "She says she is very excited."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: Why Do Leaves Change Color?",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about why leaves change color in the fall."
+    ],
+    [
+     "Professor",
+     "In spring and summer, leaves are green. They have a green material called chlorophyll. Chlorophyll helps the tree make food from sunlight."
+    ],
+    [
+     "Professor",
+     "In the fall, the days get shorter and the weather gets cold. There is less sunlight, so the tree stops making chlorophyll."
+    ],
+    [
+     "Professor",
+     "Then the green color goes away. Now we can see other colors in the leaf. These colors were there all summer, but the green hid them."
+    ],
+    [
+     "Professor",
+     "Yellow and orange colors come from materials called carotenoids. Carotenoids are also the reason carrots are orange."
+    ],
+    [
+     "Professor",
+     "Some leaves turn red. The red color is made in the fall, when the days are sunny and the nights are cool."
+    ],
+    [
+     "Professor",
+     "After a few weeks, the leaves turn brown and fall from the tree. The tree rests in winter and grows new leaves in spring."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture."
+    ],
+    [
+     "Professor",
+     "Yellow and orange colors come from materials called carotenoids. Carotenoids are also the reason carrots are orange."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How trees grow new leaves",
+      "Why leaves change color in the fall",
+      "Why carrots are orange",
+      "How to take care of trees"
+     ],
+     "a": 1,
+     "exp": "The professor explains why leaves change color."
+    },
+    {
+     "type": "Detail",
+     "q": "What does chlorophyll do?",
+     "o": [
+      "It makes leaves red",
+      "It helps the tree make food from sunlight",
+      "It makes leaves fall",
+      "It keeps the tree warm"
+     ],
+     "a": 1,
+     "exp": "Chlorophyll helps make food from sunlight."
+    },
+    {
+     "type": "Detail",
+     "q": "Why does the tree stop making chlorophyll in the fall?",
+     "o": [
+      "There is less sunlight",
+      "There is too much rain",
+      "The leaves are heavy",
+      "The tree is sick"
+     ],
+     "a": 0,
+     "exp": "Days are shorter, so less sunlight."
+    },
+    {
+     "type": "Detail",
+     "q": "Which materials make leaves yellow and orange?",
+     "o": [
+      "Chlorophyll",
+      "Carotenoids",
+      "Water",
+      "Sunlight"
+     ],
+     "a": 1,
+     "exp": "Carotenoids make yellow and orange."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor mention carrots?",
+     "o": [
+      "To give an example of carotenoids",
+      "To talk about food in fall",
+      "To say carrots grow on trees",
+      "To change the topic"
+     ],
+     "a": 0,
+     "exp": "Carrots are orange because of carotenoids."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "What will probably happen to the leaves after they turn brown?",
+     "o": [
+      "They will turn green again",
+      "They will fall from the tree",
+      "They will become red",
+      "They will grow bigger"
+     ],
+     "a": 1,
+     "exp": "The leaves fall from the tree."
+    }
+   ]
+  }
+ ]
+}
