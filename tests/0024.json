@@ -1,0 +1,280 @@
+{
+ "id": "0024",
+ "title": "Listening Practice Set 24",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Asking a Professor About a Late Paper",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and her professor."
+    ],
+    [
+     "Student",
+     "Professor Miller, do you have a minute? I wanted to talk about my history paper."
+    ],
+    [
+     "Professor",
+     "Of course. Come in. Is there a problem?"
+    ],
+    [
+     "Student",
+     "Well, the paper is due tomorrow, but I got sick last week and could not finish the research. I only have half of it written."
+    ],
+    [
+     "Professor",
+     "I am sorry to hear that. Did you see a doctor?"
+    ],
+    [
+     "Student",
+     "Yes, I went to the campus health center. I have a note from them."
+    ],
+    [
+     "Professor",
+     "Good. Bring the note to me, and I can give you a three-day extension. The new deadline would be Monday."
+    ],
+    [
+     "Student",
+     "Thank you so much. Should I send the paper by email or bring a printed copy?"
+    ],
+    [
+     "Professor",
+     "Please upload it to the class website. I no longer accept printed papers."
+    ],
+    [
+     "Student",
+     "Okay. One more thing. Could I visit your office hours on Friday to talk about my conclusion?"
+    ],
+    [
+     "Professor",
+     "Certainly. I am in my office from two to four on Fridays. But come early, because many students visit that day."
+    ],
+    [
+     "Student",
+     "I will be there at two. Thanks again, Professor."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation."
+    ],
+    [
+     "Professor",
+     "Certainly. I am in my office from two to four on Fridays. But come early, because many students visit that day."
+    ],
+    [
+     "Student",
+     "I will be there at two. Thanks again, Professor."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student visit the professor?",
+     "o": [
+      "To ask for more time to finish a paper",
+      "To ask about her grade on an exam",
+      "To get a history book",
+      "To change her class schedule"
+     ],
+     "a": 0,
+     "exp": "She is sick and needs an extension."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the student need to give the professor to get the extension?",
+     "o": [
+      "A printed copy of the paper",
+      "A note from the health center",
+      "An email from her parents",
+      "A list of books"
+     ],
+     "a": 1,
+     "exp": "The professor asks for the note from the health center."
+    },
+    {
+     "type": "Detail",
+     "q": "When is the new deadline?",
+     "o": [
+      "Tomorrow",
+      "Friday",
+      "Monday",
+      "Next month"
+     ],
+     "a": 2,
+     "exp": "The new deadline would be Monday."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say, \"come early, because many students visit that day\"?",
+     "o": [
+      "To warn the student that his office may be busy",
+      "To tell her the office closes at two",
+      "To say she should not come",
+      "To ask her to bring other students"
+     ],
+     "a": 0,
+     "exp": "Many students visit on Fridays."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Print her paper",
+      "Go to the doctor again",
+      "Visit office hours on Friday at two",
+      "Drop the history class"
+     ],
+     "a": 2,
+     "exp": "She says she will be there at two."
+    }
+   ]
+  },
+  {
+   "title": "Academic Lecture: How Bees Communicate",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about how honeybees communicate. Bees cannot speak, but they can share information in a very interesting way. They dance."
+    ],
+    [
+     "Professor",
+     "Imagine a bee finds a field of flowers far from the hive. When she returns, she performs what scientists call the waggle dance. She moves in a figure-eight shape, and in the middle she shakes her body quickly."
+    ],
+    [
+     "Professor",
+     "This dance tells the other bees two things. First, the direction of the flowers. The angle of the dance compared with the sun shows the direction. Second, the distance. A longer waggle means the flowers are farther away."
+    ],
+    [
+     "Professor",
+     "Now, the bees inside the hive are in the dark, so how do they follow the dance? They touch the dancing bee with their antennae and feel her movements."
+    ],
+    [
+     "Professor",
+     "Scientists first described this dance in the 1940s. A researcher named Karl von Frisch watched thousands of bees and studied their movements. He won a Nobel Prize for this work in 1973."
+    ],
+    [
+     "Professor",
+     "Interestingly, if the flowers are very close, less than about fifty meters, the bee does a different dance, called the round dance. It does not show direction, because the flowers are easy to find."
+    ],
+    [
+     "Professor",
+     "So, to review: the waggle dance gives direction and distance, and the round dance says that food is nearby."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture."
+    ],
+    [
+     "Professor",
+     "Now, the bees inside the hive are in the dark, so how do they follow the dance? They touch the dancing bee with their antennae and feel her movements."
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How bees make honey",
+      "How bees share information by dancing",
+      "Why bees live in hives",
+      "How scientists protect bees"
+     ],
+     "a": 1,
+     "exp": "The lecture is about bee dances."
+    },
+    {
+     "type": "Detail",
+     "q": "What does a longer waggle in the dance show?",
+     "o": [
+      "The flowers are farther away",
+      "The weather is bad",
+      "The hive is full",
+      "The flowers are close"
+     ],
+     "a": 0,
+     "exp": "A longer waggle means a greater distance."
+    },
+    {
+     "type": "Detail",
+     "q": "How do bees in the dark hive follow the dance?",
+     "o": [
+      "They watch the sun",
+      "They listen to a loud sound",
+      "They touch the dancing bee with their antennae",
+      "They smell the flowers"
+     ],
+     "a": 2,
+     "exp": "They feel her movements with their antennae."
+    },
+    {
+     "type": "Detail",
+     "q": "Who first described the waggle dance?",
+     "o": [
+      "Professor Miller",
+      "Karl von Frisch",
+      "A farmer",
+      "A student"
+     ],
+     "a": 1,
+     "exp": "Karl von Frisch."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say, \"the bees inside the hive are in the dark\"?",
+     "o": [
+      "To explain why bees cannot see the dance and must feel it",
+      "To show that bees sleep at night",
+      "To explain why hives are warm",
+      "To say bees are afraid"
+     ],
+     "a": 0,
+     "exp": "It leads to the explanation about touching."
+    },
+    {
+     "type": "Inference",
+     "q": "What does the round dance probably tell other bees?",
+     "o": [
+      "The flowers are very near the hive",
+      "The flowers are in another country",
+      "There is danger",
+      "The queen is gone"
+     ],
+     "a": 0,
+     "exp": "Round dance means food is nearby."
+    }
+   ]
+  }
+ ]
+}
