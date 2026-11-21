@@ -1,0 +1,276 @@
+{
+ "id": "0025",
+ "title": "Listening Practice Set 25",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Finding Sources in the Library",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Librarian": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a librarian."
+    ],
+    [
+     "Student",
+     "Excuse me, I need help finding sources for my environmental science project."
+    ],
+    [
+     "Librarian",
+     "Sure. What is your topic?"
+    ],
+    [
+     "Student",
+     "I am writing about plastic pollution in rivers. My professor said I need at least five sources, and two must be from academic journals."
+    ],
+    [
+     "Librarian",
+     "Then you should use our online database. You can search it from any computer with your student number."
+    ],
+    [
+     "Student",
+     "I tried yesterday, but I got too many results. There were over three thousand articles."
+    ],
+    [
+     "Librarian",
+     "That happens a lot. Try adding more specific words, like the name of a river or a year. That will make the list shorter."
+    ],
+    [
+     "Student",
+     "That is a good idea. Also, can I borrow books about this topic?"
+    ],
+    [
+     "Librarian",
+     "Yes, but the environmental books are on the third floor, and that floor is closed this week for new carpet. I can bring them down for you if you give me the titles."
+    ],
+    [
+     "Student",
+     "That would be great. I will send you a list this evening."
+    ],
+    [
+     "Librarian",
+     "Perfect. Also, we have a free workshop on citations on Thursday at four. Many students find it useful."
+    ],
+    [
+     "Student",
+     "I always get confused about citations, so I will definitely come."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation."
+    ],
+    [
+     "Librarian",
+     "That happens a lot. Try adding more specific words, like the name of a river or a year. That will make the list shorter."
+    ],
+    [
+     "Student",
+     "That is a good idea. Also, can I borrow books about this topic?"
+    ],
+    [
+     "Narrator",
+     "Now answer the question."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student talk to the librarian?",
+     "o": [
+      "To return some books",
+      "To pay a library fine",
+      "To join a study group",
+      "To get help finding sources for a project"
+     ],
+     "a": 3,
+     "exp": "She needs sources for her science project."
+    },
+    {
+     "type": "Detail",
+     "q": "Why did the student get too many results in the database?",
+     "o": [
+      "Her search was too general",
+      "The database was broken",
+      "She used the wrong student number",
+      "The librarian changed the list"
+     ],
+     "a": 0,
+     "exp": "The librarian suggests more specific words."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the librarian offer to do for the books?",
+     "o": [
+      "Buy new copies",
+      "Mail them to the student",
+      "Bring them down from the third floor",
+      "Put them online"
+     ],
+     "a": 2,
+     "exp": "The third floor is closed, so she will bring them down."
+    },
+    {
+     "type": "Function",
+     "q": "Why does the librarian say this: \"Try adding more specific words, like the name of a river or a year\"?",
+     "o": [
+      "To suggest a new topic",
+      "To say the topic is too hard",
+      "To explain how to get fewer results",
+      "To tell her to ask the professor"
+     ],
+     "a": 2,
+     "exp": "It makes the list shorter."
+    },
+    {
+     "type": "Attitude",
+     "q": "What does the student think about the citation workshop?",
+     "o": [
+      "She thinks it is too early",
+      "She thinks it will help her",
+      "She thinks it is boring",
+      "She does not plan to go"
+     ],
+     "a": 1,
+     "exp": "She gets confused about citations and will come."
+    }
+   ]
+  },
+  {
+   "title": "Geology Lecture: Types of Volcanoes",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a geology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about volcanoes. A volcano is an opening in the Earth's surface where hot melted rock, called magma, comes out. When magma reaches the surface, we call it lava."
+    ],
+    [
+     "Professor",
+     "There are three main types of volcanoes. The first type is the shield volcano. Shield volcanoes are wide and low, like a big shield lying on the ground. Their lava is thin and flows far, so these volcanoes grow slowly. The islands of Hawaii are a famous example."
+    ],
+    [
+     "Professor",
+     "The second type is the cinder cone. Cinder cones are small and steep. They are made of small pieces of rock that fall around the opening. Most cinder cones are less than three hundred meters tall, and they usually erupt for only a short time."
+    ],
+    [
+     "Professor",
+     "The third type is the stratovolcano, also called a composite volcano. These are tall and shaped like a cone. They are built from many layers of lava and ash. Stratovolcanoes are the most dangerous type, because their eruptions can be very strong and sudden. Mount Fuji in Japan is a well-known example."
+    ],
+    [
+     "Professor",
+     "Now, you might wonder why some volcanoes erupt gently while others explode. The answer is the thickness of the magma. Thin magma lets gas escape easily, so the eruption is gentle. Thick magma traps gas, and pressure builds up until it explodes. It is like shaking a bottle of soda and then opening it."
+    ],
+    [
+     "Professor",
+     "For next class, please read chapter six, and think about which type of volcano is found near your hometown."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture."
+    ],
+    [
+     "Professor",
+     "Thick magma traps gas, and pressure builds up until it explodes. It is like shaking a bottle of soda and then opening it."
+    ],
+    [
+     "Narrator",
+     "Why does the professor say this?"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How to stay safe near lava",
+      "Different types of volcanoes",
+      "The history of Hawaii",
+      "How rocks are made"
+     ],
+     "a": 1,
+     "exp": "The professor describes three types."
+    },
+    {
+     "type": "Detail",
+     "q": "What is lava?",
+     "o": [
+      "A type of gas",
+      "Rock under the ocean",
+      "Ash in the air",
+      "Magma that reaches the surface"
+     ],
+     "a": 3,
+     "exp": "Magma at the surface is called lava."
+    },
+    {
+     "type": "Detail",
+     "q": "What is true about shield volcanoes?",
+     "o": [
+      "They are the most dangerous",
+      "They are small and steep",
+      "They are wide and low",
+      "They erupt very fast"
+     ],
+     "a": 2,
+     "exp": "They are like a shield on the ground."
+    },
+    {
+     "type": "Detail",
+     "q": "Which type of volcano is the most dangerous?",
+     "o": [
+      "Shield volcano",
+      "Stratovolcano",
+      "Cinder cone",
+      "All are equal"
+     ],
+     "a": 1,
+     "exp": "Their eruptions are strong and sudden."
+    },
+    {
+     "type": "Function",
+     "q": "Why does the professor say this: \"It is like shaking a bottle of soda and then opening it\"?",
+     "o": [
+      "To describe a volcano's color",
+      "To explain how trapped gas causes explosions",
+      "To tell a joke about lunch",
+      "To compare two types of lava"
+     ],
+     "a": 1,
+     "exp": "It shows pressure building up."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the lecture?",
+     "o": [
+      "By telling a story about one eruption",
+      "By describing each type of volcano one by one",
+      "By comparing volcanoes to earthquakes",
+      "By listing famous scientists"
+     ],
+     "a": 1,
+     "exp": "First, second, third types."
+    }
+   ]
+  }
+ ]
+}
