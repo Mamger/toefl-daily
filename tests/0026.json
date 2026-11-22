@@ -1,0 +1,280 @@
+{
+ "id": "0026",
+ "title": "Listening Practice Set 26",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Changing a Class Schedule",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Advisor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and an academic advisor."
+    ],
+    [
+     "Student",
+     "Hello. I would like to change my schedule, if that is possible."
+    ],
+    [
+     "Advisor",
+     "Of course. What seems to be the problem?"
+    ],
+    [
+     "Student",
+     "My chemistry class starts at eight in the morning, and I work at the campus cafe until midnight. I am always too tired to pay attention."
+    ],
+    [
+     "Advisor",
+     "I understand. Let me check the system. There is another chemistry section on Tuesdays and Thursdays at two in the afternoon."
+    ],
+    [
+     "Student",
+     "That would be much better. But is there still space? I heard it fills up quickly."
+    ],
+    [
+     "Advisor",
+     "There are three seats left. However, you must drop the morning section first, and the deadline to do that is this Friday."
+    ],
+    [
+     "Student",
+     "Okay. Do I need a signature from my professor?"
+    ],
+    [
+     "Advisor",
+     "No, you only need to fill out this online form. It takes about five minutes. After that, you will get an email confirming the change."
+    ],
+    [
+     "Student",
+     "Great. Thank you. I will do it right after this meeting."
+    ],
+    [
+     "Advisor",
+     "One more thing. The afternoon section has a lab on Wednesdays. Will that be a problem with your job?"
+    ],
+    [
+     "Student",
+     "No, I am free on Wednesday afternoons. That is perfect."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation."
+    ],
+    [
+     "Student",
+     "My chemistry class starts at eight in the morning, and I work at the campus cafe until midnight. I am always too tired to pay attention."
+    ],
+    [
+     "Advisor",
+     "I understand. Let me check the system."
+    ],
+    [
+     "Narrator",
+     "Why does the advisor say this?"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student visit the advisor?",
+     "o": [
+      "To ask about a new job",
+      "To change her class schedule",
+      "To complain about a professor",
+      "To choose a major"
+     ],
+     "a": 1,
+     "exp": "She wants to change her chemistry section."
+    },
+    {
+     "type": "Detail",
+     "q": "Why is the student tired in the morning?",
+     "o": [
+      "She studies all night",
+      "She lives far from campus",
+      "She works late at the cafe",
+      "She is sick"
+     ],
+     "a": 2,
+     "exp": "She works until midnight."
+    },
+    {
+     "type": "Detail",
+     "q": "What must the student do before the deadline?",
+     "o": [
+      "Get a professor's signature",
+      "Drop the morning section",
+      "Pay a fee",
+      "Buy a new book"
+     ],
+     "a": 1,
+     "exp": "She must drop the morning section by Friday."
+    },
+    {
+     "type": "Function",
+     "q": "Why does the advisor say this: \"Let me check the system\"?",
+     "o": [
+      "To end the meeting",
+      "To show he is angry",
+      "To look for another available class",
+      "To ask the student to wait outside"
+     ],
+     "a": 2,
+     "exp": "He is looking for other sections."
+    },
+    {
+     "type": "Attitude",
+     "q": "What does the student think about the afternoon section?",
+     "o": [
+      "It is a good choice for her",
+      "It is too difficult",
+      "It is too expensive",
+      "It is too early"
+     ],
+     "a": 0,
+     "exp": "She says it is perfect."
+    }
+   ]
+  },
+  {
+   "title": "Biology Lecture: Why We Sleep",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we are going to talk about sleep. Everyone knows that we feel bad without it, but why do humans actually need sleep? Scientists have found several answers."
+    ],
+    [
+     "Professor",
+     "First, sleep helps the body repair itself. During deep sleep, the body releases a hormone that helps muscles and other tissues grow and heal. That is why doctors often tell sick people to rest."
+    ],
+    [
+     "Professor",
+     "Second, and this is the part I find most interesting, sleep helps the brain with memory. While you sleep, your brain reviews what you learned during the day. It keeps the important information and removes things that are not useful."
+    ],
+    [
+     "Professor",
+     "In one experiment, two groups of students studied the same list of words. One group slept for eight hours, and the other group stayed awake all night. The next day, the students who slept remembered about forty percent more words."
+    ],
+    [
+     "Professor",
+     "So, what does this mean for you? Many students stay up all night before an exam. But a better plan is to study earlier and then get a full night of sleep. Think of sleep as part of studying, not as a waste of time."
+    ],
+    [
+     "Professor",
+     "Third, sleep affects our mood. People who sleep less than six hours often feel angry or sad more easily. Their attention is also weaker, which can make driving dangerous."
+    ],
+    [
+     "Professor",
+     "On Thursday, we will discuss what happens when people sleep too much. Please read the article on the course website before class."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture."
+    ],
+    [
+     "Professor",
+     "Many students stay up all night before an exam. But a better plan is to study earlier and then get a full night of sleep. Think of sleep as part of studying, not as a waste of time."
+    ],
+    [
+     "Narrator",
+     "Why does the professor say this?"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How to cure sickness",
+      "Reasons humans need sleep",
+      "The history of exams",
+      "How doctors work at night"
+     ],
+     "a": 1,
+     "exp": "The professor explains why we need sleep."
+    },
+    {
+     "type": "Detail",
+     "q": "According to the professor, what happens during deep sleep?",
+     "o": [
+      "The body releases a hormone that helps tissues heal",
+      "The brain stops working",
+      "People dream about exams",
+      "The body becomes colder"
+     ],
+     "a": 0,
+     "exp": "A hormone helps muscles and tissues heal."
+    },
+    {
+     "type": "Detail",
+     "q": "What happened in the experiment?",
+     "o": [
+      "Students who stayed awake remembered more words",
+      "Both groups remembered the same number",
+      "Students who slept remembered more words",
+      "Nobody finished the test"
+     ],
+     "a": 2,
+     "exp": "Sleepers remembered about forty percent more."
+    },
+    {
+     "type": "Detail",
+     "q": "What can happen to people who sleep less than six hours?",
+     "o": [
+      "They grow taller",
+      "They often feel angry or sad more easily",
+      "They learn faster",
+      "They need less food"
+     ],
+     "a": 1,
+     "exp": "Mood gets worse."
+    },
+    {
+     "type": "Function",
+     "q": "Why does the professor say this: \"Think of sleep as part of studying, not as a waste of time\"?",
+     "o": [
+      "To tell students to sleep in class",
+      "To say studying is not important",
+      "To encourage students to sleep before exams",
+      "To explain how to drive safely"
+     ],
+     "a": 2,
+     "exp": "He wants students to sleep before exams."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the lecture?",
+     "o": [
+      "By listing several reasons we need sleep",
+      "By comparing two different animals",
+      "By telling a story about his life",
+      "By describing a history timeline"
+     ],
+     "a": 0,
+     "exp": "First, second, third reasons."
+    }
+   ]
+  }
+ ]
+}
