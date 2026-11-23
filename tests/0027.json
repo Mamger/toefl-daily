@@ -1,0 +1,276 @@
+{
+ "id": "0027",
+ "title": "Listening Practice Set 27",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Applying for a Study Abroad Program",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Advisor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and an advisor at the study abroad office."
+    ],
+    [
+     "Student",
+     "Hi, I'm interested in studying abroad next fall. Can you tell me how to apply?"
+    ],
+    [
+     "Advisor",
+     "Of course. First, you need to fill out an online application. The deadline is March fifteenth."
+    ],
+    [
+     "Student",
+     "March fifteenth? That's earlier than I expected. Do I need anything else besides the form?"
+    ],
+    [
+     "Advisor",
+     "Yes. You need a letter from one of your professors, and your grade point average must be at least three point zero."
+    ],
+    [
+     "Student",
+     "My average is three point two, so that should be fine. Which countries can I choose?"
+    ],
+    [
+     "Advisor",
+     "We have partner universities in Spain, Japan, and Australia. Many students choose Spain because the cost of living is lower."
+    ],
+    [
+     "Student",
+     "I'd love to improve my Spanish, but I'm worried about money. Is there any financial help?"
+    ],
+    [
+     "Advisor",
+     "Yes, there are scholarships. You can apply for one at the same time. Students usually get a decision in April."
+    ],
+    [
+     "Student",
+     "That's good news. Could you say again what I need to bring to the application?"
+    ],
+    [
+     "Advisor",
+     "Sure. Just the professor's letter. Everything else is online, and I can email you the link today."
+    ],
+    [
+     "Student",
+     "Great. I'll ask Professor Baker for a letter this week. Thank you so much for your help!"
+    ],
+    [
+     "Advisor",
+     "You're welcome. Start early, because professors are busy in March."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation. Then answer the question."
+    ],
+    [
+     "Advisor",
+     "Sure. Just the professor's letter. Everything else is online, and I can email you the link today."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student visit the study abroad office?",
+     "o": [
+      "To get a scholarship check",
+      "To learn how to apply to study abroad",
+      "To complain about a grade",
+      "To change her major"
+     ],
+     "a": 1,
+     "exp": "She asks how to apply to study abroad."
+    },
+    {
+     "type": "Detail",
+     "q": "What is the application deadline?",
+     "o": [
+      "February fifteenth",
+      "March fifteenth",
+      "April fifteenth",
+      "May fifteenth"
+     ],
+     "a": 1,
+     "exp": "The advisor says March fifteenth."
+    },
+    {
+     "type": "Detail",
+     "q": "Why do many students choose Spain?",
+     "o": [
+      "The classes are shorter",
+      "The weather is warmer",
+      "The cost of living is lower",
+      "The application is easier"
+     ],
+     "a": 2,
+     "exp": "The advisor says living in Spain costs less."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the advisor say this: \"Everything else is online, and I can email you the link today\"?",
+     "o": [
+      "To tell the student the process is easy",
+      "To say the office is closing",
+      "To refuse to help her",
+      "To ask her to come back tomorrow"
+     ],
+     "a": 0,
+     "exp": "He is showing that only one paper is needed and the rest is simple."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Ask a professor for a letter",
+      "Buy a plane ticket",
+      "Visit Japan",
+      "Drop her Spanish class"
+     ],
+     "a": 0,
+     "exp": "She says she will ask Professor Baker for a letter this week."
+    }
+   ]
+  },
+  {
+   "title": "Biology Lecture: How Coral Reefs Form",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about coral reefs. Many people think coral is a plant or a rock. But coral is actually an animal."
+    ],
+    [
+     "Professor",
+     "A single coral animal is called a polyp. It is very small, only a few millimeters wide. Polyps live together in huge groups."
+    ],
+    [
+     "Professor",
+     "Each polyp makes a hard skeleton from calcium in the sea water. When polyps die, their skeletons stay. New polyps grow on top. Over thousands of years, this builds a reef."
+    ],
+    [
+     "Professor",
+     "Now, corals have a special partner. Tiny algae live inside the coral. The algae use sunlight to make food, and they share this food with the coral. In return, the coral gives the algae a safe home."
+    ],
+    [
+     "Professor",
+     "Because the algae need sunlight, reefs only grow in shallow, clear water. Most reefs are also in warm water, between twenty and thirty degrees Celsius."
+    ],
+    [
+     "Professor",
+     "Why do reefs matter? Although they cover less than one percent of the ocean floor, about one quarter of all sea animals live in or near them. Reefs also protect coasts from strong waves."
+    ],
+    [
+     "Professor",
+     "Sadly, reefs are in danger. When the water becomes too warm, the coral pushes out the algae. The coral turns white. This is called bleaching. Without the algae, the coral can starve."
+    ],
+    [
+     "Professor",
+     "So, scientists are trying to protect reefs by studying how to keep the water cooler and cleaner."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture. Then answer the question."
+    ],
+    [
+     "Professor",
+     "Because the algae need sunlight, reefs only grow in shallow, clear water."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How coral reefs form and why they matter",
+      "How to travel to the ocean",
+      "Why algae are dangerous",
+      "How fish find food"
+     ],
+     "a": 0,
+     "exp": "The professor explains how reefs form and why they are important."
+    },
+    {
+     "type": "Detail",
+     "q": "What is a coral polyp?",
+     "o": [
+      "A kind of plant",
+      "A small coral animal",
+      "A type of rock",
+      "A sea wave"
+     ],
+     "a": 1,
+     "exp": "A polyp is a very small coral animal."
+    },
+    {
+     "type": "Detail",
+     "q": "What do the algae give to the coral?",
+     "o": [
+      "Calcium",
+      "Warm water",
+      "Food",
+      "Waves"
+     ],
+     "a": 2,
+     "exp": "The algae make food from sunlight and share it."
+    },
+    {
+     "type": "Detail",
+     "q": "About how much of sea life lives in or near reefs?",
+     "o": [
+      "One percent",
+      "One tenth",
+      "One quarter",
+      "One half"
+     ],
+     "a": 2,
+     "exp": "About one quarter of all sea animals."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say this: \"Because the algae need sunlight, reefs only grow in shallow, clear water\"?",
+     "o": [
+      "To explain where reefs can grow",
+      "To describe how deep the ocean is",
+      "To say reefs are not important",
+      "To start a new topic about fish"
+     ],
+     "a": 0,
+     "exp": "He explains the condition that limits reef growth."
+    },
+    {
+     "type": "Inference",
+     "q": "What does the professor suggest about coral bleaching?",
+     "o": [
+      "It is caused by water that is too warm",
+      "It happens only at night",
+      "It helps the coral grow",
+      "It is caused by too much sunlight"
+     ],
+     "a": 0,
+     "exp": "Bleaching happens when the water becomes too warm."
+    }
+   ]
+  }
+ ]
+}
