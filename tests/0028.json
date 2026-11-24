@@ -1,0 +1,276 @@
+{
+ "id": "0028",
+ "title": "Listening Practice Set 28",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Joining the Campus Gym",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Staff": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a worker at the campus gym."
+    ],
+    [
+     "Student",
+     "Hi, I'd like to join the gym. Do students get a special price?"
+    ],
+    [
+     "Staff",
+     "Yes. A student membership is twenty dollars a month. You just need to show your student card."
+    ],
+    [
+     "Student",
+     "That's cheaper than I thought. What is included in the price?"
+    ],
+    [
+     "Staff",
+     "You can use the weight room, the swimming pool, and the exercise machines. Fitness classes cost extra, though."
+    ],
+    [
+     "Student",
+     "Oh, I wanted to try a yoga class. How much is it?"
+    ],
+    [
+     "Staff",
+     "Each class is five dollars. But if you buy a ten-class card, you pay only forty dollars."
+    ],
+    [
+     "Student",
+     "That sounds like a good deal. When is the gym open? I have classes until four every day."
+    ],
+    [
+     "Staff",
+     "We open at six in the morning and close at ten at night, so you can come after your classes."
+    ],
+    [
+     "Student",
+     "Perfect. Do I need to bring a towel?"
+    ],
+    [
+     "Staff",
+     "Yes, please bring your own towel. We sell them here, but they are expensive."
+    ],
+    [
+     "Student",
+     "I'll bring one from home. Can I start today?"
+    ],
+    [
+     "Staff",
+     "Of course. Fill out this form, and I will give you a key for a locker."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation. Then answer the question."
+    ],
+    [
+     "Staff",
+     "Each class is five dollars. But if you buy a ten-class card, you pay only forty dollars."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student talk to the worker?",
+     "o": [
+      "To join the gym",
+      "To return a towel",
+      "To find her classroom",
+      "To ask about a job"
+     ],
+     "a": 0,
+     "exp": "She says she would like to join the gym."
+    },
+    {
+     "type": "Detail",
+     "q": "How much is a student membership?",
+     "o": [
+      "Ten dollars a month",
+      "Twenty dollars a month",
+      "Forty dollars a month",
+      "Fifty dollars a month"
+     ],
+     "a": 1,
+     "exp": "The worker says twenty dollars a month."
+    },
+    {
+     "type": "Detail",
+     "q": "Which activity costs extra?",
+     "o": [
+      "The swimming pool",
+      "The weight room",
+      "Fitness classes",
+      "The exercise machines"
+     ],
+     "a": 2,
+     "exp": "Fitness classes cost extra."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the worker say this: \"If you buy a ten-class card, you pay only forty dollars\"?",
+     "o": [
+      "To suggest a cheaper way to pay for classes",
+      "To say yoga is too difficult",
+      "To tell her the gym is full",
+      "To ask her to leave"
+     ],
+     "a": 0,
+     "exp": "A card saves money compared with five dollars per class."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do next?",
+     "o": [
+      "Fill out a form",
+      "Buy a new towel",
+      "Go to a yoga class tomorrow",
+      "Leave the gym"
+     ],
+     "a": 0,
+     "exp": "The worker asks her to fill out a form and she wants to start today."
+    }
+   ]
+  },
+  {
+   "title": "Astronomy Lecture: Why the Moon Has Phases",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an astronomy class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about the Moon. Have you ever noticed that the Moon changes shape during the month? Sometimes it is a full circle, and sometimes it is a thin curve. We call these changes the phases of the Moon."
+    ],
+    [
+     "Professor",
+     "Many people think the Earth's shadow causes the phases. This is not true. The real reason is simple. The Moon does not make its own light. It only reflects light from the Sun."
+    ],
+    [
+     "Professor",
+     "The Moon travels around the Earth, and one trip takes about twenty-nine days. As it moves, we see different parts of its bright side."
+    ],
+    [
+     "Professor",
+     "When the Moon is between the Earth and the Sun, the bright side faces away from us. We cannot see it. We call this the new moon."
+    ],
+    [
+     "Professor",
+     "About two weeks later, the Earth is between the Moon and the Sun. Now we see the whole bright side. This is the full moon."
+    ],
+    [
+     "Professor",
+     "Between these two, we see half of the Moon. These are called quarter moons. There are two of them in each month."
+    ],
+    [
+     "Professor",
+     "The phases were very important for ancient people. Before calendars were common, farmers used the Moon to count days. The word month even comes from the word moon."
+    ],
+    [
+     "Professor",
+     "Next week, we will learn about eclipses. An eclipse does involve the Earth's shadow, so please do not confuse it with the phases."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture. Then answer the question."
+    ],
+    [
+     "Professor",
+     "Many people think the Earth's shadow causes the phases. This is not true."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the main topic of the lecture?",
+     "o": [
+      "Why the Moon changes shape",
+      "How the Sun makes light",
+      "How to build a calendar",
+      "Why the Earth moves"
+     ],
+     "a": 0,
+     "exp": "The professor explains the phases of the Moon."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the Moon do with sunlight?",
+     "o": [
+      "It reflects it",
+      "It stores it",
+      "It blocks it",
+      "It makes it stronger"
+     ],
+     "a": 0,
+     "exp": "The Moon reflects light from the Sun."
+    },
+    {
+     "type": "Detail",
+     "q": "About how long does the Moon take to travel around the Earth?",
+     "o": [
+      "Seven days",
+      "Fourteen days",
+      "Twenty-nine days",
+      "Sixty days"
+     ],
+     "a": 2,
+     "exp": "One trip takes about twenty-nine days."
+    },
+    {
+     "type": "Detail",
+     "q": "What do we see during a full moon?",
+     "o": [
+      "The whole bright side",
+      "Half of the bright side",
+      "None of the bright side",
+      "A thin curve"
+     ],
+     "a": 0,
+     "exp": "The Earth is between the Moon and Sun, so we see the whole bright side."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say this: \"This is not true\"?",
+     "o": [
+      "To correct a common mistake",
+      "To end the lecture",
+      "To ask a question",
+      "To praise the students"
+     ],
+     "a": 0,
+     "exp": "He corrects the idea that Earth's shadow causes phases."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "How did ancient farmers use the Moon?",
+     "o": [
+      "To count days",
+      "To measure rain",
+      "To find water",
+      "To make light at night"
+     ],
+     "a": 0,
+     "exp": "They used the Moon to count days before calendars."
+    }
+   ]
+  }
+ ]
+}
