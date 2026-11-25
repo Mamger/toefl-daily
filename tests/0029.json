@@ -1,0 +1,272 @@
+{
+ "id": "0029",
+ "title": "Listening Practice Set 29",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Borrowing a Library Book",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Librarian": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a librarian."
+    ],
+    [
+     "Student",
+     "Hello. I need a book for my history class, but I can't find it on the shelf."
+    ],
+    [
+     "Librarian",
+     "What is the title? I can check the computer."
+    ],
+    [
+     "Student",
+     "It's called The Roman Empire, by Helen Brooks."
+    ],
+    [
+     "Librarian",
+     "Let me see. Ah, it is checked out. Another student borrowed it last week. It should come back on Friday."
+    ],
+    [
+     "Student",
+     "Friday is too late. My paper is due on Thursday. Is there another way to get it?"
+    ],
+    [
+     "Librarian",
+     "You could read the electronic version. You can open it on your laptop with your student number."
+    ],
+    [
+     "Student",
+     "That's great. Can I print some pages from it?"
+    ],
+    [
+     "Librarian",
+     "Yes, but printing costs ten cents a page. Also, you can reserve the paper copy, and we will send you an email when it arrives."
+    ],
+    [
+     "Student",
+     "I'll do both. I'd like the paper copy for my next project."
+    ],
+    [
+     "Librarian",
+     "Okay. I just need your name and student number."
+    ],
+    [
+     "Student",
+     "Sure. It's Anna Lopez, and my number is four seven two one."
+    ],
+    [
+     "Librarian",
+     "Thank you. You will get an email on Friday."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation. Then answer the question."
+    ],
+    [
+     "Student",
+     "Friday is too late. My paper is due on Thursday. Is there another way to get it?"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student talk to the librarian?",
+     "o": [
+      "She wants to find a book she needs",
+      "She wants to pay a late fee",
+      "She wants to return a book",
+      "She wants a job at the library"
+     ],
+     "a": 0,
+     "exp": "She cannot find the history book on the shelf."
+    },
+    {
+     "type": "Detail",
+     "q": "Why can't the student borrow the book now?",
+     "o": [
+      "Another student has it",
+      "It is too old",
+      "It is in the wrong room",
+      "It costs too much"
+     ],
+     "a": 0,
+     "exp": "The librarian says it is checked out."
+    },
+    {
+     "type": "Detail",
+     "q": "When is the student's paper due?",
+     "o": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ],
+     "a": 2,
+     "exp": "She says it is due on Thursday."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the student say this: \"Is there another way to get it?\"",
+     "o": [
+      "She is asking for a different solution",
+      "She is saying goodbye",
+      "She is thanking the librarian",
+      "She is complaining about the price"
+     ],
+     "a": 0,
+     "exp": "She needs the book sooner, so she asks for another option."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the student probably do first?",
+     "o": [
+      "Read the electronic version",
+      "Wait until Friday",
+      "Buy the book",
+      "Ask her teacher for more time"
+     ],
+     "a": 0,
+     "exp": "She says she will do both, and the electronic version is available now."
+    }
+   ]
+  },
+  {
+   "title": "Lecture: How Bees Make Honey",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about honeybees and how they make honey. Honey is the food that bees store for the winter, when there are no flowers."
+    ],
+    [
+     "Professor",
+     "The process begins with worker bees. A worker bee flies from flower to flower and drinks a sweet liquid called nectar. She keeps the nectar in a special stomach."
+    ],
+    [
+     "Professor",
+     "When she returns to the hive, she gives the nectar to another bee. That bee chews it for about half an hour. This chewing adds a chemical that changes the nectar."
+    ],
+    [
+     "Professor",
+     "But the nectar is still too watery. So the bees put it into small wax cells and fan it with their wings. The fanning removes the water. After a few days, the liquid becomes thick."
+    ],
+    [
+     "Professor",
+     "Finally, the bees cover each cell with wax to keep the honey fresh. Honey can stay good for many years this way."
+    ],
+    [
+     "Professor",
+     "It is amazing how much work this takes. One bee makes only about one twelfth of a spoon of honey in her whole life!"
+    ],
+    [
+     "Professor",
+     "So, to review: first, collect nectar; second, chew it; third, dry it by fanning; and fourth, seal it with wax."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture. Then answer the question."
+    ],
+    [
+     "Professor",
+     "It is amazing how much work this takes. One bee makes only about one twelfth of a spoon of honey in her whole life!"
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How bees make honey",
+      "Where bees build hives",
+      "Why bees sting people",
+      "How flowers grow"
+     ],
+     "a": 0,
+     "exp": "The professor explains the process of making honey."
+    },
+    {
+     "type": "Detail",
+     "q": "What do worker bees collect from flowers?",
+     "o": [
+      "Nectar",
+      "Wax",
+      "Water",
+      "Seeds"
+     ],
+     "a": 0,
+     "exp": "They drink a sweet liquid called nectar."
+    },
+    {
+     "type": "Detail",
+     "q": "Why do bees fan the nectar with their wings?",
+     "o": [
+      "To remove water",
+      "To make it colder",
+      "To make it taste sweeter",
+      "To clean the cells"
+     ],
+     "a": 0,
+     "exp": "Fanning removes the water so the honey becomes thick."
+    },
+    {
+     "type": "Detail",
+     "q": "Why do bees cover the cells with wax?",
+     "o": [
+      "To keep the honey fresh",
+      "To hide it from people",
+      "To make it warm",
+      "To feed baby bees"
+     ],
+     "a": 0,
+     "exp": "Wax keeps the honey fresh."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say this: \"It is amazing how much work this takes\"?",
+     "o": [
+      "To show how little honey one bee makes",
+      "To say bees are lazy",
+      "To end the class early",
+      "To ask students a question"
+     ],
+     "a": 0,
+     "exp": "He stresses the large effort for a tiny amount of honey."
+    },
+    {
+     "type": "Organization / Inference",
+     "q": "What is the correct order of the process?",
+     "o": [
+      "Collect nectar, chew it, fan it, seal it",
+      "Seal it, fan it, chew it, collect nectar",
+      "Chew it, collect nectar, seal it, fan it",
+      "Fan it, collect nectar, seal it, chew it"
+     ],
+     "a": 0,
+     "exp": "The professor reviews the four steps at the end."
+    }
+   ]
+  }
+ ]
+}
