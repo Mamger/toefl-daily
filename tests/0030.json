@@ -1,0 +1,272 @@
+{
+ "id": "0030",
+ "title": "Listening Practice Set 30",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Signing Up for a Tutor",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Tutor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a tutoring center employee."
+    ],
+    [
+     "Student",
+     "Hi, I'd like to sign up for a tutor. I'm having trouble with my chemistry class."
+    ],
+    [
+     "Tutor",
+     "Sure. Is it a problem with homework, or are you preparing for an exam?"
+    ],
+    [
+     "Student",
+     "Both, really. I have a midterm exam in two weeks, and I don't understand the lab reports."
+    ],
+    [
+     "Tutor",
+     "Okay. We have a chemistry tutor named Mr. Davis. He is available on Tuesday afternoons and Thursday mornings."
+    ],
+    [
+     "Student",
+     "I have a class on Thursday morning, so Tuesday is better. What time?"
+    ],
+    [
+     "Tutor",
+     "He starts at two o'clock. Each session is one hour, and it's free for students."
+    ],
+    [
+     "Student",
+     "Free? That's great. Do I need to bring anything?"
+    ],
+    [
+     "Tutor",
+     "Yes. Bring your textbook, your notes, and any lab reports you want to review."
+    ],
+    [
+     "Student",
+     "Okay. Actually, I might be a few minutes late next week because my class ends at one fifty."
+    ],
+    [
+     "Tutor",
+     "That's fine. The tutoring center is in the same building as your class, on the second floor."
+    ],
+    [
+     "Student",
+     "Perfect. Then I'll see him next Tuesday."
+    ],
+    [
+     "Tutor",
+     "Great. I'll put your name on the list."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation. Then answer the question."
+    ],
+    [
+     "Student",
+     "Actually, I might be a few minutes late next week because my class ends at one fifty."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student visit the tutoring center?",
+     "o": [
+      "To buy a textbook",
+      "To get help with chemistry",
+      "To find a job",
+      "To change her class"
+     ],
+     "a": 1,
+     "exp": "She has trouble with chemistry."
+    },
+    {
+     "type": "Detail",
+     "q": "When will the student meet the tutor?",
+     "o": [
+      "Tuesday morning",
+      "Tuesday at two o'clock",
+      "Friday at two o'clock",
+      "Thursday morning"
+     ],
+     "a": 1,
+     "exp": "Tuesday is better and he starts at two."
+    },
+    {
+     "type": "Detail",
+     "q": "How much does a tutoring session cost?",
+     "o": [
+      "Ten dollars",
+      "It is free",
+      "Five dollars",
+      "Twenty dollars"
+     ],
+     "a": 1,
+     "exp": "The tutor says it is free for students."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the student say this: \"I might be a few minutes late next week\"?",
+     "o": [
+      "She wants a different tutor",
+      "She is asking about the price",
+      "She wants to cancel",
+      "She is warning the tutor about a possible delay"
+     ],
+     "a": 3,
+     "exp": "Her class ends at one fifty."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "How does the student probably feel at the end?",
+     "o": [
+      "Bored with chemistry",
+      "Worried about the building",
+      "Happy with the plan",
+      "Angry about the price"
+     ],
+     "a": 2,
+     "exp": "She says 'That's great' and 'Perfect'."
+    }
+   ]
+  },
+  {
+   "title": "Biology Lecture: How Octopuses Stay Safe",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in a biology class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about the octopus. The octopus is a very interesting animal because it can change its color in a few seconds."
+    ],
+    [
+     "Professor",
+     "Why does it do this? The main reason is protection. If a hungry fish comes near, the octopus changes color to match the rocks or sand around it. Then the fish cannot see it."
+    ],
+    [
+     "Professor",
+     "How does the color change work? The octopus has thousands of tiny cells in its skin called chromatophores. Each cell holds a colored liquid. When muscles pull on the cell, the color spreads out and becomes visible."
+    ],
+    [
+     "Professor",
+     "The octopus has a second way to stay safe. If it is in danger, it shoots a cloud of dark ink into the water. The fish cannot see well, and the octopus swims away."
+    ],
+    [
+     "Professor",
+     "Scientists are also surprised by its intelligence. An octopus can open a jar to get food inside. Some octopuses have even escaped from aquariums at night."
+    ],
+    [
+     "Professor",
+     "Interestingly, most octopuses are colorblind, so scientists still do not fully understand how they match colors so well."
+    ],
+    [
+     "Professor",
+     "To review: first, the octopus uses color change to hide; second, it uses ink to escape; and third, it is very intelligent."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture. Then answer the question."
+    ],
+    [
+     "Professor",
+     "Interestingly, most octopuses are colorblind, so scientists still do not fully understand how they match colors so well."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How octopuses protect themselves",
+      "How to build an aquarium",
+      "Where octopuses live",
+      "How fish find food"
+     ],
+     "a": 0,
+     "exp": "The professor explains color change and ink."
+    },
+    {
+     "type": "Detail",
+     "q": "What are chromatophores?",
+     "o": [
+      "Muscles that help it swim",
+      "Skin cells that hold color",
+      "Parts of the eyes",
+      "Tiny fish"
+     ],
+     "a": 1,
+     "exp": "They are tiny cells in the skin with colored liquid."
+    },
+    {
+     "type": "Detail",
+     "q": "What does the octopus do when it is in danger?",
+     "o": [
+      "It makes loud noises",
+      "It digs in the sand",
+      "It shoots dark ink",
+      "It calls other octopuses"
+     ],
+     "a": 2,
+     "exp": "It shoots a cloud of ink."
+    },
+    {
+     "type": "Detail",
+     "q": "What example of intelligence does the professor give?",
+     "o": [
+      "Talking to people",
+      "Opening a jar to get food",
+      "Counting numbers",
+      "Building a house"
+     ],
+     "a": 1,
+     "exp": "An octopus can open a jar."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor say this: \"Scientists still do not fully understand how they match colors\"?",
+     "o": [
+      "To say octopuses are not smart",
+      "To show that something is still a mystery",
+      "To change the topic to fish",
+      "To end the lecture"
+     ],
+     "a": 1,
+     "exp": "He says most octopuses are colorblind, which is surprising."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the lecture?",
+     "o": [
+      "He tells a story about an aquarium",
+      "He gives ways the octopus stays safe, then talks about intelligence",
+      "He compares octopuses with fish",
+      "He lists only the history of octopus research"
+     ],
+     "a": 1,
+     "exp": "Color, ink, then intelligence."
+    }
+   ]
+  }
+ ]
+}
