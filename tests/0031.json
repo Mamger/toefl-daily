@@ -1,0 +1,268 @@
+{
+ "id": "0031",
+ "title": "Listening Practice Set 31",
+ "level": "intermediate",
+ "parts": [
+  {
+   "title": "Campus Conversation: Reporting a Problem in the Dorm",
+   "type": "conversation",
+   "voices": {
+    "Student": "en-US-JennyNeural",
+    "Staff": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to a conversation between a student and a housing office employee."
+    ],
+    [
+     "Student",
+     "Hi. I live in Maple Hall, room 214. My heater has not worked for three days."
+    ],
+    [
+     "Staff",
+     "I'm sorry to hear that. Did you fill out a repair form online?"
+    ],
+    [
+     "Student",
+     "No, I didn't know about the form. I only told my roommate."
+    ],
+    [
+     "Staff",
+     "Okay. You can fill it out on the housing website. It takes about five minutes."
+    ],
+    [
+     "Student",
+     "Can't I just tell you now? It's very cold at night."
+    ],
+    [
+     "Staff",
+     "I can write down the problem, but the repair team only accepts online forms. I will help you do it on this computer."
+    ],
+    [
+     "Student",
+     "Thank you. How long will the repair take?"
+    ],
+    [
+     "Staff",
+     "Usually one or two days. A worker will call you before he comes to your room."
+    ],
+    [
+     "Student",
+     "Good. In the meantime, can I get an extra blanket?"
+    ],
+    [
+     "Staff",
+     "Yes, we have extra blankets here. I will bring one to you this afternoon."
+    ],
+    [
+     "Student",
+     "That's very kind. Thank you for your help."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the conversation. Then answer the question."
+    ],
+    [
+     "Student",
+     "Can't I just tell you now? It's very cold at night."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "Why does the student visit the housing office?",
+     "o": [
+      "To pay for her room",
+      "To report a broken heater",
+      "To change her roommate",
+      "To ask about a parking space"
+     ],
+     "a": 1,
+     "exp": "Her heater has not worked for three days."
+    },
+    {
+     "type": "Detail",
+     "q": "How long has the problem lasted?",
+     "o": [
+      "One day",
+      "Two days",
+      "Three days",
+      "One week"
+     ],
+     "a": 2,
+     "exp": "She says three days."
+    },
+    {
+     "type": "Detail",
+     "q": "How does the repair team accept requests?",
+     "o": [
+      "By phone",
+      "By email",
+      "By online form",
+      "By a visit to the office"
+     ],
+     "a": 2,
+     "exp": "The team only accepts online forms."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the student say this: \"Can't I just tell you now?\"",
+     "o": [
+      "She wants to avoid the online form",
+      "She wants a new room",
+      "She wants to pay later",
+      "She wants to meet the worker"
+     ],
+     "a": 0,
+     "exp": "She hopes to report the problem in person instead of using the form."
+    },
+    {
+     "type": "Attitude / Inference",
+     "q": "What will the employee probably do this afternoon?",
+     "o": [
+      "Fix the heater himself",
+      "Bring a blanket to the student",
+      "Call the student's roommate",
+      "Move the student to another room"
+     ],
+     "a": 1,
+     "exp": "He says he will bring a blanket this afternoon."
+    }
+   ]
+  },
+  {
+   "title": "Earth Science Lecture: How Glaciers Move",
+   "type": "lecture",
+   "voices": {
+    "Professor": "en-US-GuyNeural",
+    "Narrator": "en-US-AriaNeural"
+   },
+   "script": [
+    [
+     "Narrator",
+     "Listen to part of a lecture in an earth science class."
+    ],
+    [
+     "Professor",
+     "Today we will talk about glaciers. A glacier is a very large body of ice that lies on land. Many people think glaciers do not move, but in fact they move all the time."
+    ],
+    [
+     "Professor",
+     "Glaciers form in cold places where more snow falls in winter than melts in summer. Year after year, the snow builds up. The snow at the bottom is pressed by the weight of the snow above it, and it slowly turns into ice."
+    ],
+    [
+     "Professor",
+     "Once the ice becomes thick enough, it starts to move because of gravity. The ice flows downhill, a little like very slow honey. Most glaciers move only a few centimeters to a few meters each day."
+    ],
+    [
+     "Professor",
+     "There is a second reason glaciers move. At the bottom, a thin layer of water forms where the ice touches the ground. This water works like oil, so the glacier can slide more easily over the rock."
+    ],
+    [
+     "Professor",
+     "As a glacier moves, it changes the land. It picks up rocks and carries them for many kilometers. It also cuts deep valleys in the mountains. The wide U-shaped valleys in some countries were made by glaciers long ago."
+    ],
+    [
+     "Professor",
+     "Interestingly, the ice in a glacier can be more than ten thousand years old. Scientists drill into it and study tiny bubbles of air inside. These bubbles tell us what Earth's air was like in the past."
+    ],
+    [
+     "Professor",
+     "To review: first, glaciers form from snow that turns into ice; second, they move because of gravity and water under the ice; and third, they shape the land around them."
+    ],
+    [
+     "Narrator",
+     "Now get ready to answer the questions."
+    ],
+    [
+     "Narrator",
+     "Listen again to part of the lecture. Then answer the question."
+    ],
+    [
+     "Professor",
+     "Interestingly, the ice in a glacier can be more than ten thousand years old. Scientists drill into it and study tiny bubbles of air inside."
+    ]
+   ],
+   "questions": [
+    {
+     "type": "Gist",
+     "q": "What is the lecture mainly about?",
+     "o": [
+      "How glaciers form and move",
+      "How snow is made",
+      "Why winters are cold",
+      "How to climb mountains"
+     ],
+     "a": 0,
+     "exp": "The professor explains how glaciers form, move and shape land."
+    },
+    {
+     "type": "Detail",
+     "q": "How does a glacier form?",
+     "o": [
+      "Rain freezes in the sea",
+      "Snow builds up and turns into ice",
+      "Rivers become very cold",
+      "Wind carries ice from the sky"
+     ],
+     "a": 1,
+     "exp": "Snow is pressed and slowly turns into ice."
+    },
+    {
+     "type": "Detail",
+     "q": "How fast do most glaciers move?",
+     "o": [
+      "A few kilometers each hour",
+      "A few centimeters to a few meters each day",
+      "One meter each year",
+      "They do not move"
+     ],
+     "a": 1,
+     "exp": "Most move a few centimeters to a few meters a day."
+    },
+    {
+     "type": "Detail",
+     "q": "What helps a glacier slide over the rock?",
+     "o": [
+      "Sand",
+      "Strong wind",
+      "A thin layer of water",
+      "Tree roots"
+     ],
+     "a": 2,
+     "exp": "Water at the bottom works like oil."
+    },
+    {
+     "type": "Function (replay)",
+     "q": "Why does the professor mention bubbles of air in the ice?",
+     "o": [
+      "To show that ice is dangerous",
+      "To explain how scientists learn about the past",
+      "To describe how glaciers move",
+      "To compare ice with water"
+     ],
+     "a": 1,
+     "exp": "The bubbles show what Earth's air was like long ago."
+    },
+    {
+     "type": "Organization",
+     "q": "How does the professor organize the end of the lecture?",
+     "o": [
+      "He tells a story",
+      "He asks the students questions",
+      "He reviews three main points",
+      "He gives a test"
+     ],
+     "a": 2,
+     "exp": "He says 'To review: first, second, third.'"
+    }
+   ]
+  }
+ ]
+}
